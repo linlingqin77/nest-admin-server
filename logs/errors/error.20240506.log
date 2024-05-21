@@ -1,0 +1,218 @@
+{"date":"2024-05-06T13:47:44.639","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"11944","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: 角色名必填'}
+{"date":"2024-05-06T14:24:30.237","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"10904","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: roleIds is not empty'}
+{"date":"2024-05-06T14:24:51.250","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"10904","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: roleIds is not empty'}
+{"date":"2024-05-06T14:36:53.144","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"26348","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/register
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'nickname' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T15:06:10.254","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"13808","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /menu/add
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'orderNum' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T15:06:43.818","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"25884","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /menu/add
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'orderNum' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T15:07:22.994","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"1264","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /menu/add
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'menuType' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T15:29:23.483","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"26408","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/1
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeORMError: Relation with property path menus in entity was not found. 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T15:29:45.585","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"7324","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/1
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeORMError: Relation with property path roles.menus in entity was not found. 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T15:30:25.369","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"22604","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/1
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeORMError: Relation with property path roles.menus in entity was not found. 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T15:32:27.172","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"25400","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeORMError: Relation with property path roles.menus in entity was not found. 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T15:44:58.012","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"25400","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeORMError: Relation with property path roles.menus in entity was not found. 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T16:43:28.729","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"13500","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /role/add
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: EntityPropertyNotFoundError: Property "roles" was not found in "Menu". Make sure your query is correct. 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T16:52:05.399","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"26040","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /permission/add
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'name' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T17:17:18.646","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"9900","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T17:18:22.046","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"12756","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T17:18:54.488","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"1388","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T17:19:33.926","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"15556","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T17:20:14.399","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"26176","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T17:20:52.392","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"5752","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T17:21:32.535","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"11448","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T17:21:59.484","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"11448","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'EntityMetadata'
+    |     property 'ownColumns' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'ColumnMetadata'
+    --- property 'entityMetadata' closes the circle 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-06T17:27:17.348","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"4776","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/57a25fd8-d500-4200-ab42-9a4800dab8b3
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: ConnectionNotFoundError: Connection "default" was not found. 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}

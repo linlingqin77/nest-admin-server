@@ -1,0 +1,65 @@
+{"date":"2024-04-30T13:51:22.020","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"1456","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-30T14:09:08.703","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"23596","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/register
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'avatar' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T14:45:46.828","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18276","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/list
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'body') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T14:47:05.749","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18276","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/list
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'body') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T14:47:44.345","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"22416","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/list
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'body') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T17:10:19.645","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"14024","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: Unknown authentication strategy "local" 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T17:10:26.716","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"14024","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: Unknown authentication strategy "local" 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T17:12:13.301","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"14024","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: Unknown authentication strategy "local" 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}

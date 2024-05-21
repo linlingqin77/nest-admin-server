@@ -1,0 +1,1080 @@
+{"date":"2024-04-29T15:43:06.741","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20216","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T15:43:06.752","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20216","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T15:43:33.195","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"3768","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T15:43:33.206","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"3768","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Bad Request Exception 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T15:43:52.154","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14608","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T15:43:52.164","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14608","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T15:55:35.871","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21764","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:01:30.429","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8292","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:01:30.441","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8292","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:02:58.249","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14408","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:02:58.261","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"14408","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: username must be an array'}
+{"date":"2024-04-29T16:02:58.265","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14408","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: username must be an array 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:16:28.005","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18936","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:16:40.808","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10700","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:16:40.819","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"10700","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:16:40.824","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10700","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:16:51.781","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10700","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:16:51.784","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"10700","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:16:51.785","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10700","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:18:24.514","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:18:24.526","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:18:24.534","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:18:52.011","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:18:52.013","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:18:52.014","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:18:55.493","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:18:55.494","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:18:55.496","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:18:59.090","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:18:59.092","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:18:59.094","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:19:05.452","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:19:05.454","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:19:05.455","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:19:21.319","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:19:21.321","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:19:21.322","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15868","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:19:34.753","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:19:34.765","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:19:34.770","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:19:43.345","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:19:43.347","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:19:43.348","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:20:02.340","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:20:02.343","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:20:02.344","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:20:05.898","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:20:05.900","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:20:05.901","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19012","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:20:30.403","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23820","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:20:30.414","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"23820","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:20:30.420","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23820","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:20:34.343","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23820","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:20:34.346","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"23820","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:20:34.348","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23820","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:20:42.112","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23820","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:20:42.114","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"23820","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:20:42.115","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23820","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:20:49.943","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8552","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:21:01.312","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24568","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:21:01.323","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"24568","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:21:01.327","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24568","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:21:25.769","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9692","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:21:25.780","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"9692","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:21:25.785","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9692","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:21:29.634","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9692","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:21:29.636","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"9692","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:21:29.637","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9692","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:21:31.813","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9692","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:21:31.816","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"9692","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email must be a string'}
+{"date":"2024-04-29T16:21:31.818","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9692","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email must be a string 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:22:29.404","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18868","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:22:29.414","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18868","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email should not be empty'}
+{"date":"2024-04-29T16:22:29.418","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18868","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email should not be empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:22:38.497","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18868","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:22:38.500","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18868","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email should not be empty'}
+{"date":"2024-04-29T16:22:38.501","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18868","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email should not be empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:23:10.423","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:23:10.434","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T16:23:10.439","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:23:15.533","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:23:15.535","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T16:23:15.536","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:23:25.897","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:23:25.899","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T16:23:25.900","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:25:22.170","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:25:22.172","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T16:25:22.174","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24376","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:26:59.844","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2040","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:26:59.855","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"2040","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T16:26:59.859","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2040","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:28:57.700","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2040","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:29:11.993","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2040","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:29:11.995","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"2040","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T16:29:11.996","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2040","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T16:29:16.141","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2040","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T16:55:45.169","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"23148","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/register
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Class constructor MulterModule cannot be invoked without 'new' 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-29T17:01:10.018","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10904","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:01:10.027","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"10904","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:01:10.032","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10904","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:01:38.138","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10452","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:01:38.149","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"10452","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:01:38.155","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10452","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:02:59.582","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:02:59.595","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:02:59.599","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:03:23.085","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14652","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:03:23.099","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"14652","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:03:23.103","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14652","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:04:06.018","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18364","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:04:06.028","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18364","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:35:06.077","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20216","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:35:06.099","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20216","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {"email":"22"}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-29T17:35:10.235","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20216","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:35:10.240","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"20216","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:35:10.243","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20216","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:36:15.988","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"20712","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:36:15.997","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20712","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:40:18.231","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"13972","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:40:18.293","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"13972","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-29T17:43:24.205","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"12656","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:43:24.221","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"12656","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-29T17:43:51.575","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23996","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:43:51.593","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23996","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-29T17:45:13.295","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23996","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:45:13.297","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23996","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-29T17:56:46.781","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"13364","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/register"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:56:46.798","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"13364","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:56:46.802","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"13364","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:56:57.367","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"13364","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/register"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:56:57.370","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"13364","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:56:57.372","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"13364","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:59:09.222","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"13364","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:59:09.226","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"13364","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:59:09.228","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"13364","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-29T17:59:53.646","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19516","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-29T17:59:53.662","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"19516","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-29T17:59:53.667","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"19516","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}

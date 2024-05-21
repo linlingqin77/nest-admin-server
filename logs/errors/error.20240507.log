@@ -1,0 +1,166 @@
+{"date":"2024-05-07T09:57:44.521","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"1896","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /menu/list?id=1
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'forEach') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T09:58:31.172","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"17328","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /menu/list?id=1
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'forEach') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T09:58:35.527","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"17328","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /menu/list?id=1
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'forEach') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T09:58:39.123","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"17328","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /menu/list
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'forEach') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T10:00:46.531","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"17328","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /menu/list
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'forEach') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T13:57:15.350","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"7116","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T13:58:45.975","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"4684","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T13:58:51.334","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"4684","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T14:01:22.039","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"4684","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T14:02:59.394","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18924","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: roleIds is not empty'}
+{"date":"2024-05-07T14:11:16.803","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"19516","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T14:12:17.523","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"7244","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T14:12:19.916","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"7244","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T14:13:00.072","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"16024","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T14:14:11.422","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"9340","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T14:52:15.112","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"16028","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: roleIds is not empty'}
+{"date":"2024-05-07T17:48:25.738","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18124","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/code
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: JsonWebTokenError: invalid token 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T17:48:57.163","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"6040","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/code
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: JsonWebTokenError: invalid token 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T17:49:02.552","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"6040","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/code
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: JsonWebTokenError: invalid token 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-07T17:51:45.800","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18668","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/code
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: JsonWebTokenError: invalid token 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}

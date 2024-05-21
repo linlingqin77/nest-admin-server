@@ -1,0 +1,1824 @@
+{"date":"2024-05-04T11:40:14.866","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"7028","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:40:15.004","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"7028","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:41:29.795","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"17500","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:41:29.802","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"17500","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/code
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot set properties of undefined (setting 'codeId') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T11:47:06.811","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11620","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:47:06.891","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11620","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"key":"123456"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:47:26.985","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11620","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:47:27.054","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11620","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"key":"123456"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:48:16.330","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2068","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:48:16.341","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2068","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:48:32.520","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18860","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:48:32.533","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18860","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:49:13.577","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14804","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:49:13.590","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14804","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":11}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:50:56.255","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14804","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:50:56.258","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14804","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":11}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:51:19.820","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19108","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:51:19.831","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19108","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":11}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:53:44.898","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"17616","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:53:44.905","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"17616","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/code
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'codeId') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T11:54:13.556","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2204","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:54:13.563","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"2204","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/code
+   Method: GET
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'codeId') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T11:54:41.872","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"13736","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:54:41.887","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"13736","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:54:44.172","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"13736","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:54:44.176","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"13736","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:55:46.359","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"15916","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:55:46.380","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"15916","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:55:50.006","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"15916","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:55:50.012","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"15916","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:57:34.417","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/checkcode
+      Method: GET
+      IP: ::ffff:127.0.0.1
+      Status code: 404
+      Response: NotFoundException: Cannot GET /auth/checkcode 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T11:57:34.427","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/checkcode
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:57:38.975","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/checkcode
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:57:38.985","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/checkcode
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:57:47.459","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:57:47.467","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:57:50.761","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/checkcode
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:57:50.764","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/checkcode
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:58:00.338","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/checkcode
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:58:00.340","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19668","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/checkcode
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:58:47.759","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2580","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:58:47.785","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2580","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T11:58:51.803","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2580","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/checkcode
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T11:58:51.807","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2580","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/checkcode
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T12:43:48.516","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11088","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:43:48.530","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"11088","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: code is not empty'}
+{"date":"2024-05-04T12:43:48.536","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11088","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: code is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:43:57.077","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11088","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:43:57.204","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11088","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"nickname":"小七","password":"$2b$10$7JIsfjK0G59dOPYonem7R.gWcp8sPevUub7grbWGti0CPnli.l6F.","code":"1","email":null,"avatar":null,"intro":null,"website":null,"isSubscribe":null,"updateTime":"2024-05-04T04:43:57.000Z","id":1,"isDisable":0,"createTime":"2024-05-04T04:43:57.000Z"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T12:46:25.478","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11088","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:46:25.485","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11088","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:49:07.172","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"17004","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:49:07.182","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"17004","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:49:55.614","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:49:55.634","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: code is not empty'}
+{"date":"2024-05-04T12:49:55.638","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: code is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:50:03.016","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:50:03.022","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 500
+      Response: HttpException: 验证码为空 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:50:18.970","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:50:18.988","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T12:50:45.048","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:50:45.055","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":"This action adds a new auth"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T12:52:34.522","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"3488","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:52:34.533","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"3488","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:52:46.444","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"10404","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:52:46.455","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"10404","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:54:10.018","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18096","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:54:10.029","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18096","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:54:18.089","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18096","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:54:18.092","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18096","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:55:43.692","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18784","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:55:43.710","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18784","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户不存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:56:10.217","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18404","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:56:10.234","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18404","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户不存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T12:56:12.091","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18404","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T12:56:12.095","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18404","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户不存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T13:00:01.653","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16924","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:00:01.671","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"16924","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:02:12.737","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18488","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:02:12.756","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"18488","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:03:26.790","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14884","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:03:26.812","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"14884","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:04:26.213","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"6168","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:04:26.233","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"6168","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:04:31.333","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"6168","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:04:31.338","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"6168","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:09:15.516","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18020","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:09:15.545","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"18020","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:10:15.750","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11340","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:10:15.772","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"11340","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:10:19.678","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11340","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:10:19.686","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"11340","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:10:33.308","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12168","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:10:33.328","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12168","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":11}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T13:11:12.074","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18336","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:11:12.097","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"18336","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:11:34.868","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18336","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:11:34.877","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"18336","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:11:49.147","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12544","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:11:49.164","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12544","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户不存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T13:11:53.430","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12544","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:11:53.450","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12544","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: {"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-05-04T04:43:57.000Z","updateTime":"2024-05-04T04:43:57.000Z"}
+    Response data:
+ {"code":200,"msg":"请求成功","data":11}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T13:12:39.763","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19712","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:12:39.785","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"19712","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:17:59.834","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"15992","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:17:59.854","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"15992","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: data and hash arguments required 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T13:19:12.164","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2204","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:19:12.194","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2204","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: {"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-05-04T04:43:57.000Z","updateTime":"2024-05-04T04:43:57.000Z"}
+    Response data:
+ {"code":200,"msg":"请求成功","data":11}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T13:52:56.863","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"10092","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:52:56.963","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"10092","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 密码错误 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T13:53:02.650","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"10092","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:53:02.729","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"10092","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: {"id":1,"email":null,"nickname":"小七","password":"$2b$10$7JIsfjK0G59dOPYonem7R.gWcp8sPevUub7grbWGti0CPnli.l6F.","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-05-04T04:43:57.000Z","updateTime":"2024-05-04T04:43:57.000Z"}
+    Response data:
+ {"code":200,"msg":"请求成功","data":11}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T13:53:56.430","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19604","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T13:53:56.519","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19604","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: {"id":1,"email":null,"nickname":"小七","password":"$2b$10$7JIsfjK0G59dOPYonem7R.gWcp8sPevUub7grbWGti0CPnli.l6F.","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-05-04T04:43:57.000Z","updateTime":"2024-05-04T04:43:57.000Z"}
+    Response data:
+ {"code":200,"msg":"请求成功","data":"This action adds a new auth"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T14:22:57.773","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18552","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:22:57.796","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18552","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T14:23:04.942","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18552","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:23:04.949","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18552","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T14:23:16.478","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18552","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:23:16.578","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"18552","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'userId' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T14:25:39.112","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14876","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:25:39.200","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14876","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 500
+      Response: HttpException: 验证码为空 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T14:25:44.412","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14876","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:25:44.429","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14876","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/code
+    Method: GET
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T14:25:57.073","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"14876","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:25:57.151","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"14876","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'userId' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T14:29:51.183","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18812","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:29:51.277","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"18812","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'userId' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T14:41:09.085","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21428","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:41:09.168","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21428","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T14:41:25.215","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11016","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:41:25.326","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"11016","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: {"id":1,"email":null,"nickname":"小七","password":"$2b$10$7JIsfjK0G59dOPYonem7R.gWcp8sPevUub7grbWGti0CPnli.l6F.","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-05-04T04:43:57.000Z","updateTime":"2024-05-04T04:43:57.000Z"}
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T14:45:10.946","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16792","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:45:11.044","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"16792","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Data too long for column 'token' at row 1 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T14:47:32.149","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"17804","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:47:32.244","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"17804","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Data too long for column 'token' at row 1 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T14:48:20.609","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"8116","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:48:20.714","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"8116","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Data too long for column 'token' at row 1 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T14:48:49.311","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"17196","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:48:49.405","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"17196","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'refreshToken' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T14:50:06.412","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:50:06.507","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'refreshToken' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T14:50:08.486","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:50:08.554","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"12532","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'refreshToken' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T14:50:21.207","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2336","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:50:21.317","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2336","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: {"id":1,"email":null,"nickname":"小七","password":"$2b$10$7JIsfjK0G59dOPYonem7R.gWcp8sPevUub7grbWGti0CPnli.l6F.","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-05-04T04:43:57.000Z","updateTime":"2024-05-04T04:43:57.000Z"}
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"userId":1,"nickname":"小七","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuaWNrbmFtZSI6IuWwj-S4gyIsInBhc3N3b3JkIjoiJDJiJDEwJDdKSXNmakswRzU5ZE9QWW9uZW03Ui5nV2NwOHNQZXZVdWI3Z3JiV0d0aTBDUG5saS5sNkYuIiwiaWQiOjEsImlhdCI6MTcxNDgwNTQyMSwiZXhwIjoxNzE0ODM0MjIxfQ.w0yv5N_n_L-3ce6PMcHyllsZ8k-nN51EG1ILGn9c694"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T14:50:53.364","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2336","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:50:53.447","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"2336","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: {"id":1,"email":null,"nickname":"小七","password":"$2b$10$7JIsfjK0G59dOPYonem7R.gWcp8sPevUub7grbWGti0CPnli.l6F.","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-05-04T04:43:57.000Z","updateTime":"2024-05-04T04:43:57.000Z"}
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"userId":1,"nickname":"小七","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuaWNrbmFtZSI6IuWwj-S4gyIsInBhc3N3b3JkIjoiJDJiJDEwJDdKSXNmakswRzU5ZE9QWW9uZW03Ui5nV2NwOHNQZXZVdWI3Z3JiV0d0aTBDUG5saS5sNkYuIiwiaWQiOjEsImlhdCI6MTcxNDgwNTQ1MywiZXhwIjoxNzE0ODM0MjUzfQ.iLeRJgbqGF5UQFUUFjXq1-7nc-NYYXm-JDIlWDg59TU"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T14:52:14.464","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21308","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:52:14.477","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21308","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T14:52:38.599","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"17564","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T14:52:38.606","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"17564","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/jwt
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T15:01:18.440","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21152","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:01:18.451","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21152","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T15:43:31.730","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21120","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:43:31.742","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21120","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T15:43:56.985","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21120","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:43:56.987","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21120","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T15:44:49.259","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21404","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:44:49.265","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"21404","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/jwt
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T15:45:08.054","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16236","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:45:08.061","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16236","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/jwt
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T15:45:09.527","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16236","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:45:09.529","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16236","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/jwt
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T15:45:10.720","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16236","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/jwt
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:45:10.723","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16236","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/jwt
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 401
+      Response: UnauthorizedException: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T15:52:25.610","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16236","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:52:25.717","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"16236","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: {"id":1,"email":null,"nickname":"小七","password":"$2b$10$7JIsfjK0G59dOPYonem7R.gWcp8sPevUub7grbWGti0CPnli.l6F.","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-05-04T04:43:57.000Z","updateTime":"2024-05-04T04:43:57.000Z"}
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"userId":1,"nickname":"小七","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuaWNrbmFtZSI6IuWwj-S4gyIsInBhc3N3b3JkIjoiJDJiJDEwJDdKSXNmakswRzU5ZE9QWW9uZW03Ui5nV2NwOHNQZXZVdWI3Z3JiV0d0aTBDUG5saS5sNkYuIiwiaWQiOjEsImlhdCI6MTcxNDgwOTE0NSwiZXhwIjoxNzE0ODM3OTQ1fQ.PIBvGnIll-cA9RmmLtj3DS7_pg1DZuGr6an8ZxU-Ig4"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T15:53:49.229","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"18152","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:53:49.249","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"18152","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of null (reading 'nickname') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T15:54:21.404","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"7200","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:54:21.427","level":"ERROR","category":"default","host":"DESKTOP-UFPIDNG","pid":"7200","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of null (reading 'nickname') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-05-04T15:59:57.475","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"3424","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T15:59:57.491","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"3424","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户不存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T16:00:06.180","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"3424","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T16:00:06.185","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"3424","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户不存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T16:00:09.764","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"3424","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T16:00:09.827","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"3424","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 密码错误 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T16:02:06.535","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19180","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T16:02:06.609","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19180","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 密码错误 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-05-04T16:02:12.446","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19180","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T16:02:12.545","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"19180","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: {"id":1,"email":null,"nickname":"小七","password":"$2b$10$7JIsfjK0G59dOPYonem7R.gWcp8sPevUub7grbWGti0CPnli.l6F.","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-05-04T04:43:57.000Z","updateTime":"2024-05-04T04:43:57.000Z"}
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"userId":1,"nickname":"小七","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuaWNrbmFtZSI6IuWwj-S4gyIsInBhc3N3b3JkIjoiJDJiJDEwJDdKSXNmakswRzU5ZE9QWW9uZW03Ui5nV2NwOHNQZXZVdWI3Z3JiV0d0aTBDUG5saS5sNkYuIiwiaWQiOjEsImlhdCI6MTcxNDgwOTczMiwiZXhwIjoxNzE0ODM4NTMyfQ.w-mEQcPpcZbetuiRWnQyLjgfUfPCItw6-fnk2haeyo4"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-05-04T16:04:47.320","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"10644","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-05-04T16:04:47.420","level":"INFO","category":"default","host":"DESKTOP-UFPIDNG","pid":"10644","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"nickname":"小八","password":"$2b$10$6BBt.ntQGUfVCvPZi/hIw.q.yFLoycwY2a1LUHPBEmE2eZWcs641a","email":null,"avatar":null,"intro":null,"website":null,"isSubscribe":null,"updateTime":"2024-05-04T08:04:47.000Z","id":"73b7067a-b3ad-448c-9581-fa5c9f284308","isDisable":0,"createTime":"2024-05-04T08:04:47.000Z"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}

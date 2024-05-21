@@ -1,0 +1,1842 @@
+{"date":"2024-04-30T13:51:22.011","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"1456","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T13:51:22.020","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"1456","data":'custom-pipe.pipe.ts(line: 23, column: 14): 
+ Validation failed: email is not empty'}
+{"date":"2024-04-30T13:51:22.025","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"1456","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: BadRequestException: Validation failed: email is not empty 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T13:56:55.289","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"16600","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T13:56:55.315","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"16600","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户已存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T14:00:59.484","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"7324","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:00:59.500","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"7324","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户已存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T14:01:43.717","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8784","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:01:43.735","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8784","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户已存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T14:04:04.250","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"5024","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:04:04.267","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"5024","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户已存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T14:06:09.323","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21040","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:06:09.340","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21040","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户已存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T14:08:37.165","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18748","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:08:37.182","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18748","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户已存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T14:09:08.677","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23596","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:09:08.703","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"23596","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/register
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: QueryFailedError: Field 'avatar' doesn't have a default value 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T14:10:29.137","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22696","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:10:29.180","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22696","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {"nickname":"小七","password":"123456","email":null,"avatar":null,"intro":null,"website":null,"isSubscribe":null,"updateTime":"2024-04-30T06:10:29.000Z","id":1,"isDisable":0,"createTime":"2024-04-30T06:10:29.000Z"}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:10:42.553","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22696","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:10:42.561","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22696","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户已存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T14:17:08.051","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22696","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:17:08.059","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22696","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/register
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {"nickname":"小八","password":"123456","email":null,"avatar":null,"intro":null,"website":null,"isSubscribe":null,"updateTime":"2024-04-30T06:17:08.000Z","id":2,"isDisable":0,"createTime":"2024-04-30T06:17:08.000Z"}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:25:37.451","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18236","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:25:37.475","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18236","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/list
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:26:28.531","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22560","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:26:28.551","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22560","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/list
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:27:39.284","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20616","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:27:39.309","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20616","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/list
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {"nickname":"xiaoqi"}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:34:57.256","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20940","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:34:57.285","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20940","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/list
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {"id":"1"}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:36:00.468","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"7368","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:36:00.494","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"7368","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/list
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {"id":"1"}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:37:42.350","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17224","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:37:42.375","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17224","data":'transform.interceptor.ts(line: 27, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/list
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {"id":"1"}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:39:18.823","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21432","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:39:18.848","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21432","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/list
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {"id":"1"}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:40:47.082","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8312","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:40:47.158","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8312","data":'transform.interceptor.ts(line: 27, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /user/list
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      User: undefined
+      Response data:
+ {"id":"1"}
+      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:45:46.808","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18276","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:45:46.828","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18276","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/list
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'body') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T14:47:05.742","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18276","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:47:05.749","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"18276","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/list
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'body') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T14:47:44.324","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22416","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:47:44.345","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"22416","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /user/list
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: TypeError: Cannot read properties of undefined (reading 'body') 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T14:48:50.250","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21792","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:48:50.274","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21792","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"id":"1"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:49:36.801","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23812","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:49:36.828","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23812","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"id":"1"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:51:46.952","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14536","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:51:46.976","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14536","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:52:20.137","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14644","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:52:20.166","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14644","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ [{"id":1,"email":null,"nickname":"小七","password":"123456","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:55:17.480","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"3412","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:55:17.504","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"3412","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"data":[{"id":1,"email":null,"nickname":"小七","password":"123456","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}],"code":200,"msg":"","success":true}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:56:25.910","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17924","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:56:25.935","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17924","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","password":"123456","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T14:59:59.825","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22404","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T14:59:59.851","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22404","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"nickname":"小七","password":"123456"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:00:55.451","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24428","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:00:55.475","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24428","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","password":"123456","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:03:35.763","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15260","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:03:35.790","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15260","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:04:22.305","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"3508","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:04:22.341","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"3508","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:04:55.851","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20428","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:04:55.875","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20428","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"},{"id":2,"email":null,"nickname":"小八","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:07:48.772","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20844","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:07:48.797","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20844","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:08:04.458","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20844","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:08:04.463","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20844","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:08:17.521","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20844","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:08:17.526","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20844","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:09:11.796","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20844","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:09:11.802","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20844","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:09:36.286","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20780","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:09:36.321","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20780","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"},{"id":2,"email":null,"avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:10:06.728","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21540","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:10:06.791","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21540","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"},{"id":2,"email":null,"avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:10:16.972","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21540","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:10:16.978","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21540","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"},{"id":2,"email":null,"avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:11:40.383","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"7328","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:11:40.401","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"7328","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:11:53.015","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"7328","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:11:53.023","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"7328","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:14:40.587","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23304","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:14:40.607","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23304","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"userId":1,"nickname1":"小七"},{"userId":2,"nickname1":"小八"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:28:07.028","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18932","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:28:07.054","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18932","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:28:29.703","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18932","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:28:29.709","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18932","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:28:35.531","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18932","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:28:35.534","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"18932","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:29:37.075","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8072","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:29:37.092","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8072","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:29:48.321","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8072","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:29:48.328","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"8072","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:30:01.036","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17188","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:30:01.061","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17188","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:30:19.565","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15380","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"user/list"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:30:19.587","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15380","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:30:22.560","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15380","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:30:22.567","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15380","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:30:54.253","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20156","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:30:54.274","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20156","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:31:09.857","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20436","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:31:09.885","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20436","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:31:54.705","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:31:54.727","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:32:03.844","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:32:03.850","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:32:07.509","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:32:07.515","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:32:32.537","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:32:32.542","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24036","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:32:55.035","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21988","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:32:55.069","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"21988","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:33:55.746","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14940","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:33:55.767","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14940","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:34:21.151","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9540","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:34:21.178","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9540","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:34:33.821","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9540","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:34:33.829","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9540","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","password":"123456","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:34:41.235","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9540","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:34:41.240","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9540","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","password":"123456","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:34:50.098","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9540","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:34:50.103","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"9540","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":2,"email":null,"nickname":"小八","password":"123456","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:35:14.198","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15672","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:35:14.221","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15672","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:35:20.610","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15672","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:35:20.615","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15672","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:36:46.302","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10468","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:36:46.329","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10468","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":2,"email":null,"nickname":"小八","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:36:58.797","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2856","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:36:58.819","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2856","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:37:17.303","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2856","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:37:17.312","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2856","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":2,"email":null,"nickname":"小八","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:37:29.707","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2856","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:37:29.712","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2856","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:37:33.697","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2856","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:37:33.701","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"2856","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:40:24.210","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23868","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:40:24.232","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"23868","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:40:41.119","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10428","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:40:41.142","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"10428","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":2,"email":null,"nickname":"小八","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:43:16.060","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"12840","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:43:16.083","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"12840","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:44:31.409","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17024","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:44:31.434","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17024","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":2,"email":null,"nickname":"小八","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:44:40.216","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17024","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:44:40.226","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17024","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":2,"email":null,"nickname":"小八","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:44:47.898","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17024","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:44:47.904","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17024","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"},{"id":2,"email":null,"nickname":"小八","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:52:14.737","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"6984","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:52:14.763","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"6984","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":2,"email":null,"nickname":"小八","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:17:08.000Z","updateTime":"2024-04-30T06:17:08.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:54:20.109","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17340","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:54:20.133","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17340","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T15:54:23.894","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17340","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T15:54:23.902","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17340","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T16:14:35.350","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22908","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T16:14:35.373","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"22908","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}]}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T16:17:30.851","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15408","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T16:17:30.880","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15408","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"list":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}],"page":1,"pageSize":10}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T16:17:45.575","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15408","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T16:17:45.580","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15408","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"list":[],"page":"2","pageSize":"10"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T16:17:53.742","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15408","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T16:17:53.746","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"15408","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"list":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}],"page":"1","pageSize":"10"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T16:23:18.291","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17660","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T16:23:18.313","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"17660","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"list":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}],"page":"1","pageSize":"10"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T16:29:31.252","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24536","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T16:29:31.274","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"24536","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/list
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"list":[{"id":1,"email":null,"nickname":"小七","avatar":null,"intro":null,"website":null,"isDisable":0,"isSubscribe":null,"createTime":"2024-04-30T06:10:29.000Z","updateTime":"2024-04-30T06:10:29.000Z"}],"page":"1","pageSize":"10"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T17:03:06.316","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"1000","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T17:03:06.413","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"1000","data":'transform.interceptor.ts(line: 25, column: 16): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /auth/register
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    User: undefined
+    Response data:
+ {"code":200,"msg":"请求成功","data":{"nickname":"小九","password":"$2b$10$K1QjWgZm2hBXyU11WDUHSOsyaj5EsDIFh.oBk8cRrDV586MRAilri","email":null,"avatar":null,"intro":null,"website":null,"isSubscribe":null,"updateTime":"2024-04-30T09:03:06.000Z","id":1,"isDisable":0,"createTime":"2024-04-30T09:03:06.000Z"}}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2024-04-30T17:10:19.636","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14024","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T17:10:19.645","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"14024","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: Unknown authentication strategy "local" 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T17:10:26.714","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14024","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T17:10:26.716","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"14024","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: Unknown authentication strategy "local" 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T17:12:13.298","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"14024","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T17:12:13.301","level":"ERROR","category":"default","host":"DESKTOP-E710MNH","pid":"14024","data":'any-exception.filter.ts(line: 29, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   Request original url: /auth/login
+   Method: POST
+   IP: ::ffff:127.0.0.1
+   Status code: 500
+   Response: Error: Unknown authentication strategy "local" 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   '}
+{"date":"2024-04-30T17:21:19.943","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20368","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T17:21:19.959","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20368","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户不存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T17:22:26.572","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20368","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T17:22:26.576","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"20368","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户不存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
+{"date":"2024-04-30T17:24:19.380","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"6028","data":'loger.middleware.ts(line: 47, column: 12): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /auth/login
+    Method: POST
+    IP: ::ffff:127.0.0.1
+    Status code: 200
+    Parmas: {"0":"auth/login"}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2024-04-30T17:24:19.396","level":"INFO","category":"default","host":"DESKTOP-E710MNH","pid":"6028","data":'http-exception.filter.ts(line: 26, column: 12): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Request original url: /auth/login
+      Method: POST
+      IP: ::ffff:127.0.0.1
+      Status code: 400
+      Response: HttpException: 用户不存在 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      '}
