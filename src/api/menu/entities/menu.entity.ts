@@ -6,7 +6,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
-@Entity()
+@Entity('t_menu')
 export class Menu {
   @PrimaryGeneratedColumn()
   id: string;
@@ -21,17 +21,17 @@ export class Menu {
     comment: '排序',
     default: 0,
   })
-  orderNum: number;
+  order_num: number;
 
   @Column({ nullable: true, comment: '父id', default: 0 })
-  parentId: number;
+  parent_id: number;
 
   @Column({
     length: 10,
     comment: '菜单类型',
     nullable: true,
   })
-  menuType: string;
+  menu_type: string;
 
   @Column({
     length: 50,
@@ -55,11 +55,14 @@ export class Menu {
   @Column({
     length: 50,
     nullable: true,
+    comment:"创建者"
   })
-  createBy: string;
+
+  create_by: string;
+  
   @CreateDateColumn()
-  createTime: Date;
+  create_time: Date;
 
   @UpdateDateColumn()
-  updateTime: Date;
+  update_time: Date;
 }

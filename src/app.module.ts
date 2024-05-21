@@ -9,12 +9,11 @@ import { MenuModule } from './api/menu/menu.module';
 import { RedisCacheModule } from './api/redis/redis-cache/redis-cache.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import * as multer from 'multer';
-import { AuthGuard } from './core/guard/auth.guard';
+import { LoginGuard } from './core/guard/login.guard';
 import { APP_GUARD } from '@nestjs/core';
 import { JwtService } from '@nestjs/jwt';
-import { AuthService } from 'src/api/auth/auth.service';
-import { UserService } from 'src/api/user/user.service';
 import { RedisCacheService } from 'src/api/redis/redis-cache/redis-cache.service';
+import { PermissionGuard } from './core/guard/permission.guard';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
@@ -42,12 +41,15 @@ import { RedisCacheService } from 'src/api/redis/redis-cache/redis-cache.service
     AppService,
     {
       provide: APP_GUARD,
-      useClass: AuthGuard,
+      useClass: LoginGuard,
+    },
+    {
+      provide:APP_GUARD,
+      useClass:PermissionGuard
     },
     JwtService,
     RedisCacheService,
-    // AuthService,
-    // UserService,
+
   ],
 })
 // export class AppModule {}

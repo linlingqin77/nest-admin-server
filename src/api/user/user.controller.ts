@@ -13,6 +13,7 @@ import { UpdateUserDto } from './dto/update-user.dto';
 import { User } from './entities/user.entity';
 import { UseGuards } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
+import { RequireLogin } from 'src/core/decorator/custom.decorator';
 interface IUserList {
   id: string;
   nickname?: string;
@@ -21,6 +22,7 @@ interface IUserList {
 }
 
 @Controller('user')
+@RequireLogin()
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
@@ -30,7 +32,6 @@ export class UserController {
   }
 
   @Post('/list')
-  @UseGuards(AuthGuard('jwt'))
   async findMany(@Body() body: IUserList) {
     return await this.userService.findMany(body);
   }

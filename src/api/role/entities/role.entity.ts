@@ -10,7 +10,7 @@ import {
 } from 'typeorm';
 import { Permission } from 'src/api/permission/entities/permission.entity';
 import { Menu } from 'src/api/menu/entities/menu.entity';
-@Entity('t_role', { schema: 'aurora' })
+@Entity('t_role')
 export class Role {
   @PrimaryGeneratedColumn()
   id: string;

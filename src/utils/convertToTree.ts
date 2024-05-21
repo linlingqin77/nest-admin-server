@@ -1,11 +1,11 @@
 export const convertToTree = (
   treeList: any[] = [],
-  parentId: number | null,
+  parent_id: number | null,
 ) => {
   const tree = [];
 
   treeList.forEach((item) => {
-    if (item.parentId === parentId) {
+    if (item.parent_id === parent_id) {
       const children = convertToTree(treeList, item.id);
       if (children.length >= 0) {
         item.children = children;

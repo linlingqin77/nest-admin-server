@@ -12,7 +12,9 @@ import {
 import { MenuService } from './menu.service';
 import { CreateMenuDto } from './dto/create-menu.dto';
 import { UpdateMenuDto } from './dto/update-menu.dto';
+import { RequireLogin } from 'src/core/decorator/custom.decorator';
 
+@RequireLogin()
 @Controller('menu')
 export class MenuController {
   constructor(private readonly menuService: MenuService) {}
@@ -22,8 +24,11 @@ export class MenuController {
     return await this.menuService.create(createMenuDto);
   }
 
+
   @Get('list')
-  async find(@Query('id') id: string) {
-    return await this.menuService.find(id);
+  async findByParentId(@Query('name') name: string) {
+    return await this.menuService.findByParentId(name);
   }
+
+  
 }

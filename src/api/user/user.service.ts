@@ -53,17 +53,20 @@ export class UserService {
     };
   }
 
+  // 通过id查询用户
   async findOneById(id: number) {
     return await this.userRepository.find({
       where: { id },
       relations: ['roles', 'roles.permissions', 'roles.menus'],
     });
   }
-
+  
+ // 通过用户名查询用户
   async findOne(nickname: string) {
     return await this.userRepository
       .createQueryBuilder('user')
       .select()
+      .addSelect('user.password')
       .where('user.nickname=:nickname', { nickname })
       .getOne();
   }

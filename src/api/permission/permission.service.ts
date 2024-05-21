@@ -14,8 +14,9 @@ export class PermissionService {
     return await this.permissionRepository.save(createPermissionDto);
   }
 
-  findAll() {
-    return `This action returns all permission`;
+ async findAll() {
+  return await this.permissionRepository.createQueryBuilder().select().getMany()
+
   }
 
   findOne(id: number) {

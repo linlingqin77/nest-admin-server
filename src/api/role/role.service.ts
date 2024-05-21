@@ -38,8 +38,8 @@ export class RoleService {
     });
   }
 
-  findAll() {
-    return `This action returns all role`;
+ async findAll() {
+   return await this.roleRepository.createQueryBuilder().select().getMany()
   }
 
   findOne(id: number) {

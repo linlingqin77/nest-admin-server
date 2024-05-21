@@ -26,7 +26,7 @@ export class UserLogin {
 
   @Column('varchar', {
     name: 'token',
-    length: 300,
+    length: 400,
   })
   token: string;
 

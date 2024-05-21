@@ -14,12 +14,21 @@ export class MenuService {
     return await this.menuRepository.save(createMenuDto);
   }
 
-  async find(id: string) {
-    const menus = await this.menuRepository.find({
-      where: {
-        id: id,
-      },
-    });
-    return convertToTree(menus, +id);
+  async findByParentId(name: string) {
+    const menusList = await this.menuRepository.find();
+    const menuBuilder = this.menuRepository.createQueryBuilder('menus');
+    if (name) {
+      menuBuilder
+        .select()
+        .where('menus.name LIKE :name', { name: `%${name}%` });
+    }
+    const menus = await menuBuilder.getMany()
+    return menus;
+    // let children = [];
+    // if (!menus) {
+    //   return [];
+    // }
+    // children = convertToTree(menusList, +menus[0].id);
+    // return { ...menus, children };
   }
 }
