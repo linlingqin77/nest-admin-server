@@ -8,6 +8,7 @@ import {
   Delete,
   ParseIntPipe,
   Query,
+  Req,
 } from '@nestjs/common';
 import { MenuService } from './menu.service';
 import { CreateMenuDto } from './dto/create-menu.dto';
@@ -24,11 +25,24 @@ export class MenuController {
     return await this.menuService.create(createMenuDto);
   }
 
-
+  // @Get('list')
+  // async findByParentId(@Query('name') name: string) {
+  //   return await this.menuService.findByParentId(name);
+  // }
   @Get('list')
-  async findByParentId(@Query('name') name: string) {
-    return await this.menuService.findByParentId(name);
+  async findByParentId(@Req() req) {
+    return await this.menuService.getMenuListByUserId(req.user.id);
   }
 
-  
+  // 查询菜单树
+  @Get('tree')
+  async findMenuTree() {
+    return await this.menuService.findMenuTree();
+  }
+
+  // 获取菜单
+  @Get('routes')
+  async getMenuListByUserId(@Req() req) {
+    return await this.menuService.getMenuListByUserId(req.user.id);
+  }
 }

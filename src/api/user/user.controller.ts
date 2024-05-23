@@ -6,6 +6,7 @@ import {
   Patch,
   Param,
   Delete,
+  Req,
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { CreateUserDto } from './dto/create-user.dto';
@@ -14,11 +15,18 @@ import { User } from './entities/user.entity';
 import { UseGuards } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 import { RequireLogin } from 'src/core/decorator/custom.decorator';
+import { Request } from 'express';
+
 interface IUserList {
   id: string;
   nickname?: string;
   page?: number;
   pageSize?: number;
+}
+declare module 'express' {
+  interface Request {
+    user: User;
+  }
 }
 
 @Controller('user')
@@ -36,8 +44,14 @@ export class UserController {
     return await this.userService.findMany(body);
   }
 
-  @Get(':id')
+  @Get('/info/:id')
   async findOne(@Param('id') id: number) {
     return await this.userService.findOneById(id);
+  }
+
+  // 查询用户信息
+  @Get('/info')
+  async findUserInfo(@Req() req: Request) {
+    return await this.userService.findOneById(req.user.id);
   }
 }

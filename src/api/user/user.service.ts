@@ -55,13 +55,19 @@ export class UserService {
 
   // 通过id查询用户
   async findOneById(id: number) {
-    return await this.userRepository.find({
+    const user = await this.userRepository.find({
       where: { id },
-      relations: ['roles', 'roles.permissions', 'roles.menus'],
+      relations: ['roles'],
     });
+    let roles = [];
+    user[0].roles.forEach((role) => {
+      roles.push(role.name);
+    });
+    user[0].roles = roles;
+    return user;
   }
-  
- // 通过用户名查询用户
+
+  // 通过用户名查询用户
   async findOne(nickname: string) {
     return await this.userRepository
       .createQueryBuilder('user')
@@ -100,4 +106,6 @@ export class UserService {
     }
     return user;
   }
+
+  async findUserInfo() {}
 }
