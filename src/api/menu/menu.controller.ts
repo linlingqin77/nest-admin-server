@@ -16,7 +16,7 @@ import { UpdateMenuDto } from './dto/update-menu.dto';
 import { RequireLogin } from 'src/core/decorator/custom.decorator';
 
 @RequireLogin()
-@Controller('menu')
+@Controller('system/menu')
 export class MenuController {
   constructor(private readonly menuService: MenuService) {}
 
