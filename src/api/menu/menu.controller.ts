@@ -9,6 +9,7 @@ import {
   ParseIntPipe,
   Query,
   Req,
+  Put,
 } from '@nestjs/common';
 import { MenuService } from './menu.service';
 import { CreateMenuDto } from './dto/create-menu.dto';
@@ -50,5 +51,10 @@ export class MenuController {
   @Delete('delete')
   async removeMenusById(@Query('id', ParseIntPipe) id: number) {
     return await this.menuService.removeMenusById(id);
+  }
+
+  @Put('update')
+  async updateMenusById(@Body() updateMenuDto: UpdateMenuDto) {
+    return await this.menuService.updateMenusById(updateMenuDto);
   }
 }

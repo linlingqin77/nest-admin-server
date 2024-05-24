@@ -74,4 +74,8 @@ export class MenuService {
   async removeMenusById(id: number) {
     await this.menuRepository.delete({ id });
   }
+
+  async updateMenusById(updateMenuDto: UpdateMenuDto) {
+    await this.menuRepository.update({ id: updateMenuDto.id }, updateMenuDto);
+  }
 }

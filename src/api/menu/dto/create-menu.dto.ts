@@ -1,5 +1,6 @@
 import { IsNotEmpty } from 'class-validator';
 export class CreateMenuDto {
+  id?: number;
   @IsNotEmpty({ message: '菜单名不可为空' })
   name: string;
   @IsNotEmpty({ message: '显示顺序不可为空' })
