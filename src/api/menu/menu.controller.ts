@@ -45,4 +45,10 @@ export class MenuController {
   async getMenuListByUserId(@Req() req) {
     return await this.menuService.getMenuListByUserId(req.user.id);
   }
+
+  // 删除菜单
+  @Delete('delete')
+  async removeMenusById(@Query('id', ParseIntPipe) id: number) {
+    return await this.menuService.removeMenusById(id);
+  }
 }

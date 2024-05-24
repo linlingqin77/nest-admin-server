@@ -4,7 +4,7 @@ import { UpdateMenuDto } from './dto/update-menu.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Menu } from './entities/menu.entity';
-import { convertToTree } from 'src/utils/convertToTree';
+import { convertToTree, handleTree } from 'src/utils/convertToTree';
 import { User } from '../user/entities/user.entity';
 import { Role } from '../role/entities/role.entity';
 @Injectable()
@@ -54,13 +54,12 @@ export class MenuService {
       .leftJoinAndSelect('role.menus', 'menu')
       .where('role.name IN (:...roles)', { roles })
       .getMany();
-     
-      
-     rolesMenuList.map((item) => {
-       return item.menus;
-      })
-     
-    return rolesMenuList
+
+    rolesMenuList.map((item) => {
+      return item.menus;
+    });
+
+    return rolesMenuList;
     // 3.菜单去重
 
     // 4.构建前端所需要的权限树
@@ -68,6 +67,11 @@ export class MenuService {
 
   async findMenuTree() {
     const menusList = await this.menuRepository.find();
-    return convertToTree(menusList, 0);
+    // return convertToTree(menusList, 0);
+    return handleTree(menusList, 0, 'parent_id');
+  }
+
+  async removeMenusById(id: number) {
+    await this.menuRepository.delete({ id });
   }
 }
