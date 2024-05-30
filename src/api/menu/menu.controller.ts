@@ -10,6 +10,7 @@ import {
   Query,
   Req,
   Put,
+  ParseBoolPipe,
 } from '@nestjs/common';
 import { MenuService } from './menu.service';
 import { CreateMenuDto } from './dto/create-menu.dto';
@@ -26,35 +27,33 @@ export class MenuController {
     return await this.menuService.create(createMenuDto);
   }
 
-  // @Get('list')
-  // async findByParentId(@Query('name') name: string) {
-  //   return await this.menuService.findByParentId(name);
-  // }
+  // 查询菜单树
+  @Get('tree')
+  async findMenuTree(@Query('name') name: string,
+  @Query('status') status:number) {
+    console.log(typeof status,status,'11111111111111111111');
+    
+    return await this.menuService.findMenuTree(name,status);
+  }
+  // 删除菜单
+  @Post('delete')
+  async removeMenusById(@Query('id', ParseIntPipe) id: number) {
+    return await this.menuService.removeMenusById(id);
+  }
+  // 更新菜单
+  @Post('update')
+  async updateMenusById(@Body() updateMenuDto: UpdateMenuDto) {
+    return await this.menuService.updateMenusById(updateMenuDto);
+  }
+
   @Get('list')
   async findByParentId(@Req() req) {
     return await this.menuService.getMenuListByUserId(req.user.id);
   }
 
-  // 查询菜单树
-  @Get('tree')
-  async findMenuTree() {
-    return await this.menuService.findMenuTree();
-  }
-
-  // 获取菜单
+  // 获取路由
   @Get('routes')
   async getMenuListByUserId(@Req() req) {
     return await this.menuService.getMenuListByUserId(req.user.id);
-  }
-
-  // 删除菜单
-  @Delete('delete')
-  async removeMenusById(@Query('id', ParseIntPipe) id: number) {
-    return await this.menuService.removeMenusById(id);
-  }
-
-  @Put('update')
-  async updateMenusById(@Body() updateMenuDto: UpdateMenuDto) {
-    return await this.menuService.updateMenusById(updateMenuDto);
   }
 }

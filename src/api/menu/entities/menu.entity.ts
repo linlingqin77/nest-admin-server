@@ -8,7 +8,7 @@ import {
 
 @Entity('t_menu', { comment: '系统菜单' })
 export class Menu {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn({ type: 'int', name: 'id' })
   id: number;
 
   @Column({ length: 20, comment: '菜单名称' })

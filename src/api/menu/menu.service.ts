@@ -65,16 +65,24 @@ export class MenuService {
     // 4.构建前端所需要的权限树
   }
 
-  async findMenuTree() {
-    const menusList = await this.menuRepository.find();
-    // return convertToTree(menusList, 0);
+  async findMenuTree(name?: string,status?:number) {
+    // const menusList = await this.menuRepository.find();
+    // return handleTree(menusList, 0, 'parent_id');
+   const QueryBuilder= this.menuRepository.createQueryBuilder('menus')
+   if(name){
+     QueryBuilder.where('menus.name LIKE :name',{name:`%${name}%`})
+   }
+   if(status){
+    QueryBuilder.andWhere('menus.status = :status',{status})
+   }
+    const menusList = await QueryBuilder.getMany()
     return handleTree(menusList, 0, 'parent_id');
   }
-
+  // 删除
   async removeMenusById(id: number) {
     await this.menuRepository.delete({ id });
   }
-
+  // 更新
   async updateMenusById(updateMenuDto: UpdateMenuDto) {
     await this.menuRepository.update({ id: updateMenuDto.id }, updateMenuDto);
   }
