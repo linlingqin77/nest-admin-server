@@ -20,20 +20,22 @@ import { RequireLogin } from 'src/core/decorator/custom.decorator';
 @RequireLogin()
 @Controller('system/menu')
 export class MenuController {
-  constructor(private readonly menuService: MenuService) {}
+  constructor(private readonly menuService: MenuService) { }
 
   @Post('add')
   async create(@Body() createMenuDto: CreateMenuDto) {
+    console.log(createMenuDto, 'createMenuDto');
+
     return await this.menuService.create(createMenuDto);
   }
 
   // 查询菜单树
   @Get('tree')
   async findMenuTree(@Query('name') name: string,
-  @Query('status') status:number) {
-    console.log(typeof status,status,'11111111111111111111');
-    
-    return await this.menuService.findMenuTree(name,status);
+    @Query('status') status: number) {
+    console.log(typeof status, status, '11111111111111111111');
+
+    return await this.menuService.findMenuTree(name, status);
   }
   // 删除菜单
   @Post('delete')
