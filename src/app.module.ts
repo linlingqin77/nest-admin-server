@@ -22,7 +22,7 @@ import { PermissionGuard } from './core/guard/permission.guard';
       password: '123456', //密码
       host: 'localhost', //host
       port: 3306, //
-      database: 'vue_nest_blog', //库名
+      database: 'nest_admin_database', //库名
       entities: [__dirname + '/**/**/*.entity{.ts,.js}'], //实体文件
       synchronize: true, //synchronize字段代表是否自动将实体类同步到数据库
       retryDelay: 500, //重试连接数据库间隔
@@ -44,12 +44,11 @@ import { PermissionGuard } from './core/guard/permission.guard';
       useClass: LoginGuard,
     },
     {
-      provide:APP_GUARD,
-      useClass:PermissionGuard
+      provide: APP_GUARD,
+      useClass: PermissionGuard,
     },
     JwtService,
     RedisCacheService,
-
   ],
 })
 // export class AppModule {}

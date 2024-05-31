@@ -38,7 +38,6 @@ export class UserService {
     QueryBuilder.select()
       .skip((page - 1) * pageSize)
       .take(pageSize)
-      .take(pageSize)
       .where('user.id=:id', { id });
     if (nickname) {
       QueryBuilder.andWhere('user.nickname LIKE :nickname', {
