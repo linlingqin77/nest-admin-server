@@ -45,11 +45,10 @@ import { PermissionGuard } from './core/guard/permission.guard';
     },
     {
       provide: APP_GUARD,
-      useClass: PermissionGuard
+      useClass: PermissionGuard,
     },
     JwtService,
     RedisCacheService,
-
   ],
 })
 // export class AppModule {}
