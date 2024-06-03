@@ -54,4 +54,10 @@ export class UserController {
   async findUserInfo(@Req() req: Request) {
     return await this.userService.findOneById(req.user.id);
   }
+
+ // 获取路由
+ @Get('routes')
+ async getMenuListByUserId(@Req() req) {
+   return await this.userService.getUserRoutes(req.user.id);
+ }
 }

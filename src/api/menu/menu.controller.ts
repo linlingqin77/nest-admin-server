@@ -52,9 +52,4 @@ export class MenuController {
     return await this.menuService.getMenuListByUserId(req.user.id);
   }
 
-  // 获取路由
-  @Get('routes')
-  async getMenuListByUserId(@Req() req) {
-    return await this.menuService.getMenuListByUserId(req.user.id);
-  }
 }
