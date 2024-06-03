@@ -6,7 +6,7 @@ export class CreateMenuDto {
   @IsNotEmpty({ message: '显示顺序不可为空' })
   order: number;
   parent_id: number;
-  type: number;
+  type: string;
   icon: string;
   component: string;
   @IsNotEmpty({ message: '路由地址不可为空' })
@@ -14,8 +14,8 @@ export class CreateMenuDto {
   router_params: string;
   create_by: string;
   permission: string;
-  is_frame: number;
-  is_cache: number;
-  visible: number;
-  status: number;
+  is_frame: string;
+  is_cache: string;
+  visible: string;
+  status: string;
 }

@@ -15,6 +15,7 @@ import {
 import { MenuService } from './menu.service';
 import { CreateMenuDto } from './dto/create-menu.dto';
 import { UpdateMenuDto } from './dto/update-menu.dto';
+import { SearchMenuDto } from './dto/search-menu.dto';
 import { RequireLogin } from 'src/core/decorator/custom.decorator';
 
 @RequireLogin()
@@ -22,6 +23,7 @@ import { RequireLogin } from 'src/core/decorator/custom.decorator';
 export class MenuController {
   constructor(private readonly menuService: MenuService) { }
 
+  // 新增菜单
   @Post('add')
   async create(@Body() createMenuDto: CreateMenuDto) {
     console.log(createMenuDto, 'createMenuDto');
@@ -31,11 +33,8 @@ export class MenuController {
 
   // 查询菜单树
   @Get('tree')
-  async findMenuTree(@Query('name') name: string,
-    @Query('status') status: number) {
-    console.log(typeof status, status, '11111111111111111111');
-
-    return await this.menuService.findMenuTree(name, status);
+  async findMenuTree(@Query() query: SearchMenuDto,) {
+    return await this.menuService.findMenuTree(query);
   }
   // 删除菜单
   @Post('delete')
@@ -44,8 +43,8 @@ export class MenuController {
   }
   // 更新菜单
   @Post('update')
-  async updateMenusById(@Body() updateMenuDto: UpdateMenuDto) {
-    return await this.menuService.updateMenusById(updateMenuDto);
+  async updateMenusById(@Body() body: UpdateMenuDto) {
+    return await this.menuService.updateMenusById(body);
   }
 
   @Get('list')

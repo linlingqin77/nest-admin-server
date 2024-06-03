@@ -4,7 +4,7 @@ import { UpdateMenuDto } from './dto/update-menu.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Menu } from './entities/menu.entity';
-import { convertToTree, handleTree } from 'src/utils/convertToTree';
+import { handleTree } from 'src/utils/convertToTree';
 import { User } from '../user/entities/user.entity';
 import { Role } from '../role/entities/role.entity';
 @Injectable()
@@ -13,9 +13,25 @@ export class MenuService {
     @InjectRepository(Menu) private readonly menuRepository: Repository<Menu>,
     @InjectRepository(User) private readonly userRepository: Repository<User>,
     @InjectRepository(Role) private readonly roleRepository: Repository<Role>,
-  ) {}
-  async create(createMenuDto: CreateMenuDto) {
-    return await this.menuRepository.save(createMenuDto);
+  ) { }
+  async create(val: CreateMenuDto) {
+    const menu = new Menu({
+      name: val.name,
+      order: val.order,
+      parent_id: val.parent_id,
+      type: val.type,
+      icon: val.icon,
+      component: val.component,
+      router_path: val.router_path,
+      router_params: val.router_params,
+      create_by: val.create_by,
+      permission: val.permission,
+      is_frame: val.is_frame,
+      is_cache: val.is_cache,
+      visible: val.visible,
+      status: val.status
+    })
+    return await this.menuRepository.save(menu);
   }
 
   async findByParentId(name: string) {
@@ -27,13 +43,7 @@ export class MenuService {
         .where('menus.name LIKE :name', { name: `%${name}%` });
     }
     const menus = await menuBuilder.getMany();
-    return menus;
-    // let children = [];
-    // if (!menus) {
-    //   return [];
-    // }
-    // children = convertToTree(menusList, +menus[0].id);
-    // return { ...menus, children };
+    return menus;;
   }
 
   // 根据用户id查询菜单
@@ -65,16 +75,16 @@ export class MenuService {
     // 4.构建前端所需要的权限树
   }
 
-  async findMenuTree(name?: string,status?:number) {
+  async findMenuTree({ name = '', status = '' }) {
     // const menusList = await this.menuRepository.find();
     // return handleTree(menusList, 0, 'parent_id');
-   const QueryBuilder= this.menuRepository.createQueryBuilder('menus')
-   if(name){
-     QueryBuilder.where('menus.name LIKE :name',{name:`%${name}%`})
-   }
-   if(status){
-    QueryBuilder.andWhere('menus.status = :status',{status})
-   }
+    const QueryBuilder = this.menuRepository.createQueryBuilder('menus')
+    if (name) {
+      QueryBuilder.where('menus.name LIKE :name', { name: `%${name}%` })
+    }
+    if (status) {
+      QueryBuilder.andWhere('menus.status = :status', { status })
+    }
     const menusList = await QueryBuilder.getMany()
     return handleTree(menusList, 0, 'parent_id');
   }
@@ -83,7 +93,24 @@ export class MenuService {
     await this.menuRepository.delete({ id });
   }
   // 更新
-  async updateMenusById(updateMenuDto: UpdateMenuDto) {
-    await this.menuRepository.update({ id: updateMenuDto.id }, updateMenuDto);
+  async updateMenusById(val: UpdateMenuDto) {
+    const menu = new Menu({
+      id: val.id,
+      name: val.name,
+      order: val.order,
+      parent_id: val.parent_id,
+      type: val.type,
+      icon: val.icon,
+      component: val.component,
+      router_path: val.router_path,
+      router_params: val.router_params,
+      create_by: val.create_by,
+      permission: val.permission,
+      is_frame: val.is_frame,
+      is_cache: val.is_cache,
+      visible: val.visible,
+      status: val.status
+    })
+    return await this.menuRepository.update({ id: menu.id }, menu);
   }
 }
