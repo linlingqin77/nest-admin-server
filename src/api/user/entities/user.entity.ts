@@ -11,6 +11,8 @@ import {
   JoinTable,
 } from 'typeorm';
 import { Role } from 'src/api/role/entities/role.entity';
+import { Department } from 'src/api/department/entities/department.entity';
+import { Position } from 'src/api/position/entities/position.entity';
 @Entity('t_user', { schema: 'aurora' })
 export class User {
   // @PrimaryGeneratedColumn({ type: 'uuid', name: 'id', comment: '用户ID' })
@@ -60,21 +62,21 @@ export class User {
   })
   website: string | null;
 
-  @Column('tinyint', {
+  @Column({
     name: 'is_disable',
     comment: '是否禁用',
-    width: 1,
+    nullable: true,
     default: () => "'0'",
   })
   isDisable: boolean;
 
-  @Column('tinyint', {
+  @Column({
     name: 'is_subscribe',
-    nullable: true,
     comment: '是否订阅',
-    width: 1,
+    nullable: true,
+    default: () => "'0'",
   })
-  is_subscribe: boolean | null;
+  is_subscribe: boolean;
 
   @CreateDateColumn({
     type: 'timestamp',
@@ -86,12 +88,17 @@ export class User {
     type: 'timestamp',
     comment: '更新时间',
   })
-
-  update_time: Date | null;
+  update_time: Date;
 
   @ManyToMany(() => Role)
   @JoinTable({
     name: 'user_role_relation',
   })
   roles: Role[]; //角色
+
+  @ManyToOne(() => Department, (Department) => Department.users)
+  department_id: Department;
+
+  @ManyToOne(() => Position, (Position) => Position.users)
+  position_id: string;
 }

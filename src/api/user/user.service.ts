@@ -8,7 +8,7 @@ import { Role } from '../role/entities/role.entity';
 import { Menu } from '../menu/entities/menu.entity';
 import { HttpException, HttpStatus } from '@nestjs/common';
 import { comparePassword } from 'src/utils/bcrypt';
-import * as loadsh from 'lodash'
+import * as loadsh from 'lodash';
 @Injectable()
 export class UserService {
   constructor(
@@ -48,7 +48,7 @@ export class UserService {
     return {
       list: res,
       page,
-      pageSize,
+      total: await QueryBuilder.getCount(),
     };
   }
 
@@ -108,23 +108,23 @@ export class UserService {
 
   async findUserInfo() {}
 
-    // 获取路由
-    async getUserRoutes(userId: number) {
-      const user = await this.userRepository
-        .createQueryBuilder('user')
-        .where('user.id = :userId', { userId })
-        .leftJoinAndSelect('user.roles', 'roles')
-        .leftJoinAndSelect('roles.menus', 'menus')
-        .getMany();
-        const menus = [];
-      user.forEach((item) => {
-        item.roles.forEach((role) => {
-         role.menus.forEach((menu) => {
+  // 获取路由
+  async getUserRoutes(userId: number) {
+    const user = await this.userRepository
+      .createQueryBuilder('user')
+      .where('user.id = :userId', { userId })
+      .leftJoinAndSelect('user.roles', 'roles')
+      .leftJoinAndSelect('roles.menus', 'menus')
+      .getMany();
+    const menus = [];
+    user.forEach((item) => {
+      item.roles.forEach((role) => {
+        role.menus.forEach((menu) => {
           menus.push(menu);
         });
-        });
-      });    
-      console.log(menus,'menus');
-      return loadsh.uniqBy(menus, 'id');
-    }
+      });
+    });
+    console.log(menus, 'menus');
+    return loadsh.uniqBy(menus, 'id');
+  }
 }

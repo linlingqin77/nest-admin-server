@@ -14,6 +14,8 @@ import { APP_GUARD } from '@nestjs/core';
 import { JwtService } from '@nestjs/jwt';
 import { RedisCacheService } from 'src/api/redis/redis-cache/redis-cache.service';
 import { PermissionGuard } from './core/guard/permission.guard';
+import { DepartmentModule } from './api/department/department.module';
+import { PositionModule } from './api/position/position.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
@@ -35,6 +37,8 @@ import { PermissionGuard } from './core/guard/permission.guard';
     PermissionModule,
     RoleModule,
     MenuModule,
+    DepartmentModule,
+    PositionModule,
   ],
   controllers: [AppController],
   providers: [
