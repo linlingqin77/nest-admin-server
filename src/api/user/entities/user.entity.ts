@@ -66,27 +66,31 @@ export class User {
     name: 'is_disable',
     comment: '是否禁用',
     nullable: true,
-    default: () => "'0'",
+    default: () => '0',
   })
-  isDisable: boolean;
+  is_disable: boolean;
 
   @Column({
     name: 'is_subscribe',
     comment: '是否订阅',
     nullable: true,
-    default: () => "'0'",
+    default: () => '0',
   })
   is_subscribe: boolean;
 
   @CreateDateColumn({
-    type: 'timestamp',
-    comment: '创建时间',
+    transformer: {
+      to: (value) => value,
+      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+    },
   })
   create_time: Date;
 
   @UpdateDateColumn({
-    type: 'timestamp',
-    comment: '更新时间',
+    transformer: {
+      to: (value) => value,
+      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+    },
   })
   update_time: Date;
 

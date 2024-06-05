@@ -34,14 +34,18 @@ export class Role {
   menus: Menu[];
 
   @CreateDateColumn({
-    name: 'create_time',
-    comment: '创建时间',
+    transformer: {
+      to: (value) => value,
+      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+    },
   })
   create_time: Date;
 
   @UpdateDateColumn({
-    name: 'update_time',
-    comment: '更新时间',
+    transformer: {
+      to: (value) => value,
+      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+    },
   })
   update_time: Date;
 }

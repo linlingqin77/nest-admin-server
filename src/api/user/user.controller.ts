@@ -40,7 +40,7 @@ export class UserController {
   }
 
   @Post('/list')
-  async findMany(@Body() body: IUserList) {
+  async findMany(@Body() body) {
     return await this.userService.findMany(body);
   }
 
@@ -55,9 +55,9 @@ export class UserController {
     return await this.userService.findOneById(req.user.id);
   }
 
- // 获取路由
- @Get('routes')
- async getMenuListByUserId(@Req() req) {
-   return await this.userService.getUserRoutes(req.user.id);
- }
+  // 获取路由
+  @Get('routes')
+  async getMenuListByUserId(@Req() req) {
+    return await this.userService.getUserRoutes(req.user.id);
+  }
 }

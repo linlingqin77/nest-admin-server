@@ -1,4 +1,11 @@
-import { Column, OneToMany, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  Column,
+  OneToMany,
+  Entity,
+  PrimaryGeneratedColumn,
+  CreateDateColumn,
+  UpdateDateColumn,
+} from 'typeorm';
 import { User } from '../../user/entities/user.entity';
 @Entity('t_department')
 export class Department {
@@ -19,7 +26,7 @@ export class Department {
     comment: '排序',
     nullable: true,
   })
-  order: string;
+  order: number;
   @Column({
     comment: '部门负责人',
     nullable: true,
@@ -45,4 +52,20 @@ export class Department {
   status: string;
   @OneToMany(() => User, (user) => user.department_id)
   users: User[];
+
+  @CreateDateColumn({
+    transformer: {
+      to: (value) => value,
+      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+    },
+  })
+  create_time: Date;
+
+  @UpdateDateColumn({
+    transformer: {
+      to: (value) => value,
+      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+    },
+  })
+  update_time: Date;
 }

@@ -42,29 +42,38 @@ export class Menu {
   @Column({ nullable: true, comment: '权限标识' })
   permission: string;
 
-  @Column({ default: "0", comment: '是否为外链' })
+  @Column({ default: '0', comment: '是否为外链' })
   is_frame: string;
 
   //是否缓存（0是 1否）
-  @Column({ default: "1", comment: '是否缓存' })
+  @Column({ default: '1', comment: '是否缓存' })
   is_cache: string;
 
   //是否显示（0显示 1隐藏）
-  @Column({ name: 'visible', default: "0", comment: '是否显示' })
+  @Column({ name: 'visible', default: '0', comment: '是否显示' })
   visible: string;
 
   //是否显示（0正常 1停用）
-  @Column({ name: 'status', default: "0", comment: '菜单状态' })
+  @Column({ name: 'status', default: '0', comment: '菜单状态' })
   status: string;
 
-  @CreateDateColumn()
+  @CreateDateColumn({
+    transformer: {
+      to: (value) => value,
+      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+    },
+  })
   create_time: Date;
 
-  @UpdateDateColumn()
+  @UpdateDateColumn({
+    transformer: {
+      to: (value) => value,
+      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+    },
+  })
   update_time: Date;
 
   constructor(Partial?: Partial<Menu>) {
     Object.assign(this, Partial);
   }
-
 }

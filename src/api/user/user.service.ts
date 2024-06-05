@@ -33,18 +33,36 @@ export class UserService {
   }
 
   // 查询用户列表
-  async findMany({ nickname = '', id, page = 1, pageSize = 10 }) {
+  async findMany({
+    nickname,
+    is_disable = '0',
+    create_time,
+    page = 1,
+    pageSize = 10,
+  }) {
     const QueryBuilder = this.userRepository.createQueryBuilder('user');
     QueryBuilder.select()
       .skip((page - 1) * pageSize)
       .take(pageSize)
-      .where('user.id=:id', { id });
-    if (nickname) {
-      QueryBuilder.andWhere('user.nickname LIKE :nickname', {
+      .andWhere('user.nickname LIKE :nickname', {
         nickname: `%${nickname}%`,
+      })
+
+      .andWhere('user.is_disable =:is_disable', {
+        is_disable,
+      })
+      .andWhere('user.create_time =:create_time', {
+        create_time,
       });
-    }
+    // if (nickname) {
+    //   QueryBuilder.andWhere('user.nickname LIKE :nickname', {
+    //     nickname: `%${nickname}%`,
+    //   });
+    // }
+
     const res = await QueryBuilder.getMany();
+    console.log(QueryBuilder.getSql());
+
     return {
       list: res,
       page,

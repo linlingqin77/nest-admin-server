@@ -50,7 +50,7 @@ export class MenuService {
 
   async getMenuListByUserId(userId: number) {}
 
-// 查询菜单树
+  // 查询菜单树
   async findMenuTree({ name = '', status = '', page = 1, pageSize = 10 }) {
     const QueryBuilder = this.menuRepository.createQueryBuilder('menus');
     if (name) {
@@ -61,17 +61,16 @@ export class MenuService {
     }
     const menusList = await QueryBuilder.skip((page - 1) * pageSize)
       .take(pageSize)
+      .addOrderBy('menus.order', 'ASC')
       .getMany();
-    // return handleTree(menusList, 0, 'parent_id');
-
     return {
-      list:handleTree(menusList, 0, 'parent_id'),
+      list: handleTree(menusList, 0, 'parent_id'),
       total: await QueryBuilder.getCount(),
-    }
+    };
   }
   // 删除
   async removeMenusById(id: number) {
-  return  await this.menuRepository.delete({ id });
+    return await this.menuRepository.delete({ id });
   }
   // 更新
   async updateMenusById(val: UpdateMenuDto) {
