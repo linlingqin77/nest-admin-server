@@ -32,6 +32,6 @@ export class Position {
   })
   remark: string;
 
-  @OneToMany(() => User, (user) => user.position_id)
+  @OneToMany(() => User, (user) => user.position)
   users: User[];
 }

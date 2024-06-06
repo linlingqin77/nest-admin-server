@@ -9,23 +9,29 @@ import {
   DeleteDateColumn,
   ManyToMany,
   JoinTable,
+  Generated,
 } from 'typeorm';
 import { Role } from 'src/api/role/entities/role.entity';
 import { Department } from 'src/api/department/entities/department.entity';
 import { Position } from 'src/api/position/entities/position.entity';
-@Entity('t_user', { schema: 'aurora' })
+@Entity('t_user')
 export class User {
-  // @PrimaryGeneratedColumn({ type: 'uuid', name: 'id', comment: '用户ID' })
-  @PrimaryGeneratedColumn('uuid')
+  @PrimaryGeneratedColumn('increment')
   id: number;
 
+  @Column('varchar', {
+    name: 'phone',
+    nullable: true,
+    comment: '手机号',
+  })
+  phone: string;
   @Column('varchar', {
     name: 'email',
     nullable: true,
     comment: '邮箱号',
     length: 50,
   })
-  email: string | null;
+  email: string;
 
   @Column('varchar', { name: 'nickname', comment: '用户昵称', length: 50 })
   nickname: string;
@@ -68,7 +74,7 @@ export class User {
     nullable: true,
     default: () => '0',
   })
-  is_disable: boolean;
+  is_disable: string;
 
   @Column({
     name: 'is_subscribe',
@@ -76,7 +82,7 @@ export class User {
     nullable: true,
     default: () => '0',
   })
-  is_subscribe: boolean;
+  is_subscribe: string;
 
   @CreateDateColumn({
     transformer: {
@@ -100,9 +106,9 @@ export class User {
   })
   roles: Role[]; //角色
 
-  @ManyToOne(() => Department, (Department) => Department.users)
-  department_id: Department;
+  @ManyToOne(() => Department, (Department) => Department.user)
+  department: Department;
 
   @ManyToOne(() => Position, (Position) => Position.users)
-  position_id: string;
+  position: Position;
 }

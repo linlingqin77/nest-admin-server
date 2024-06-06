@@ -6,6 +6,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { User } from './entities/user.entity';
 import { Role } from '../role/entities/role.entity';
 import { Menu } from '../menu/entities/menu.entity';
+import { Department } from '../department/entities/department.entity';
 import { HttpException, HttpStatus } from '@nestjs/common';
 import { comparePassword } from 'src/utils/bcrypt';
 import * as loadsh from 'lodash';
@@ -35,38 +36,51 @@ export class UserService {
   // 查询用户列表
   async findMany({
     nickname,
-    is_disable = '0',
-    create_time,
+    phone,
+    is_disable,
+    start_time,
+    end_time,
     page = 1,
     pageSize = 10,
   }) {
     const QueryBuilder = this.userRepository.createQueryBuilder('user');
-    QueryBuilder.select()
+    QueryBuilder.leftJoinAndMapOne(
+      'user.department', // 关联关系
+      Department, // 目标实体
+      'departmentName', // 映射到的结果属性名
+      'user.departmentId = department.id', // 联接条件
+    )
+      .select([
+        'user.*', // 选择用户的所有字段
+        'departmentName.name', // 选择部门的name字段
+      ])
       .skip((page - 1) * pageSize)
-      .take(pageSize)
-      .andWhere('user.nickname LIKE :nickname', {
-        nickname: `%${nickname}%`,
-      })
+      .take(pageSize);
 
-      .andWhere('user.is_disable =:is_disable', {
-        is_disable,
-      })
-      .andWhere('user.create_time =:create_time', {
-        create_time,
+    if (nickname) {
+      QueryBuilder.andWhere('user.nickname LIKE :nickname', {
+        nickname: `%${nickname}%`,
       });
-    // if (nickname) {
-    //   QueryBuilder.andWhere('user.nickname LIKE :nickname', {
-    //     nickname: `%${nickname}%`,
-    //   });
-    // }
+    }
+    if (phone) {
+      QueryBuilder.andWhere('user.phone =:phone', { phone });
+    }
+    if (is_disable) {
+      QueryBuilder.andWhere('user.is_disable =:is_disable', { is_disable });
+    }
+    if (start_time && end_time) {
+      QueryBuilder.andWhere(
+        'user.create_time BETWEEN :start_time AND :end_time',
+        { start_time, end_time },
+      );
+    }
 
     const res = await QueryBuilder.getMany();
-    console.log(QueryBuilder.getSql());
-
     return {
       list: res,
-      page,
       total: await QueryBuilder.getCount(),
+      page,
+      pageSize,
     };
   }
 

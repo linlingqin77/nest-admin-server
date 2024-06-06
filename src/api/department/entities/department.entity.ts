@@ -50,13 +50,14 @@ export class Department {
     default: () => '0',
   })
   status: string;
-  @OneToMany(() => User, (user) => user.department_id)
-  users: User[];
+  @OneToMany(() => User, (user) => user.department)
+  user: User[];
 
   @CreateDateColumn({
     transformer: {
       to: (value) => value,
-      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+      // from: (value) => value.toLocaleString().replace(/\//g, '-'),
+      from: (value) => new Date(value).toLocaleString().replace(/\//g, '-'),
     },
   })
   create_time: Date;
@@ -64,7 +65,7 @@ export class Department {
   @UpdateDateColumn({
     transformer: {
       to: (value) => value,
-      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+      from: (value) => new Date(value).toLocaleString().replace(/\//g, '-'),
     },
   })
   update_time: Date;
