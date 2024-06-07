@@ -7,7 +7,7 @@ import { Role } from './entities/role.entity';
 import { Menu } from '../menu/entities/menu.entity';
 import { Permission } from '../permission/entities/permission.entity';
 import { HttpException, HttpStatus } from '@nestjs/common';
-
+import { SearchRoleDto } from './dto/search-role.dto';
 @Injectable()
 export class RoleService {
   constructor(
@@ -38,19 +38,23 @@ export class RoleService {
     });
   }
 
- async findAll() {
-   return await this.roleRepository.createQueryBuilder().select().getMany()
-  }
-
-  findOne(id: number) {
-    return `This action returns a #${id} role`;
-  }
-
-  update(id: number, updateRoleDto: UpdateRoleDto) {
-    return `This action updates a #${id} role`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} role`;
+  // 查询列表分页
+  /***
+   * @param: all 1:查询所有 0:查询分页 默认为0 
+   */
+  async findList(parmas: SearchRoleDto) {
+    const QueryBuilder = this.roleRepository.createQueryBuilder('role');
+    const { name, code, status, start_time, end_time, all = 0, page = 1, pageSize = 10 } = parmas;
+    if (name) QueryBuilder.andWhere('role.name LIKE :name', { name: `%${name}%` });
+    if (code) QueryBuilder.andWhere('role.code =:code', { code });
+    if (status) QueryBuilder.andWhere('role.status =:status', { status });
+    if (start_time && end_time) QueryBuilder.andWhere(
+      'role.create_time BETWEEN :start_time AND :end_time',
+      { start_time, end_time },
+    );
+    QueryBuilder.addOrderBy('role.order', 'ASC')
+    const [list, total] = all ? await QueryBuilder.getManyAndCount() : await QueryBuilder.skip((page - 1) * pageSize)
+      .take(pageSize).getManyAndCount()
+    return all ? { list, total } : { list, total, page, pageSize }
   }
 }

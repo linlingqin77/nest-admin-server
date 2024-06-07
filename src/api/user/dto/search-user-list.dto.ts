@@ -8,7 +8,7 @@ import {
 
 export class SearchListDto {
   id?: number;
-  nickname?: string;
+  username?: string;
   page?: number;
   pageSize?: number;
 }

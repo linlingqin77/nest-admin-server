@@ -7,27 +7,28 @@ import {
 } from 'class-validator';
 import { User } from '../entities/user.entity';
 export class CreateUserDto {
-  email: string;
   @IsNotEmpty({
-    message: 'nickname is not empty',
+    message: 'username is not empty',
   })
+  username: string;
   nickname: string;
-
+  email: string;
   phone: string;
   @IsNotEmpty({
     message: 'password is not empty',
   })
   password: string;
   avatar: string;
-  intro: string;
+  notes: string;
   website: string;
-  isDisable: boolean;
-  is_subscribe: boolean;
+  status: string;
+  is_subscribe: string;
   position_id: string;
   department_id: string;
-
+  remarks: string;
+  sex: string;
   @IsNotEmpty({
     message: 'roleIds is not empty',
   })
-  roleIds: number[];
+  roles_id: number[];
 }

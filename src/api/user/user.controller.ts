@@ -19,7 +19,7 @@ import { Request } from 'express';
 
 interface IUserList {
   id: string;
-  nickname?: string;
+  username?: string;
   page?: number;
   pageSize?: number;
 }
@@ -32,7 +32,7 @@ declare module 'express' {
 @Controller('user')
 @RequireLogin()
 export class UserController {
-  constructor(private readonly userService: UserService) {}
+  constructor(private readonly userService: UserService) { }
 
   @Post('/register')
   create(@Body() createUserDto: CreateUserDto) {
@@ -53,6 +53,11 @@ export class UserController {
   @Get('/info')
   async findUserInfo(@Req() req: Request) {
     return await this.userService.findOneById(req.user.id);
+  }
+
+  @Post('/update')
+  async updateUser(@Body() body: UpdateUserDto) {
+    return await this.userService.updateUser(body);
   }
 
   // 获取路由

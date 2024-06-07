@@ -10,6 +10,8 @@ import {
   ManyToMany,
   JoinTable,
   Generated,
+  OneToOne,
+  JoinColumn,
 } from 'typeorm';
 import { Role } from 'src/api/role/entities/role.entity';
 import { Department } from 'src/api/department/entities/department.entity';
@@ -33,7 +35,13 @@ export class User {
   })
   email: string;
 
-  @Column('varchar', { name: 'nickname', comment: '用户昵称', length: 50 })
+  @Column('varchar', { name: 'username', comment: '用户名称', length: 50 })
+  username: string;
+
+  @Column('varchar', {
+    comment: '用户昵称',
+    nullable: true,
+  })
   nickname: string;
 
   @Column('varchar', {
@@ -53,12 +61,18 @@ export class User {
   avatar: string;
 
   @Column('varchar', {
-    name: 'intro',
+    name: 'notes',
     nullable: true,
-    comment: '用户简介',
-    length: 255,
+    comment: '备注',
   })
-  intro: string | null;
+  notes: string;
+
+  @Column({
+    nullable: true,
+    default: '3',
+    comment: '性别 0男 1女 3未知',
+  })
+  sex: string;
 
   @Column('varchar', {
     name: 'website',
@@ -69,12 +83,12 @@ export class User {
   website: string | null;
 
   @Column({
-    name: 'is_disable',
+    name: 'status',
     comment: '是否禁用',
     nullable: true,
     default: () => '0',
   })
-  is_disable: string;
+  status: string;
 
   @Column({
     name: 'is_subscribe',
@@ -104,9 +118,11 @@ export class User {
   @JoinTable({
     name: 'user_role_relation',
   })
+  @JoinColumn({ name: 'roles_id' })
   roles: Role[]; //角色
 
-  @ManyToOne(() => Department, (Department) => Department.user)
+  @ManyToOne(() => Department, (Department) => Department.users)
+  @JoinColumn({ name: 'department_id' })
   department: Department;
 
   @ManyToOne(() => Position, (Position) => Position.users)

@@ -14,7 +14,7 @@ import { UpdatePositionDto } from './dto/update-position.dto';
 
 @Controller('system/position')
 export class PositionController {
-  constructor(private readonly positionService: PositionService) {}
+  constructor(private readonly positionService: PositionService) { }
 
   @Post('add')
   create(@Body() createPositionDto: CreatePositionDto) {
@@ -22,8 +22,8 @@ export class PositionController {
   }
 
   @Get('list')
-  findAll(@Query() query: any) {
-    return this.positionService.findAll(query);
+  findList(@Query() query: any) {
+    return this.positionService.findList(query);
   }
 
   @Get('list/:id')

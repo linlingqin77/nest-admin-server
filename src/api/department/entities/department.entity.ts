@@ -51,7 +51,7 @@ export class Department {
   })
   status: string;
   @OneToMany(() => User, (user) => user.department)
-  user: User[];
+  users: User[];
 
   @CreateDateColumn({
     transformer: {

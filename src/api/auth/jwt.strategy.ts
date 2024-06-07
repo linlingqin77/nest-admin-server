@@ -70,7 +70,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
       const row = await this.userLoginRepository.create({
         user_id: payload.id,
         token: userToken,
-        nickname: payload.nickname,
+        username: payload.username,
       });
 
       this.userLoginRepository.save(row);

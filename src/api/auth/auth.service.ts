@@ -38,7 +38,7 @@ export class AuthService {
   async login(userLogin: LoginAuthDto) {
     // 到这里账号密码正确
     // 1.到这一步的账号密码都是正确的 判断验证码是否正确
-    const userInfo = await this.UserService.findOne(userLogin.nickname);
+    const userInfo = await this.UserService.findOne(userLogin.username);
 
     console.log(userInfo, 'userInfo');
 
@@ -54,7 +54,7 @@ export class AuthService {
     // // 3.保存的数据集
     let row = this.userLoginRepository.create({
       user_id: userInfo.id,
-      nickname: userInfo.nickname,
+      username: userInfo.username,
       token,
     });
 
@@ -71,14 +71,14 @@ export class AuthService {
     await this.userLoginRepository.insert(row);
     return {
       user_id: userInfo.id,
-      nickname: userInfo.nickname,
+      username: userInfo.username,
       token,
     };
   }
 
   // 注册
   async register(CreateUserDto: CreateUserDto) {
-    if (await this.UserService.isExistUser(CreateUserDto.nickname)) {
+    if (await this.UserService.isExistUser(CreateUserDto.username)) {
       throw new HttpException('用户已存在', HttpStatus.BAD_REQUEST);
     }
     CreateUserDto.password = encryptPassword(CreateUserDto.password);
@@ -88,7 +88,7 @@ export class AuthService {
   // 创建token
   createToken(payload) {
     const row = {
-      nickname: payload.nickname,
+      username: payload.username,
       password: payload.password,
       id: payload.id,
     };

@@ -14,13 +14,13 @@ import { comparePassword } from 'src/utils/bcrypt';
 export class LocalStrategy extends PassportStrategy(Strategy) {
   constructor(private readonly userService: UserService) {
     super({
-      usernameField: 'nickname',
+      usernameField: 'username',
       passwordField: 'password',
     });
   }
 
-  async validate(nickname: string, password: string): Promise<any> {
-    const user = await this.userService.avalidateUser(nickname, password);
+  async validate(username: string, password: string): Promise<any> {
+    const user = await this.userService.avalidateUser(username, password);
     return user;
   }
 }

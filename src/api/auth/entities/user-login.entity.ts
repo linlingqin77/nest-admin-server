@@ -20,9 +20,9 @@ export class UserLogin {
   user_id: number;
 
   @Column('varchar', {
-    name: 'nickname',
+    name: 'username',
   })
-  nickname: string;
+  username: string;
 
   @Column('varchar', {
     name: 'token',

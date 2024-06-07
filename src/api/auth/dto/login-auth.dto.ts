@@ -1,5 +1,5 @@
 export class LoginAuthDto {
-  nickname: string;
+  username: string;
   password: string;
   code: string;
   codeId: string;

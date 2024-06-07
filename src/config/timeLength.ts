@@ -3,7 +3,7 @@
  */
 
 // 登录时生成token存入redis设置的过期时间(秒)
-export const TOKEN_FIRST_SET_TIME: number = 1800;
+export const TOKEN_FIRST_SET_TIME: number = 18000;
 
 // 验证码存入redis设置的过期时间(秒)
 export const CAPCODE_FIRST_SET_TIME: number = 180;

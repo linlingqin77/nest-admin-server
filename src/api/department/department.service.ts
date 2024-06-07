@@ -37,7 +37,7 @@ export class DepartmentService {
       .getMany();
 
     return {
-      list: handleTree(departmentList, 0, 'parent_id'),
+      list: [{ id: 0, name: "小七科技", children: handleTree(departmentList, 0, 'parent_id') }],
       total: await QueryBuilder.getCount(),
     };
   }

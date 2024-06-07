@@ -15,11 +15,21 @@ export class Role {
   @PrimaryGeneratedColumn()
   id: string;
 
-  @Column({
-    length: 20,
-    comment: '角色名称',
-  })
+  @Column({ comment: '角色名称' })
   name: string;
+
+  @Column({ comment: '权限标识' })
+  code: string;
+
+  @Column({ comment: '排序' })
+  order: number;
+
+  @Column({
+    comment: '状态 0正常 1停用',
+    nullable: true,
+    default: () => '0',
+  })
+  status: string;
 
   @ManyToMany(() => Permission)
   @JoinTable({
