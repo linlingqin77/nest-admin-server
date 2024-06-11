@@ -8,6 +8,7 @@ import { handleTree } from 'src/utils/convertToTree';
 import { User } from '../user/entities/user.entity';
 import { Role } from '../role/entities/role.entity';
 import { Permission } from '../permission/entities/permission.entity';
+import { ResultData } from 'src/utils/result';
 
 @Injectable()
 export class MenuService {
@@ -33,7 +34,8 @@ export class MenuService {
       visible: val.visible,
       status: val.status,
     });
-    return await this.menuRepository.save(menu);
+    const data = await this.menuRepository.save(menu);
+    return ResultData.ok(data, '添加成功');
   }
 
   async findByParentId(name: string) {
@@ -51,26 +53,46 @@ export class MenuService {
   async getMenuListByUserId(userId: number) {}
 
   // 查询菜单树
-  async findMenuTree({ name = '', status = '', page = 1, pageSize = 10 }) {
+  async findMenuTree(parmas) {
+    // const QueryBuilder = this.menuRepository.createQueryBuilder('menus');
+    // if (name) {
+    //   QueryBuilder.where('menus.name LIKE :name', { name: `%${name}%` });
+    // }
+    // if (status) {
+    //   QueryBuilder.andWhere('menus.status = :status', { status });
+    // }
+    // const menusList = await QueryBuilder.skip((page - 1) * pageSize)
+    //   .take(pageSize)
+    //   .addOrderBy('menus.order', 'ASC')
+    //   .getMany();
+    // return {
+    //   list: handleTree(menusList, 0, 'parent_id'),
+    //   total: await QueryBuilder.getCount(),
+    // };
+
     const QueryBuilder = this.menuRepository.createQueryBuilder('menus');
-    if (name) {
-      QueryBuilder.where('menus.name LIKE :name', { name: `%${name}%` });
-    }
-    if (status) {
-      QueryBuilder.andWhere('menus.status = :status', { status });
-    }
-    const menusList = await QueryBuilder.skip((page - 1) * pageSize)
-      .take(pageSize)
-      .addOrderBy('menus.order', 'ASC')
-      .getMany();
-    return {
-      list: handleTree(menusList, 0, 'parent_id'),
-      total: await QueryBuilder.getCount(),
-    };
+    const { name, status, all = 0, page = 1, pageSize = 10 } = parmas;
+    if (name)
+      QueryBuilder.andWhere('menus.name LIKE :name', {
+        name: `%${name}%`,
+      });
+    if (status) QueryBuilder.andWhere('menus.status =:status', { status });
+    QueryBuilder.addOrderBy('menus.order', 'ASC');
+    const [list, total] = all
+      ? await QueryBuilder.getManyAndCount()
+      : await QueryBuilder.skip((page - 1) * pageSize)
+          .take(pageSize)
+          .getManyAndCount();
+
+    const data = all
+      ? { list: handleTree(list, 0, 'parent_id'), total }
+      : { list: handleTree(list, 0, 'parent_id'), total, page, pageSize };
+    return ResultData.ok(data, '查询成功');
   }
   // 删除
   async removeMenusById(id: number) {
-    return await this.menuRepository.delete({ id });
+    const data = await this.menuRepository.delete({ id });
+    return ResultData.ok(data, '删除成功');
   }
   // 更新
   async updateMenusById(val: UpdateMenuDto) {
@@ -91,6 +113,8 @@ export class MenuService {
       visible: val.visible,
       status: val.status,
     });
-    return await this.menuRepository.update({ id: menu.id }, menu);
+    const data = this.menuRepository.update({ id: menu.id }, menu);
+
+    return ResultData.ok(data, '修改成功');
   }
 }

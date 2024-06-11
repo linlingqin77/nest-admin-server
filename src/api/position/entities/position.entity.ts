@@ -1,8 +1,15 @@
-import { Column, OneToMany, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  Column,
+  OneToMany,
+  Entity,
+  PrimaryGeneratedColumn,
+  CreateDateColumn,
+  UpdateDateColumn,
+} from 'typeorm';
 import { User } from '../../user/entities/user.entity';
 @Entity('t_position')
 export class Position {
-  @PrimaryGeneratedColumn()
+  @PrimaryGeneratedColumn('increment')
   id: number;
 
   @Column({
@@ -34,4 +41,20 @@ export class Position {
 
   @OneToMany(() => User, (user) => user.position)
   users: User[];
+
+  @CreateDateColumn({
+    transformer: {
+      to: (value) => value,
+      from: (value) => new Date(value).toLocaleString().replace(/\//g, '-'),
+    },
+  })
+  create_time: Date;
+
+  @UpdateDateColumn({
+    transformer: {
+      to: (value) => value,
+      from: (value) => new Date(value).toLocaleString().replace(/\//g, '-'),
+    },
+  })
+  update_time: Date;
 }

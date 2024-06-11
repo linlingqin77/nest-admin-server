@@ -14,7 +14,7 @@ import { UpdatePositionDto } from './dto/update-position.dto';
 
 @Controller('system/position')
 export class PositionController {
-  constructor(private readonly positionService: PositionService) { }
+  constructor(private readonly positionService: PositionService) {}
 
   @Post('add')
   create(@Body() createPositionDto: CreatePositionDto) {
@@ -36,7 +36,7 @@ export class PositionController {
     return this.positionService.update(updatePositionDto);
   }
 
-  @Post(':id')
+  @Get('delete/:id')
   remove(@Param('id') id: string) {
     return this.positionService.remove(+id);
   }

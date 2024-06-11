@@ -13,17 +13,7 @@ import * as REDIS from 'src/config/RedisKeyPrefix';
 import * as CONST from 'src/config/timeLength';
 import { ToolsCaptcha } from 'src/utils/captcha';
 import { CreateEncrypt } from 'src/utils/createEncrypt';
-import {
-  Controller,
-  Get,
-  Body,
-  Patch,
-  Param,
-  Delete,
-  Req,
-  Session,
-  Res,
-} from '@nestjs/common';
+import { ResultData } from 'src/utils/result';
 @Injectable()
 export class AuthService {
   constructor(
@@ -69,11 +59,12 @@ export class AuthService {
       await this.userLoginRepository.delete({ user_id: userInfo.id });
     }
     await this.userLoginRepository.insert(row);
-    return {
+    const data = {
       user_id: userInfo.id,
       username: userInfo.username,
       token,
     };
+    return ResultData.ok(data, '登录成功');
   }
 
   // 注册
