@@ -20,8 +20,8 @@ async function bootstrap() {
   app.useStaticAssets(join(__dirname, 'images'), {
     prefix: APP_CONFIG().UPLOAD_PREFIX,
   });
-  app.useStaticAssets('static', {
-    prefix: '/',
+  app.useStaticAssets('public', {
+    prefix: '/xiaoqi',
   });
 
   // const app = await NestFactory.create<NestExpressApplication>(AppModule);
