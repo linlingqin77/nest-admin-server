@@ -16,15 +16,11 @@ async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule, {
     cors: true,
   });
+  // const app = await NestFactory.create<NestExpressApplication>(AppModule);
   // const app = await NestFactory.create(AppModule, { cors: true });
-  app.useStaticAssets(join(__dirname, 'images'), {
+  app.useStaticAssets('public', {
     prefix: APP_CONFIG().UPLOAD_PREFIX,
   });
-  app.useStaticAssets('public', {
-    prefix: '/xiaoqi',
-  });
-
-  // const app = await NestFactory.create<NestExpressApplication>(AppModule);
   app.use(
     session({
       secret: 'XiaoMan',
