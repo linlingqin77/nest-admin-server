@@ -8,12 +8,17 @@ import { HttpExceptionFilter } from './core/filter/http-exception.filter';
 import { TransformInterceptor } from './core/interceptor/transform.interceptor';
 import { HttpReqTransformInterceptor } from './core/interceptor/http-req.interceptor';
 import * as session from 'express-session'
-
+import { join } from 'path';
+import APP_CONFIG from './config/configuration';
 // 中间件日志
 import { logger } from './core/middleWare/loger.middleware';
 async function bootstrap() {
-  // const app = await NestFactory.create(AppModule);
-  const app = await NestFactory.create<NestExpressApplication>(AppModule);
+  const app = await NestFactory.create<NestExpressApplication>(AppModule, { cors: true });
+  // const app = await NestFactory.create(AppModule, { cors: true });
+  app.useStaticAssets(join(__dirname, 'images'), {
+    prefix: APP_CONFIG().UPLOAD_PREFIX
+  })
+  // const app = await NestFactory.create<NestExpressApplication>(AppModule);
   app.use(session({ secret: "XiaoMan", name: "xm.session", rolling: true, cookie: { maxAge: null } }))
   // 我们会在main中全局的使用他们
   //日志相关
@@ -23,6 +28,6 @@ async function bootstrap() {
   app.useGlobalInterceptors(new HttpReqTransformInterceptor()); // 使用全局拦截器 收集日志
   app.useGlobalFilters(new AllExceptionsFilter());
   app.useGlobalFilters(new HttpExceptionFilter());
-  await app.listen(3000);
+  await app.listen(APP_CONFIG().APP_PROT);
 }
 bootstrap();

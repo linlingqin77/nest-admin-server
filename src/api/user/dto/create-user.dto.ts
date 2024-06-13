@@ -27,8 +27,8 @@ export class CreateUserDto {
   department_id: string;
   remarks: string;
   sex: string;
-  @IsNotEmpty({
-    message: 'roleIds is not empty',
-  })
+  // @IsNotEmpty({
+  //   message: 'roleIds is not empty',
+  // })
   roles_id: number[];
 }

@@ -16,15 +16,22 @@ import { RedisCacheService } from 'src/api/redis/redis-cache/redis-cache.service
 import { PermissionGuard } from './core/guard/permission.guard';
 import { DepartmentModule } from './api/department/department.module';
 import { PositionModule } from './api/position/position.module';
+import { OrderModule } from './api/order/order.module';
+import APP_CONFIG from './config/configuration';
+import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [
+    ConfigModule.forRoot({
+      isGlobal: true,
+      load: [APP_CONFIG],
+    }),
     TypeOrmModule.forRoot({
       type: 'mysql', //数据库类型
-      username: 'root', //账号
-      password: '123456', //密码
-      host: 'localhost', //host
-      port: 3306, //
-      database: 'nest_admin_database', //库名
+      username: APP_CONFIG().DATABASE_NAME, //账号
+      password: APP_CONFIG().DATABASE_PWD, //密码
+      host: APP_CONFIG().DATABASE_HOST, //host
+      port: +APP_CONFIG().DATABASE_PORT, //
+      database: APP_CONFIG().DATABASE_LIB, //库名
       entities: [__dirname + '/**/**/*.entity{.ts,.js}'], //实体文件
       synchronize: true, //synchronize字段代表是否自动将实体类同步到数据库
       retryDelay: 500, //重试连接数据库间隔
@@ -39,6 +46,7 @@ import { PositionModule } from './api/position/position.module';
     MenuModule,
     DepartmentModule,
     PositionModule,
+    OrderModule,
   ],
   controllers: [AppController],
   providers: [
@@ -58,6 +66,6 @@ import { PositionModule } from './api/position/position.module';
 // export class AppModule {}
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
-    consumer.apply(multer().any()).forRoutes('*');
+    // consumer.apply(multer().any()).forRoutes('*');
   }
 }
