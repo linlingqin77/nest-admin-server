@@ -25,7 +25,7 @@ async function bootstrap() {
   app.use(logger); // 所有请求都打印日志  logger
   app.useGlobalPipes(new ValidationPipe());
   app.useGlobalInterceptors(new TransformInterceptor()); // 使用全局拦截器 收集日志
-  app.useGlobalInterceptors(new HttpReqTransformInterceptor()); // 使用全局拦截器 收集日志
+  // app.useGlobalInterceptors(new HttpReqTransformInterceptor());
   app.useGlobalFilters(new AllExceptionsFilter());
   app.useGlobalFilters(new HttpExceptionFilter());
   await app.listen(APP_CONFIG().APP_PROT);

@@ -50,6 +50,7 @@ export class Department {
     default: () => '0',
   })
   status: string;
+
   @OneToMany(() => User, (user) => user.department)
   users: User[];
 

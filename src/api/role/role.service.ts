@@ -8,6 +8,7 @@ import { Menu } from '../menu/entities/menu.entity';
 import { Permission } from '../permission/entities/permission.entity';
 import { HttpException, HttpStatus } from '@nestjs/common';
 import { SearchRoleDto } from './dto/search-role.dto';
+import { ResultData } from 'src/utils/result';
 @Injectable()
 export class RoleService {
   constructor(
@@ -15,7 +16,7 @@ export class RoleService {
     @InjectRepository(Menu) private readonly menuRepository: Repository<Menu>,
     @InjectRepository(Permission)
     private readonly permissionRepository: Repository<Permission>,
-  ) { }
+  ) {}
   // 添加角色
   async create(createRoleDto: CreateRoleDto) {
     const { name, permissionIds, menuIds } = createRoleDto;
@@ -40,21 +41,36 @@ export class RoleService {
 
   // 查询列表分页
   /***
-   * @param: all 1:查询所有 0:查询分页 默认为0 
+   * @param: all 1:查询所有 0:查询分页 默认为0
    */
   async findList(parmas: SearchRoleDto) {
     const QueryBuilder = this.roleRepository.createQueryBuilder('role');
-    const { name, code, status, start_time, end_time, all = 0, page = 1, pageSize = 10 } = parmas;
-    if (name) QueryBuilder.andWhere('role.name LIKE :name', { name: `%${name}%` });
+    const {
+      name,
+      code,
+      status,
+      start_time,
+      end_time,
+      all = 0,
+      page = 1,
+      pageSize = 10,
+    } = parmas;
+    if (name)
+      QueryBuilder.andWhere('role.name LIKE :name', { name: `%${name}%` });
     if (code) QueryBuilder.andWhere('role.code =:code', { code });
     if (status) QueryBuilder.andWhere('role.status =:status', { status });
-    if (start_time && end_time) QueryBuilder.andWhere(
-      'role.create_time BETWEEN :start_time AND :end_time',
-      { start_time, end_time },
-    );
-    QueryBuilder.addOrderBy('role.order', 'ASC')
-    const [list, total] = all ? await QueryBuilder.getManyAndCount() : await QueryBuilder.skip((page - 1) * pageSize)
-      .take(pageSize).getManyAndCount()
-    return all ? { list, total } : { list, total, page, pageSize }
+    if (start_time && end_time)
+      QueryBuilder.andWhere(
+        'role.create_time BETWEEN :start_time AND :end_time',
+        { start_time, end_time },
+      );
+    QueryBuilder.addOrderBy('role.order', 'ASC');
+    const [list, total] = all
+      ? await QueryBuilder.getManyAndCount()
+      : await QueryBuilder.skip((page - 1) * pageSize)
+          .take(pageSize)
+          .getManyAndCount();
+    const data = all ? { list, total } : { list, total, page, pageSize };
+    return ResultData.ok(data, '查询成功');
   }
 }

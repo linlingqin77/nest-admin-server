@@ -5,7 +5,6 @@ import {
   IsBoolean,
   IsEmpty,
 } from 'class-validator';
-import { User } from '../entities/user.entity';
 export class CreateUserDto {
   @IsNotEmpty({
     message: 'username is not empty',

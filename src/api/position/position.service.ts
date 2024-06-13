@@ -5,6 +5,7 @@ import { Position } from './entities/position.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { handleTree } from 'src/utils/convertToTree';
+import { ResultData } from 'src/utils/result';
 @Injectable()
 export class PositionService {
   @InjectRepository(Position)
@@ -12,53 +13,41 @@ export class PositionService {
 
   async create(val: CreatePositionDto) {
     const position = this.positionRespository.create();
-    position.id = +val.id;
     position.name = val.name;
     position.code = val.code;
     position.order = val.order;
     position.remark = val.remark;
-    return await this.positionRespository.save(position);
+    const data = await this.positionRespository.save(position);
+    return ResultData.ok(data, '添加成功');
   }
-
-  // async findAll({ name = '', status = '', page = 1, pageSize = 10 }) {
-  //   const QueryBuilder =
-  //     this.positionRespository.createQueryBuilder('Position');
-  //   if (name) {
-  //     QueryBuilder.where('Position.name LIKE :name', { name: `%${name}%` });
-  //   }
-  //   if (status) {
-  //     QueryBuilder.andWhere('Position.status = :status', { status });
-  //   }
-  //   const list = await QueryBuilder.skip((page - 1) * pageSize)
-  //     .take(pageSize)
-  //     .getMany();
-
-  //   return {
-  //     list: list,
-  //     total: await QueryBuilder.getCount(),
-  //   };
-  // }
 
   // 查询列表分页
   /***
-   * @param: all 1:查询所有 0:查询分页 默认为0 
+   * @param: all 1:查询所有 0:查询分页 默认为0
    */
   async findList(parmas) {
-    const QueryBuilder = this.positionRespository.createQueryBuilder('position');
+    const QueryBuilder =
+      this.positionRespository.createQueryBuilder('position');
     const { name, code, status, all = 0, page = 1, pageSize = 10 } = parmas;
-    if (name) QueryBuilder.andWhere('position.name LIKE :name', {
-      name: `%${name}%`,
-    });
+    if (name)
+      QueryBuilder.andWhere('position.name LIKE :name', {
+        name: `%${name}%`,
+      });
     if (code) QueryBuilder.andWhere('position.code =:code', { code });
     if (status) QueryBuilder.andWhere('position.status =:status', { status });
-    QueryBuilder.addOrderBy('position.order', 'ASC')
-    const [list, total] = all ? await QueryBuilder.getManyAndCount() : await QueryBuilder.skip((page - 1) * pageSize)
-      .take(pageSize).getManyAndCount()
-    return all ? { list, total } : { list, total, page, pageSize }
+    QueryBuilder.addOrderBy('position.order', 'ASC');
+    const [list, total] = all
+      ? await QueryBuilder.getManyAndCount()
+      : await QueryBuilder.skip((page - 1) * pageSize)
+          .take(pageSize)
+          .getManyAndCount();
+    const data = all ? { list, total } : { list, total, page, pageSize };
+    return ResultData.ok(data, '查询成功');
   }
 
   async findOne(id: number) {
-    return await this.positionRespository.findOneBy({ id });
+    const data = await this.positionRespository.findOneBy({ id });
+    return ResultData.ok(data, '查询成功');
   }
 
   async update(val: UpdatePositionDto) {
@@ -67,10 +56,12 @@ export class PositionService {
     position.name = val.name;
     position.order = val.order;
     position.status = val.status;
-    return await this.positionRespository.save(position);
+    const data = await this.positionRespository.save(position);
+    return ResultData.ok(data, '更新成功');
   }
 
   async remove(id: number) {
-    return await this.positionRespository.delete(id);
+    const data = this.positionRespository.delete(id);
+    return ResultData.ok(data, '删除成功');
   }
 }
