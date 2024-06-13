@@ -7,19 +7,32 @@ import { AllExceptionsFilter } from './core/filter/any-exception.filter';
 import { HttpExceptionFilter } from './core/filter/http-exception.filter';
 import { TransformInterceptor } from './core/interceptor/transform.interceptor';
 import { HttpReqTransformInterceptor } from './core/interceptor/http-req.interceptor';
-import * as session from 'express-session'
+import * as session from 'express-session';
 import { join } from 'path';
 import APP_CONFIG from './config/configuration';
 // 中间件日志
 import { logger } from './core/middleWare/loger.middleware';
 async function bootstrap() {
-  const app = await NestFactory.create<NestExpressApplication>(AppModule, { cors: true });
+  const app = await NestFactory.create<NestExpressApplication>(AppModule, {
+    cors: true,
+  });
   // const app = await NestFactory.create(AppModule, { cors: true });
   app.useStaticAssets(join(__dirname, 'images'), {
-    prefix: APP_CONFIG().UPLOAD_PREFIX
-  })
+    prefix: APP_CONFIG().UPLOAD_PREFIX,
+  });
+  app.useStaticAssets('static', {
+    prefix: '/',
+  });
+
   // const app = await NestFactory.create<NestExpressApplication>(AppModule);
-  app.use(session({ secret: "XiaoMan", name: "xm.session", rolling: true, cookie: { maxAge: null } }))
+  app.use(
+    session({
+      secret: 'XiaoMan',
+      name: 'xm.session',
+      rolling: true,
+      cookie: { maxAge: null },
+    }),
+  );
   // 我们会在main中全局的使用他们
   //日志相关
   app.use(logger); // 所有请求都打印日志  logger
