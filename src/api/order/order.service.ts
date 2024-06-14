@@ -23,7 +23,11 @@ export class OrderService {
   }
 
   async findAll() {
-    const data = await this.orderRepository.find();
+    const data = await this.orderRepository.find({
+      "order": {
+        "create_time": "DESC"
+      }
+    });
     return ResultData.ok(data, '查询成功');
   }
 

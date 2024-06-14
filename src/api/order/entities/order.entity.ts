@@ -39,7 +39,7 @@ export class Order {
     @CreateDateColumn({
         transformer: {
             to: (value) => value,
-            from: (value) => new Date(value).toLocaleString().replace(/\//g, '-'),
+            from: (value) => value,
         },
     })
     create_time: Date;
@@ -47,7 +47,7 @@ export class Order {
     @UpdateDateColumn({
         transformer: {
             to: (value) => value,
-            from: (value) => new Date(value).toLocaleString().replace(/\//g, '-'),
+            from: (value) => value,
         },
     })
     update_time: Date;
