@@ -19,6 +19,7 @@ import { PositionModule } from './api/position/position.module';
 import { OrderModule } from './api/order/order.module';
 import APP_CONFIG from './config/configuration';
 import { ConfigModule } from '@nestjs/config';
+import { WechatModule } from './api/wechat/wechat.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -47,6 +48,7 @@ import { ConfigModule } from '@nestjs/config';
     DepartmentModule,
     PositionModule,
     OrderModule,
+    WechatModule,
   ],
   controllers: [AppController],
   providers: [
