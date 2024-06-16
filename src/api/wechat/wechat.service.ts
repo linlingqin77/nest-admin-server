@@ -4,8 +4,8 @@ import * as crypto from 'crypto';
 
 @Injectable()
 export class WeChatService {
-  public readonly appId: string = 'wx341154c92e3369eb';
-  public readonly appSecret: string = '7ab0cf7a8f5d94ef87789c1826d0709b';
+  public readonly appId: string = 'wxbc7c29be77d22f20';
+  public readonly appSecret: string = 'a95a3b55264e1eb9219fe0e418006f9b';
   private accessToken: string = null;
   private accessTokenExpiresAt: number = 0;
   private jsapiTicket: string = null;

@@ -21,7 +21,7 @@ import { HttpStatus } from '@nestjs/common';
 import APP_CONFIG from '../../config/configuration';
 @Controller('order')
 export class OrderController {
-  constructor(private readonly orderService: OrderService) {}
+  constructor(private readonly orderService: OrderService) { }
 
   @Post('add')
   @UseInterceptors(FileInterceptor('image'))
@@ -30,9 +30,8 @@ export class OrderController {
       file,
       name: req.body.name,
       numbers: req.body.numbers,
-      image: `http://${APP_CONFIG().APP_HOST}:${APP_CONFIG().APP_PROT}${
-        APP_CONFIG().UPLOAD_IMAGE_PREFIX
-      }${file.filename}`,
+      image: `${APP_CONFIG().APP_HOST}:${APP_CONFIG().APP_PROT}${APP_CONFIG().UPLOAD_IMAGE_PREFIX
+        }${file.filename}`,
       content: req.body.content,
     };
     return this.orderService.create(data);
@@ -55,9 +54,8 @@ export class OrderController {
       file,
       name: req.body.name,
       numbers: req.body.numbers,
-      image: `http://${APP_CONFIG().APP_HOST}:${APP_CONFIG().APP_PROT}${
-        APP_CONFIG().UPLOAD_IMAGE_PREFIX
-      }${file.filename}`,
+      image: `${APP_CONFIG().APP_HOST}:${APP_CONFIG().APP_PROT}${APP_CONFIG().UPLOAD_IMAGE_PREFIX
+        }${file.filename}`,
       content: req.body.content,
       id: req.body.id,
     };
