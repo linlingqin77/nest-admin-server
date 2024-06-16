@@ -21,21 +21,21 @@ export class UserService {
     private readonly departmentRepository: Repository<Department>,
     @InjectRepository(Position)
     private readonly positionRepository: Repository<Position>,
-  ) {}
+  ) { }
   async create(createUserDto: CreateUserDto) {
     const { username, password, roles_id, department_id } = createUserDto;
     //查询数组roleIds对应所有role的实例
     const roles = roles_id
       ? await this.roleRepository.find({
-          where: {
-            id: In(roles_id),
-          },
-        })
+        where: {
+          id: In(roles_id),
+        },
+      })
       : null;
     const department = department_id
       ? await this.departmentRepository.findOneBy({
-          id: +department_id,
-        })
+        id: +department_id,
+      })
       : null;
 
     return this.userRepository.save({

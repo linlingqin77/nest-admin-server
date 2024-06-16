@@ -46,7 +46,7 @@ export class Role {
   @CreateDateColumn({
     transformer: {
       to: (value) => value,
-      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+      from: (value) => new Date(value).toLocaleString().replace(/\//g, '-'),
     },
   })
   create_time: Date;
@@ -54,7 +54,7 @@ export class Role {
   @UpdateDateColumn({
     transformer: {
       to: (value) => value,
-      from: (value) => value.toLocaleString().replace(/\//g, '-'),
+      from: (value) => new Date(value).toLocaleString().replace(/\//g, '-'),
     },
   })
   update_time: Date;

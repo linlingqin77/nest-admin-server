@@ -38,6 +38,7 @@ export class User {
   @Column('varchar', { name: 'username', comment: '用户名称', length: 50 })
   username: string;
 
+
   @Column('varchar', {
     comment: '用户昵称',
     nullable: true,
@@ -105,7 +106,6 @@ export class User {
     },
   })
   create_time: Date;
-
   @UpdateDateColumn({
     transformer: {
       to: (value) => value,
