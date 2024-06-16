@@ -9,7 +9,7 @@ export class CreateMenuDto {
   type: string;
   icon: string;
   component: string;
-  @IsNotEmpty({ message: 'router_path is required' })
+  // @IsNotEmpty({ message: 'router_path is required' })
   router_path: string;
   router_params: string;
   create_by: string;

@@ -11,6 +11,7 @@ import { Position } from '../position/entities/position.entity';
 import { HttpException, HttpStatus } from '@nestjs/common';
 import { comparePassword } from 'src/utils/bcrypt';
 import * as loadsh from 'lodash';
+import { ResultData } from 'src/utils/result';
 @Injectable()
 export class UserService {
   constructor(
@@ -37,66 +38,60 @@ export class UserService {
         id: +department_id,
       })
       : null;
-
-    return this.userRepository.save({
-      username,
-      password,
-      roles,
-      department,
-    });
+    if (!department) return ResultData.fail(500, '该部门不存在');
+    if (!roles) return ResultData.fail(500, '该角色不存在');
+    const newUser = this.userRepository.create();
+    newUser.roles = roles;
+    newUser.department = department;
+    newUser.password = password;
+    newUser.username = username;
+    const data = this.userRepository.save(newUser);
+    return ResultData.ok(data, '注册成功');
   }
 
-  // 查询用户列表
-  async findMany({
-    username,
-    phone,
-    status,
-    start_time,
-    end_time,
-    page = 1,
-    pageSize = 10,
-  }) {
+  // 查询列表分页
+  /***
+   * @param: all 1:查询所有 0:查询分页 为0
+   */
+  async findMany(parmas) {
     const QueryBuilder = this.userRepository.createQueryBuilder('user');
-    QueryBuilder.leftJoinAndSelect('user.department', 'department')
-      .leftJoinAndSelect('user.roles', 'roles')
-      // .leftJoinAndSelect('user.roles', 'roles')
-      .skip((page - 1) * pageSize)
-      .take(pageSize);
-
-    if (username) {
+    const {
+      username,
+      phone,
+      status,
+      start_time,
+      end_time,
+      all = 0,
+      page = 1,
+      pageSize = 10,
+    } = parmas;
+    QueryBuilder.leftJoinAndSelect('user.department', 'department');
+    if (username)
       QueryBuilder.andWhere('user.username LIKE :username', {
         username: `%${username}%`,
       });
-    }
-    if (phone) {
-      QueryBuilder.andWhere('user.phone =:phone', { phone });
-    }
-    if (status) {
-      QueryBuilder.andWhere('user.status =:status', { status });
-    }
-    if (start_time && end_time) {
+    if (phone) QueryBuilder.andWhere('user.phone =:phone', { phone });
+    if (status) QueryBuilder.andWhere('user.status =:status', { status });
+    if (start_time && end_time)
       QueryBuilder.andWhere(
         'user.create_time BETWEEN :start_time AND :end_time',
         { start_time, end_time },
       );
-    }
+    // QueryBuilder.addOrderBy('user.order', 'ASC');
+    const [list, total] = all
+      ? await QueryBuilder.getManyAndCount()
+      : await QueryBuilder.skip((page - 1) * pageSize)
+          .take(pageSize)
+          .getManyAndCount();
 
-    const res = await QueryBuilder.getMany();
-    const list = res.map(({ department, ...params }) => {
-      return {
-        ...params,
-        department_name: department ? department.name : '',
-        department_id: department ? department.id : '',
-        // roles_name: roles ? roles.id : '',
-        // rolesIds: roles ? roles.id : '',
-      };
+    list.forEach((item) => {
+      item['department_id'] = item?.department?.id || null;
+      item['department_name'] = item?.department?.name || null;
+      delete item.department;
     });
-    return {
-      list: list,
-      total: await QueryBuilder.getCount(),
-      page,
-      pageSize,
-    };
+
+    const data = all ? { list, total } : { list, total, page, pageSize };
+    return ResultData.ok(data, '查询成功');
   }
 
   // 通过id查询用户
@@ -182,7 +177,8 @@ export class UserService {
     if (params.status) hasUser.status = params.status;
     if (params.notes) hasUser.notes = params.notes;
 
-    return await this.userRepository.save(hasUser);
+    const data = await this.userRepository.save(hasUser);
+    return ResultData.ok(data, '修改成功');
   }
 
   // 获取路由
