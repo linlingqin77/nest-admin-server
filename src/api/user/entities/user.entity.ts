@@ -99,6 +99,9 @@ export class User {
   })
   is_subscribe: string;
 
+
+
+
   @CreateDateColumn({
     transformer: {
       to: (value) => value,

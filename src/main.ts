@@ -21,8 +21,11 @@ async function bootstrap() {
     key: fs.readFileSync(join(__dirname, '../ssl/privkey.key')),
     cert: fs.readFileSync(join(__dirname, '../ssl/fullchain.pem')),
   };
+  // const app = await NestFactory.create<NestExpressApplication>(AppModule, {
+  //   cors: true, httpsOptions
+  // });
   const app = await NestFactory.create<NestExpressApplication>(AppModule, {
-    cors: true, httpsOptions
+    cors: true
   });
   app.useStaticAssets('public', {
     prefix: APP_CONFIG().UPLOAD_PREFIX,

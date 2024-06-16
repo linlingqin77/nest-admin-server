@@ -24,7 +24,7 @@ export class UserService {
     private readonly positionRepository: Repository<Position>,
   ) { }
   async create(createUserDto: CreateUserDto) {
-    const { username, password, roles_id, department_id } = createUserDto;
+    const { username, password, roles_id, department_id, position_id, nickname, email, status = '0', notes } = createUserDto;
     //查询数组roleIds对应所有role的实例
     const roles = roles_id
       ? await this.roleRepository.find({
@@ -38,13 +38,24 @@ export class UserService {
         id: +department_id,
       })
       : null;
-    if (!department) return ResultData.fail(500, '该部门不存在');
-    if (!roles) return ResultData.fail(500, '该角色不存在');
+    const position = position_id ? await this.positionRepository.findOneBy({
+      id: +position_id,
+    }) : null
+
+    if (!department) return ResultData.fail(400, '该部门不存在');
+    if (!roles) return ResultData.fail(400, '该角色不存在');
+    if (!position) return ResultData.fail(400, '该岗位不存在');
     const newUser = this.userRepository.create();
     newUser.roles = roles;
     newUser.department = department;
+    newUser.position = position;
     newUser.password = password;
     newUser.username = username;
+
+    newUser.nickname = nickname;
+    newUser.email = email;
+    newUser.status = status;
+    newUser.notes = notes;
     const data = this.userRepository.save(newUser);
     return ResultData.ok(data, '注册成功');
   }
@@ -81,8 +92,8 @@ export class UserService {
     const [list, total] = all
       ? await QueryBuilder.getManyAndCount()
       : await QueryBuilder.skip((page - 1) * pageSize)
-          .take(pageSize)
-          .getManyAndCount();
+        .take(pageSize)
+        .getManyAndCount();
 
     list.forEach((item) => {
       item['department_id'] = item?.department?.id || null;
