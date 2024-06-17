@@ -39,10 +39,10 @@ import { WechatModule } from './api/wechat/wechat.module';
       retryAttempts: 10, //重试连接数据库的次数
       autoLoadEntities: true, //如果为true,将自动加载实体 forFeature()方法注册的每个实体都将自动添加到配置对象的实体数组中
     }),
-    // AuthModule,
-    // UserModule,
-    // RedisCacheModule,
-    // PermissionModule,
+    AuthModule,
+    UserModule,
+    RedisCacheModule,
+    PermissionModule,
     RoleModule,
     MenuModule,
     DepartmentModule,
@@ -53,16 +53,16 @@ import { WechatModule } from './api/wechat/wechat.module';
   controllers: [AppController],
   providers: [
     AppService,
-    // {
-    //   provide: APP_GUARD,
-    //   useClass: LoginGuard,
-    // },
-    // {
-    //   provide: APP_GUARD,
-    //   useClass: PermissionGuard,
-    // },
-    // JwtService,
-    // RedisCacheService,
+    {
+      provide: APP_GUARD,
+      useClass: LoginGuard,
+    },
+    {
+      provide: APP_GUARD,
+      useClass: PermissionGuard,
+    },
+    JwtService,
+    RedisCacheService,
   ],
 })
 // export class AppModule {}
