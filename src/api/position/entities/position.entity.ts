@@ -5,6 +5,7 @@ import {
   PrimaryGeneratedColumn,
   CreateDateColumn,
   UpdateDateColumn,
+  ManyToMany,
 } from 'typeorm';
 import { User } from '../../user/entities/user.entity';
 @Entity('t_position')
@@ -39,7 +40,7 @@ export class Position {
   })
   remark: string;
 
-  @OneToMany(() => User, (user) => user.position)
+  @ManyToMany(() => User, (user) => user.position)
   users: User[];
 
   @CreateDateColumn({

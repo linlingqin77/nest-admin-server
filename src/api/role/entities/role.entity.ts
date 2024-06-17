@@ -31,6 +31,12 @@ export class Role {
   })
   status: string;
 
+  @Column({
+    comment: '备注',
+    nullable: true,
+  })
+  notes: string;
+
   @ManyToMany(() => Permission)
   @JoinTable({
     name: 'role_permission_relation',

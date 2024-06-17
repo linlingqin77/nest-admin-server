@@ -22,12 +22,12 @@ export class CreateUserDto {
   website: string;
   status: string;
   is_subscribe: string;
-  position_id: string;
+  position_ids: number[];
+  role_ids: number[];
   department_id: string;
   remarks: string;
   sex: string;
   // @IsNotEmpty({
   //   message: 'roleIds is not empty',
   // })
-  roles_id: number[];
 }

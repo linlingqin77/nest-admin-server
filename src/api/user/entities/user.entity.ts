@@ -38,7 +38,6 @@ export class User {
   @Column('varchar', { name: 'username', comment: '用户名称', length: 50 })
   username: string;
 
-
   @Column('varchar', {
     comment: '用户昵称',
     nullable: true,
@@ -125,6 +124,9 @@ export class User {
   @JoinColumn({ name: 'department_id' })
   department: Department;
 
-  @ManyToOne(() => Position, (Position) => Position.users)
-  position: Position;
+  @ManyToMany(() => Position)
+  @JoinTable({
+    name: 'user_position_relation',
+  })
+  position: Position[];
 }

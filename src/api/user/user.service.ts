@@ -12,6 +12,7 @@ import { HttpException, HttpStatus } from '@nestjs/common';
 import { comparePassword } from 'src/utils/bcrypt';
 import * as loadsh from 'lodash';
 import { ResultData } from 'src/utils/result';
+import { encryptPassword } from 'src/utils/bcrypt';
 @Injectable()
 export class UserService {
   constructor(
@@ -22,29 +23,51 @@ export class UserService {
     private readonly departmentRepository: Repository<Department>,
     @InjectRepository(Position)
     private readonly positionRepository: Repository<Position>,
-  ) { }
+  ) {}
   async create(createUserDto: CreateUserDto) {
-    const { username, password, roles_id, department_id } = createUserDto;
+    const {
+      username,
+      password,
+      role_ids,
+      department_id,
+      position_ids,
+      email,
+      phone,
+      notes,
+      nickname,
+    } = createUserDto;
     //查询数组roleIds对应所有role的实例
-    const roles = roles_id
+    const roles = role_ids
       ? await this.roleRepository.find({
-        where: {
-          id: In(roles_id),
-        },
-      })
+          where: {
+            id: In(role_ids),
+          },
+        })
       : null;
     const department = department_id
       ? await this.departmentRepository.findOneBy({
-        id: +department_id,
-      })
+          id: +department_id,
+        })
       : null;
+    const position = position_ids
+      ? await this.positionRepository.find({
+          where: { id: In(position_ids) },
+        })
+      : null;
+
     if (!department) return ResultData.fail(500, '该部门不存在');
     if (!roles) return ResultData.fail(500, '该角色不存在');
+    if (!position) return ResultData.fail(500, '该岗位不存在');
     const newUser = this.userRepository.create();
     newUser.roles = roles;
     newUser.department = department;
-    newUser.password = password;
+    newUser.position = position;
+    newUser.password = encryptPassword(password);
     newUser.username = username;
+    newUser.nickname = nickname;
+    newUser.email = email;
+    newUser.phone = phone;
+    newUser.notes = notes;
     const data = this.userRepository.save(newUser);
     return ResultData.ok(data, '注册成功');
   }
@@ -61,23 +84,31 @@ export class UserService {
       status,
       start_time,
       end_time,
+      department_id,
       all = 0,
       page = 1,
       pageSize = 10,
     } = parmas;
-    QueryBuilder.leftJoinAndSelect('user.department', 'department');
+    QueryBuilder.leftJoinAndSelect('user.department', 'department')
+      .leftJoinAndSelect('user.roles', 'roles')
+      .leftJoinAndSelect('user.position', 'position');
     if (username)
       QueryBuilder.andWhere('user.username LIKE :username', {
         username: `%${username}%`,
       });
     if (phone) QueryBuilder.andWhere('user.phone =:phone', { phone });
     if (status) QueryBuilder.andWhere('user.status =:status', { status });
+    if (department_id) {
+      QueryBuilder.andWhere('user.department =:department', {
+        department: department_id,
+      });
+    }
+
     if (start_time && end_time)
       QueryBuilder.andWhere(
         'user.create_time BETWEEN :start_time AND :end_time',
         { start_time, end_time },
       );
-    // QueryBuilder.addOrderBy('user.order', 'ASC');
     const [list, total] = all
       ? await QueryBuilder.getManyAndCount()
       : await QueryBuilder.skip((page - 1) * pageSize)
@@ -85,9 +116,9 @@ export class UserService {
           .getManyAndCount();
 
     list.forEach((item) => {
-      item['department_id'] = item?.department?.id || null;
-      item['department_name'] = item?.department?.name || null;
-      delete item.department;
+      item['department_id'] = item?.department?.id;
+      item['role_ids'] = item?.roles?.map((item) => item.id);
+      item['position_ids'] = item?.position?.map((item) => item.id);
     });
 
     const data = all ? { list, total } : { list, total, page, pageSize };
@@ -161,14 +192,15 @@ export class UserService {
         id: +params.department_id,
       });
     }
-    if (params.roles_id) {
+    if (params.role_ids) {
       hasUser.roles = await this.roleRepository.find({
-        where: { id: In(params.roles_id) },
+        where: { id: In(params.role_ids) },
       });
+      console.log(hasUser.roles, 'hasUser.roleshasUser.roleshasUser.roles');
     }
-    if (params.position_id) {
-      hasUser.position = await this.positionRepository.findOneBy({
-        id: +params.position_id,
+    if (params.position_ids) {
+      hasUser.position = await this.positionRepository.find({
+        where: { id: In(params.position_ids) },
       });
     }
     if (params.phone) hasUser.phone = params.phone;

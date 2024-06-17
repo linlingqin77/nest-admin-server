@@ -60,8 +60,11 @@ export class PositionService {
     return ResultData.ok(data, '更新成功');
   }
 
-  async remove(id: number) {
+  async remove(id: number[]) {
     const data = this.positionRespository.delete(id);
+    if (Array.isArray(id)) {
+      return ResultData.ok(data, '批量删除成功');
+    }
     return ResultData.ok(data, '删除成功');
   }
 }

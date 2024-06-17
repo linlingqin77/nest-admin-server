@@ -45,6 +45,7 @@ export class RoleService {
    */
   async findList(parmas: SearchRoleDto) {
     const QueryBuilder = this.roleRepository.createQueryBuilder('role');
+    QueryBuilder.leftJoinAndSelect('role.menus', 'menus');
     const {
       name,
       code,
@@ -65,11 +66,14 @@ export class RoleService {
         { start_time, end_time },
       );
     QueryBuilder.addOrderBy('role.order', 'ASC');
-    const [list, total] = all
+    let [list, total] = all
       ? await QueryBuilder.getManyAndCount()
       : await QueryBuilder.skip((page - 1) * pageSize)
           .take(pageSize)
           .getManyAndCount();
+    list.forEach((item) => {
+      item['menus_ids'] = item?.menus?.map((item) => item.id);
+    });
     const data = all ? { list, total } : { list, total, page, pageSize };
     return ResultData.ok(data, '查询成功');
   }

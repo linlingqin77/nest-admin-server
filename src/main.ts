@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
 import { AppModule } from './app.module';
-import * as https from "https";
+import * as https from 'https';
 import * as express from 'express';
 // import { ValidationPipe } from '@nestjs/common';
 import { ValidationPipe } from './core/pipe/custom-pipe.pipe';
@@ -21,8 +21,11 @@ async function bootstrap() {
     key: fs.readFileSync(join(__dirname, '../ssl/privkey.key')),
     cert: fs.readFileSync(join(__dirname, '../ssl/fullchain.pem')),
   };
+  // const app = await NestFactory.create<NestExpressApplication>(AppModule, {
+  //   cors: true, httpsOptions
+  // });
   const app = await NestFactory.create<NestExpressApplication>(AppModule, {
-    cors: true, httpsOptions
+    cors: true,
   });
   app.useStaticAssets('public', {
     prefix: APP_CONFIG().UPLOAD_PREFIX,
@@ -43,6 +46,6 @@ async function bootstrap() {
   // app.useGlobalInterceptors(new HttpReqTransformInterceptor());
   app.useGlobalFilters(new AllExceptionsFilter());
   app.useGlobalFilters(new HttpExceptionFilter());
-  await app.listen(APP_CONFIG().APP_PROT)
+  await app.listen(APP_CONFIG().APP_PROT);
 }
 bootstrap();

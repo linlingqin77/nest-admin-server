@@ -54,22 +54,6 @@ export class MenuService {
 
   // 查询菜单树
   async findMenuTree(parmas) {
-    // const QueryBuilder = this.menuRepository.createQueryBuilder('menus');
-    // if (name) {
-    //   QueryBuilder.where('menus.name LIKE :name', { name: `%${name}%` });
-    // }
-    // if (status) {
-    //   QueryBuilder.andWhere('menus.status = :status', { status });
-    // }
-    // const menusList = await QueryBuilder.skip((page - 1) * pageSize)
-    //   .take(pageSize)
-    //   .addOrderBy('menus.order', 'ASC')
-    //   .getMany();
-    // return {
-    //   list: handleTree(menusList, 0, 'parent_id'),
-    //   total: await QueryBuilder.getCount(),
-    // };
-
     const QueryBuilder = this.menuRepository.createQueryBuilder('menus');
     const { name, status, all = 0, page = 1, pageSize = 10 } = parmas;
     if (name)

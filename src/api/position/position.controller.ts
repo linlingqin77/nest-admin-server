@@ -36,8 +36,8 @@ export class PositionController {
     return this.positionService.update(updatePositionDto);
   }
 
-  @Get('delete/:id')
-  remove(@Param('id') id: string) {
-    return this.positionService.remove(+id);
+  @Get('delete')
+  remove(@Query('id') id: number[]) {
+    return this.positionService.remove(id);
   }
 }
