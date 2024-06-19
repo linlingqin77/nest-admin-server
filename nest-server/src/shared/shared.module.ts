@@ -32,13 +32,22 @@ import { ConfigModule } from '@nestjs/config';
 
     /* 连接redis */
     RedisModule.forRootAsync({
-      useFactory: (configService: ConfigService) =>
-        configService.get<any>('redis'),
-      inject: [ConfigService],
+      useFactory: (configService: ConfigService) => {
+        return {
+          config: {
+            host: configService.get<string>('redis.host'),
+            port: configService.get<number>('redis.port'),
+            password: configService.get<string>('redis.password'),
+            db: configService.get<number>('redis.db'),
+          },
+        };
+      },
+
+      inject: [ConfigService]
     }),
   ],
   controllers: [],
   providers: [SharedService],
   exports: [SharedService],
 })
-export class SharedModule {}
+export class SharedModule { }

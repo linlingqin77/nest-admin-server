@@ -54,9 +54,10 @@ export interface IConfig {
    * redis 配置
    */
   redis?: {
-    config: {
-      url: string;
-    };
+    host: string;
+    port: string;
+    password: string;
+    db: string
   };
 
   /* 队列配置 */
