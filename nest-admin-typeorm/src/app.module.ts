@@ -1,3 +1,4 @@
+import { SharedModule } from './../../nest-server/src/shared/shared.module';
 import { Module, NestModule, MiddlewareConsumer } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -22,6 +23,7 @@ import { ConfigModule } from '@nestjs/config';
 import { WechatModule } from './api/wechat/wechat.module';
 @Module({
   imports: [
+    SharedModule,
     ConfigModule.forRoot({
       isGlobal: true,
       load: [APP_CONFIG],
