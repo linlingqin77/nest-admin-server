@@ -8,18 +8,25 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as ReqUserDto from './dto/req-user.dto';
 import { User } from './entities/user.entity';
-
+import { SharedService } from 'src/shared/shared.service';
+import { ReqAddUserDto } from './dto/req-user.dto';
 @Injectable()
 export class UserService {
   constructor(
     @InjectRepository(User) private readonly userRepository: Repository<User>,
     @InjectRedis() private readonly redis: Redis,
+    private readonly sharedService: SharedService,
   ) {}
 
-  /** 新增用户*/
-  create(user: ReqUserDto.CreateUserDto) {
-    const newUser = this.userRepository.create(user);
-    return this.userRepository.save(newUser);
+  /* 新增用户 */
+  async addUser(reqAddUserDto: ReqAddUserDto) {
+    if (reqAddUserDto.password) {
+      reqAddUserDto.salt = this.sharedService.generateUUID();
+      reqAddUserDto.password = this.sharedService.md5(
+        reqAddUserDto.password + reqAddUserDto.salt,
+      );
+    }
+    return await this.userRepository.save(reqAddUserDto);
   }
 
   /* 通过用户名获取用户,排除停用和删除的,用于登录 */
@@ -30,8 +37,8 @@ export class UserService {
       .addSelect('user.userName')
       .addSelect('user.password')
       .addSelect('user.salt')
-      .addSelect('user.dept')
-      .leftJoinAndSelect('user.dept', 'dept')
+      // .addSelect('user.dept')
+      // .leftJoinAndSelect('user.dept', 'dept')
       .where({
         userName: username,
         delFlag: '0',

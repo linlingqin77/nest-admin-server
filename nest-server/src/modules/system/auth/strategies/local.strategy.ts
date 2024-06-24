@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { Strategy } from 'passport-local';
-// import { ReqLoginDto } from 'src/modules/login/dto/req-login.dto';
+import { ReqLoginDto } from 'src/modules/main/dto/req-login.dto';
 import { AuthService } from '../auth.service';
+import { ApiException } from 'src/common/exceptions/api.exception';
 
 @Injectable()
 export class LocalStrategy extends PassportStrategy(Strategy) {
@@ -15,9 +16,11 @@ export class LocalStrategy extends PassportStrategy(Strategy) {
   }
 
   async validate(request, username: string, password: string): Promise<any> {
-    // const body: ReqLoginDto = request.body; // 获取请求体
-    // await this.authService.checkImgCaptcha(body.uuid, body.code);
-    // const user = await this.authService.validateUser(username, password);
-    // return user; //返回值会被 守卫的  handleRequest方法 捕获
+    const body: ReqLoginDto = request.body; // 获取请求体
+    await this.authService.checkImgCaptcha(body.uuid, body.code);
+    const user = await this.authService.validateUser(username, password);
+
+    if (!user) throw new ApiException('用户名或密码错误');
+    return user; //返回值会被 守卫的  handleRequest方法 捕获
   }
 }

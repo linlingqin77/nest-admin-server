@@ -47,7 +47,7 @@ export class AllExceptionsFilter implements ExceptionFilter {
     let message: string;
     if (exception instanceof HttpException) {
       const response = exception.getResponse();
-      message = (response as any).message ?? response;
+      message = (response as any)?.message ?? response;
     } else {
       message = `${exception}`;
     }

@@ -5,16 +5,13 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { RedisModule } from '@nestjs-modules/ioredis';
 import configuration from '../config/configuration';
 import { ConfigModule } from '@nestjs/config';
-import { APP_PIPE, APP_FILTER, APP_INTERCEPTOR } from '@nestjs/core';
-// http响应拦截器
-import { HttpReqTransformInterceptor } from 'src/common/interceptor/http-req.interceptor';
-// http异常过滤器
-import { HttpExceptionFilter } from 'src/common/filter/http-exception.filter';
-// 全局异常过滤器
-// import { AllExceptionsFilter } from 'src/common/filter/all-exception.filter';
+import { APP_PIPE, APP_FILTER, APP_INTERCEPTOR, APP_GUARD } from '@nestjs/core';
+import { JwtAuthGuard } from 'src/common/guard/jwt-auth.guard';
 import { AllExceptionsFilter } from 'src/common/filter/all-exception.filter';
 // 日志收集
 import { TransformInterceptor } from 'src/common/interceptor/transform.interceptor';
+// 统一返回体
+import { ReponseTransformInterceptor } from 'src/common/interceptor/reponse-transform.interceptor';
 @Global()
 @Module({
   imports: [
@@ -52,14 +49,17 @@ import { TransformInterceptor } from 'src/common/interceptor/transform.intercept
           },
         };
       },
-
       inject: [ConfigService],
     }),
   ],
   controllers: [],
   providers: [
     SharedService,
-
+    // jwt校验
+    {
+      provide: APP_GUARD,
+      useClass: JwtAuthGuard,
+    },
     //全局异常过滤器
     {
       provide: APP_FILTER,
@@ -78,15 +78,10 @@ import { TransformInterceptor } from 'src/common/interceptor/transform.intercept
         },
       }),
     },
-    // http异常过滤器
-    {
-      provide: APP_FILTER,
-      useClass: HttpExceptionFilter,
-    },
-    // http响应拦截器
+    // 统一返回体
     {
       provide: APP_INTERCEPTOR,
-      useClass: HttpReqTransformInterceptor,
+      useClass: ReponseTransformInterceptor,
     },
     // 日志收集
     {

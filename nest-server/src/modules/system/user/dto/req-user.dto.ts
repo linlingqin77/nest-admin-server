@@ -62,3 +62,22 @@ export class CreateUserDto {
   @IsNumber()
   postSort?: number;
 }
+
+/**
+ * 添加用户
+ */
+export class ReqAddUserDto {
+  @IsString()
+  @Length(0, 30)
+  nickName: string;
+
+  @IsString()
+  @Length(0, 30)
+  userName: string;
+
+  @IsString()
+  @Length(0, 200)
+  password: string;
+  @IsNotEmpty()
+  salt: string;
+}

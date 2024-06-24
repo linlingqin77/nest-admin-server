@@ -3,7 +3,7 @@ import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { AuthService } from '../auth.service';
 import { jwtConstants } from '../auth.constants';
-import { Payload } from 'src/modules/login/login.interface';
+import { Payload } from 'src/modules/main/mian.interface';
 
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy) {
@@ -17,9 +17,9 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
   }
 
   async validate(request: Request, payload: Payload) {
-    // const { userId, pv } = payload;
-    // const token = (request.headers as any).authorization.slice(7);
-    // await this.authService.validateToken(userId, pv, token);
-    // return { userId }; //返回值会被 守卫的  handleRequest方法 捕获
+    const { userId, pv } = payload;
+    const token = (request.headers as any).authorization.slice(7);
+    await this.authService.validateToken(userId, pv, token);
+    return { userId }; //返回值会被 守卫的  handleRequest方法 捕获
   }
 }

@@ -24,8 +24,8 @@ export class LoginGuard implements CanActivate {
     const request = context.switchToHttp().getRequest();
 
     const requireLogin = this.Reflector.getAllAndOverride('require-login', [
-      context.getClass(),
       context.getHandler(),
+      context.getClass(),
     ]);
 
     // 如果目标 handler 或者 controller 不包含 require-login 的 metadata，那就放行，否则才检查 jwt。
