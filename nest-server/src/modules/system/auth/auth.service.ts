@@ -33,7 +33,7 @@ export class AuthService {
     if (!user) throw new ApiException('用户名或密码错误');
     const comparePassword = this.sharedService.md5(password + user.salt);
     if (comparePassword !== user.password)
-      throw new ApiException('用户名或密码错误');
+      throw new ApiException('密码错误');
 
     return user;
   }

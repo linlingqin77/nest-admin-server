@@ -1,11 +1,19 @@
-import { IsNotEmpty } from 'class-validator';
+import { IsString } from 'class-validator';
 
-export class CreateLoginDto {}
 export class ReqLoginDto {
-  @IsNotEmpty({ message: '用户名不能为空' })
-  username: string;
-  @IsNotEmpty({ message: '密码不能为空' })
-  password: string;
+  /* uuid码 */
+  @IsString()
   uuid: string;
+
+  /* 验证码code */
+  @IsString()
   code: string;
+
+  /* 用户名 */
+  @IsString()
+  username: string;
+
+  /* 密码 */
+  @IsString()
+  password: string;
 }

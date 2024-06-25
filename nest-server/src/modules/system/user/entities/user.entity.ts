@@ -1,7 +1,9 @@
 import { ApiHideProperty } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 import { IsNumber, IsOptional, IsString } from 'class-validator';
-import { BaseEntity } from 'typeorm';
+import { BaseEntity } from 'src/common/entities/base.entity';
+import { Excel } from 'src/modules/common/excel/excel.decorator';
+import { ExcelTypeEnum } from 'src/modules/common/excel/excel.enum';
 import {
   Column,
   Entity,
@@ -10,9 +12,9 @@ import {
   ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-// import { Dept } from '../../dept/entities/dept.entity';
-// import { Post } from '../../post/entities/post.entity';
-// import { Role } from '../../role/entities/role.entity';
+import { Dept } from '../../dept/entities/dept.entity';
+import { Post } from '../../post/entities/post.entity';
+import { Role } from '../../role/entities/role.entity';
 
 @Entity()
 export class User extends BaseEntity {
@@ -23,6 +25,10 @@ export class User extends BaseEntity {
   })
   @Type()
   @IsNumber()
+  @Excel({
+    name: '用户Id',
+    type: ExcelTypeEnum.EXPORT,
+  })
   userId: number;
 
   /* 用户账号 */
@@ -32,6 +38,9 @@ export class User extends BaseEntity {
     length: 30,
   })
   @IsString()
+  @Excel({
+    name: '用户账号',
+  })
   userName: string;
 
   /* 用户昵称 */
@@ -41,6 +50,9 @@ export class User extends BaseEntity {
     length: 30,
   })
   @IsString()
+  @Excel({
+    name: '用户昵称',
+  })
   nickName: string;
 
   /* 用户类型 */
@@ -72,6 +84,9 @@ export class User extends BaseEntity {
   })
   @IsOptional()
   @IsString()
+  @Excel({
+    name: '手机号码',
+  })
   phonenumber?: string;
 
   @Column({
@@ -101,6 +116,10 @@ export class User extends BaseEntity {
     default: '',
     select: false,
   })
+  @Excel({
+    type: ExcelTypeEnum.IMPORT,
+    name: '密码',
+  })
   @IsString()
   password: string;
 
@@ -122,6 +141,10 @@ export class User extends BaseEntity {
   })
   @IsString()
   @IsString()
+  @Excel({
+    name: '帐号状态',
+    dictType: 'sys_normal_disable',
+  })
   status: string;
 
   @ApiHideProperty()
@@ -155,17 +178,17 @@ export class User extends BaseEntity {
   @IsString()
   loginDate?: Date;
 
-  //   @ApiHideProperty()
-  //   @ManyToOne(() => Dept, (dept) => dept.users)
-  //   dept: Dept;
+  @ApiHideProperty()
+  @ManyToOne(() => Dept, (dept) => dept.users)
+  dept: Dept;
 
-  //   @ApiHideProperty()
-  //   @ManyToMany(() => Post, (post) => post.users)
-  //   @JoinTable()
-  //   posts: Post[];
+  @ApiHideProperty()
+  @ManyToMany(() => Post, (post) => post.users)
+  @JoinTable()
+  posts: Post[];
 
-  //   @ApiHideProperty()
-  //   @ManyToMany(() => Role, (role) => role.users)
-  //   @JoinTable()
-  //   roles: Role[];
+  @ApiHideProperty()
+  @ManyToMany(() => Role, (role) => role.users)
+  @JoinTable()
+  roles: Role[];
 }

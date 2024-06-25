@@ -6,7 +6,7 @@ import { RedisModule } from '@nestjs-modules/ioredis';
 import configuration from '../config/configuration';
 import { ConfigModule } from '@nestjs/config';
 import { APP_PIPE, APP_FILTER, APP_INTERCEPTOR, APP_GUARD } from '@nestjs/core';
-import { JwtAuthGuard } from 'src/common/guard/jwt-auth.guard';
+import { JwtAuthGuard } from 'src/common/guards/jwt-auth.guard';
 import { AllExceptionsFilter } from 'src/common/filter/all-exception.filter';
 // 日志收集
 import { TransformInterceptor } from 'src/common/interceptor/transform.interceptor';

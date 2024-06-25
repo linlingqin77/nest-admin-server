@@ -1,37 +1,75 @@
+/*
+ * @Description: 登录 controller
+ */
+
 import {
+  Body,
   Controller,
   Get,
   Post,
-  Body,
-  Patch,
-  Param,
-  Delete,
   Req,
+  UseGuards,
+  Headers,
 } from '@nestjs/common';
-import { Request } from '@nestjs/common';
-import { LoginService } from './main.service';
-import { ReqLoginDto } from './dto/req-login.dto';
-import { ResLoginDto } from './dto/res-login.dto';
+import { ApiTags } from '@nestjs/swagger';
+import { DataObj } from 'src/common/class/data-obj.class';
+import {
+  ApiDataResponse,
+  typeEnum,
+} from 'src/common/decorators/api-data-response.decorator';
 import { Public } from 'src/common/decorators/public.decorator';
-import { UseGuards } from '@nestjs/common';
-import { LocalAuthGuard } from 'src/common/guard/local-auth.guard';
-import { ResImageCaptchaDto } from './dto/res-login.dto';
-@Controller('login')
+import { User, UserEnum } from 'src/common/decorators/user.decorator';
+import { LocalAuthGuard } from 'src/common/guards/local-auth.guard';
+import { Router } from '../system/menu/dto/res-menu.dto';
+import { ReqLoginDto } from './dto/req-login.dto';
+import { ResImageCaptchaDto, ResLoginDto } from './dto/res-login.dto';
+import { LoginService } from './main.service';
+import { Request } from 'express';
+@ApiTags('登录')
+@Controller()
 export class LoginController {
   constructor(private readonly loginService: LoginService) {}
-
-  /* 用户登录 */
-  @Post()
-  @Public()
-  @UseGuards(LocalAuthGuard)
-  async login(@Body() ReqLoginDto: ReqLoginDto): Promise<ResLoginDto> {
-    return await this.loginService.login(ReqLoginDto);
-  }
 
   /* 获取图片验证码 */
   @Get('captchaImage')
   @Public()
   async captchaImage(): Promise<ResImageCaptchaDto> {
     return await this.loginService.createImageCaptcha();
+  }
+
+  /* 用户登录 */
+  @Post('login')
+  @Public()
+  @UseGuards(LocalAuthGuard)
+  async login(
+    @Body() reqLoginDto: ReqLoginDto,
+    @Req() req: Request,
+  ): Promise<ResLoginDto> {
+    return await this.loginService.login(req);
+  }
+
+  /* 获取用户信息 */
+  @Get('getInfo')
+  async getInfo(@User(UserEnum.userId) userId: number) {
+    return await this.loginService.getInfo(userId);
+  }
+
+  /* 获取用户路由信息 */
+  @Get('getRouters')
+  @ApiDataResponse(typeEnum.objectArr, Router)
+  async getRouters(@User(UserEnum.userId) userId: number) {
+    const router = await this.loginService.getRouterByUser(userId);
+    // return DataObj.create(router);
+    return router;
+  }
+
+  /* 退出登录 */
+  @Public()
+  @Post('logout')
+  async logout(@Headers('Authorization') authorization: string) {
+    if (authorization) {
+      const token = authorization.slice(7);
+      await this.loginService.logout(token);
+    }
   }
 }
