@@ -7,11 +7,19 @@ import configuration from '../config/configuration';
 import { ConfigModule } from '@nestjs/config';
 import { APP_PIPE, APP_FILTER, APP_INTERCEPTOR, APP_GUARD } from '@nestjs/core';
 import { JwtAuthGuard } from 'src/common/guards/jwt-auth.guard';
-import { AllExceptionsFilter } from 'src/common/filter/all-exception.filter';
+import { AllExceptionsFilter } from 'src/common/filters/all-exception.filter';
+import { LogModule } from 'src/modules/monitor/log/log.module';
+import { ThrottlerModule } from '@nestjs/throttler';
+import { RoleAuthGuard } from 'src/common/guards/role-auth.guard';
+import { PermissionAuthGuard } from 'src/common/guards/permission-auth.guard';
+import { RepeatSubmitGuard } from 'src/common/guards/repeat-submit.guard';
+import { DataScopeInterceptor } from 'src/common/interceptor/data-scope.interceptor';
 // 日志收集
 import { TransformInterceptor } from 'src/common/interceptor/transform.interceptor';
 // 统一返回体
 import { ReponseTransformInterceptor } from 'src/common/interceptor/reponse-transform.interceptor';
+// 操作日志拦截器
+import { OperationLogInterceptor } from 'src/common/interceptor/operation-log.interceptor';
 @Global()
 @Module({
   imports: [
@@ -51,6 +59,14 @@ import { ReponseTransformInterceptor } from 'src/common/interceptor/reponse-tran
       },
       inject: [ConfigService],
     }),
+    /* 导入速率限制模块   ttl:单位秒钟， 表示ttl秒内最多只能请求 limit 次， 避免暴力攻击。*/
+    ThrottlerModule.forRoot({
+      ttl: 60,
+      limit: 60,
+    }),
+
+    /* 导入系统日志模块 */
+    LogModule,
   ],
   controllers: [],
   providers: [
@@ -59,6 +75,22 @@ import { ReponseTransformInterceptor } from 'src/common/interceptor/reponse-tran
     {
       provide: APP_GUARD,
       useClass: JwtAuthGuard,
+    },
+    // 角色守卫
+    {
+      provide: APP_GUARD,
+      useClass: RoleAuthGuard,
+    },
+
+    // 权限守卫
+    {
+      provide: APP_GUARD,
+      useClass: PermissionAuthGuard,
+    },
+    //阻止连续提交守卫
+    {
+      provide: APP_GUARD,
+      useClass: RepeatSubmitGuard,
     },
     //全局异常过滤器
     {
@@ -78,15 +110,25 @@ import { ReponseTransformInterceptor } from 'src/common/interceptor/reponse-tran
         },
       }),
     },
-    // 统一返回体
+    /* 操作日志拦截器 。 注：拦截器中的 handle 从下往上执行（ReponseTransformInterceptor ----> OperationLogInterceptor），返回值值依次传递 */
     {
       provide: APP_INTERCEPTOR,
-      useClass: ReponseTransformInterceptor,
+      useClass: OperationLogInterceptor,
     },
     // 日志收集
     {
       provide: APP_INTERCEPTOR,
       useClass: TransformInterceptor,
+    },
+    // 统一返回体
+    {
+      provide: APP_INTERCEPTOR,
+      useClass: ReponseTransformInterceptor,
+    },
+    /* 数据权限拦截器 */
+    {
+      provide: APP_INTERCEPTOR,
+      useClass: DataScopeInterceptor,
     },
   ],
   exports: [SharedService],

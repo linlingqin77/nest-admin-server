@@ -13,11 +13,6 @@ import {
   Query,
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { DataObj } from 'src/common/class/data-obj.class';
-import {
-  ApiDataResponse,
-  typeEnum,
-} from 'src/common/decorators/api-data-response.decorator';
 import { RepeatSubmit } from 'src/common/decorators/repeat-submit.decorator';
 import { RequiresPermissions } from 'src/common/decorators/requires-permissions.decorator';
 import { User, UserEnum } from 'src/common/decorators/user.decorator';
@@ -51,14 +46,12 @@ export class MenuController {
   /* 菜单列表 */
   @Get('list')
   @RequiresPermissions('system:menu:query')
-  @ApiDataResponse(typeEnum.objectArr, ReqAddMenuDto)
   async list(@Query() reqMenuListDto: ReqMenuListDto) {
     return await this.menuService.list(reqMenuListDto);
   }
 
   /* 查询菜单树结构 */
   @Get('treeselect')
-  @ApiDataResponse(typeEnum.objectArr, TreeDataDto)
   async treeselect() {
     return await this.menuService.treeselect();
   }
@@ -66,14 +59,12 @@ export class MenuController {
   /* 通过id查询列表 */
   @Get(':menuId')
   @RequiresPermissions('system:menu:query')
-  @ApiDataResponse(typeEnum.object, ReqAddMenuDto)
   async one(@Param('menuId') menuId: number) {
     return await this.menuService.findRawById(menuId);
   }
 
   /* 查询除自己(包括子类)外菜单列表 */
   @Get('list/exclude/:menuId')
-  @ApiDataResponse(typeEnum.objectArr, ReqAddMenuDto)
   async outList(@Param('menuId') menuId: number) {
     return await this.menuService.outList(menuId);
   }
@@ -102,7 +93,6 @@ export class MenuController {
 
   /* 通过角色Id查询该角色的菜单权限 */
   @Get('roleMenuTreeselect/:roleId')
-  @ApiDataResponse(typeEnum.object, ResRoleMenuTreeselectDto)
   async roleMenuTreeselect(
     @Param('roleId') roleId: number,
   ): Promise<ResRoleMenuTreeselectDto> {

@@ -14,7 +14,6 @@ import {
   StreamableFile,
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { ApiPaginatedResponse } from 'src/common/decorators/api-paginated-response.decorator';
 import { User, UserEnum } from 'src/common/decorators/user.decorator';
 import { ApiException } from 'src/common/exceptions/api.exception';
 import { PaginationPipe } from 'src/common/pipes/pagination.pipe';
@@ -22,11 +21,6 @@ import { UserInfoPipe } from 'src/common/pipes/user-info.pipe';
 import { ReqAddPostDto, ReqPostListDto } from './dto/req-post.dto';
 import { PostService } from './post.service';
 import { Post as SysPost } from './entities/post.entity';
-import {
-  ApiDataResponse,
-  typeEnum,
-} from 'src/common/decorators/api-data-response.decorator';
-import { DataObj } from 'src/common/class/data-obj.class';
 import { Keep } from 'src/common/decorators/keep.decorator';
 import { ExcelService } from 'src/modules/common/excel/excel.service';
 import { BusinessTypeEnum, Log } from 'src/common/decorators/log.decorator';
@@ -62,7 +56,6 @@ export class PostController {
   /* 分页查询岗位列表 */
   @Get('list')
   @RequiresPermissions('system:post:query')
-  @ApiPaginatedResponse(SysPost)
   async list(@Query(PaginationPipe) reqPostListDto: ReqPostListDto) {
     return this.postService.list(reqPostListDto);
   }
@@ -70,7 +63,6 @@ export class PostController {
   /* 通过id查询岗位 */
   @Get(':postId')
   @RequiresPermissions('system:post:query')
-  @ApiDataResponse(typeEnum.object, SysPost)
   async one(@Param('postId') postId: number) {
     return await this.postService.findById(postId);
   }

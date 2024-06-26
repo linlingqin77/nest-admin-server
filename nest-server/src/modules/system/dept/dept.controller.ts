@@ -13,11 +13,6 @@ import {
   Query,
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { DataObj } from 'src/common/class/data-obj.class';
-import {
-  ApiDataResponse,
-  typeEnum,
-} from 'src/common/decorators/api-data-response.decorator';
 import { DataScopeSql } from 'src/common/decorators/data-scope-sql.decorator';
 import { BusinessTypeEnum, Log } from 'src/common/decorators/log.decorator';
 import { RepeatSubmit } from 'src/common/decorators/repeat-submit.decorator';
@@ -27,6 +22,7 @@ import { TreeDataDto } from 'src/common/dto/tree-data.dto';
 import { ApiException } from 'src/common/exceptions/api.exception';
 import { UserInfoPipe } from 'src/common/pipes/user-info.pipe';
 import { DeptService } from './dept.service';
+import { DataScope } from 'src/common/decorators/datascope.decorator';
 import {
   ReqAddDeptDto,
   ReqDeptListDto,
@@ -58,29 +54,28 @@ export class DeptController {
   /* 部门列表 */
   @Get('list')
   @RequiresPermissions('system:dept:query')
-  @ApiDataResponse(typeEnum.objectArr, ReqAddDeptDto)
   async list(@Query() reqDeptListDto: ReqDeptListDto) {
     return await this.deptService.list(reqDeptListDto);
   }
 
   /* 获取部门树结构 */
   @Get('treeselect')
-  @ApiDataResponse(typeEnum.objectArr, TreeDataDto)
+  @DataScope()
   async treeselect(@DataScopeSql() dataScopeSql: string) {
+    console.log(dataScopeSql, 'dataScopeSqldataScopeSqldataScopeSql');
+
     return await this.deptService.treeselectByOrg(dataScopeSql);
   }
 
   /* 通过id查询部门 */
   @Get(':deptId')
   @RequiresPermissions('system:dept:query')
-  @ApiDataResponse(typeEnum.object, ReqAddDeptDto)
   async one(@Param('deptId') deptId: number) {
     return await this.deptService.findRawById(deptId);
   }
 
   /* 查询除自己(包括子类)外部门列表 */
   @Get('list/exclude/:deptId')
-  @ApiDataResponse(typeEnum.objectArr, ReqAddDeptDto)
   async outList(@Param('deptId') deptId: number) {
     return await this.deptService.outList(deptId);
   }
@@ -120,7 +115,6 @@ export class DeptController {
 
   /* 通过角色Id查询该角色的数据权限 */
   @Get('roleDeptTreeselect/:roleId')
-  @ApiDataResponse(typeEnum.object, ResRoleDeptTreeselectDto)
   async roleDeptTreeselect(
     @Param('roleId') roleId: number,
   ): Promise<ResRoleDeptTreeselectDto> {

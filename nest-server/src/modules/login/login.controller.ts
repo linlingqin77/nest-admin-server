@@ -12,18 +12,13 @@ import {
   Headers,
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { DataObj } from 'src/common/class/data-obj.class';
-import {
-  ApiDataResponse,
-  typeEnum,
-} from 'src/common/decorators/api-data-response.decorator';
 import { Public } from 'src/common/decorators/public.decorator';
 import { User, UserEnum } from 'src/common/decorators/user.decorator';
 import { LocalAuthGuard } from 'src/common/guards/local-auth.guard';
 import { Router } from '../system/menu/dto/res-menu.dto';
 import { ReqLoginDto } from './dto/req-login.dto';
 import { ResImageCaptchaDto, ResLoginDto } from './dto/res-login.dto';
-import { LoginService } from './main.service';
+import { LoginService } from './login.service';
 import { Request } from 'express';
 @ApiTags('登录')
 @Controller()
@@ -56,7 +51,6 @@ export class LoginController {
 
   /* 获取用户路由信息 */
   @Get('getRouters')
-  @ApiDataResponse(typeEnum.objectArr, Router)
   async getRouters(@User(UserEnum.userId) userId: number) {
     const router = await this.loginService.getRouterByUser(userId);
     // return DataObj.create(router);

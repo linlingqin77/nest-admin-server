@@ -1,4 +1,3 @@
-import { ApiHideProperty } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 import { IsNumber, IsOptional, IsString } from 'class-validator';
 import { BaseEntity } from 'src/common/entities/base.entity';
@@ -91,7 +90,6 @@ export class Dept extends BaseEntity {
   @IsString()
   status: string;
 
-  @ApiHideProperty()
   @Column({
     name: 'del_flag',
     comment: '删除标志（0代表存在 2代表删除）',
@@ -101,19 +99,15 @@ export class Dept extends BaseEntity {
   })
   delFlag: string;
 
-  @ApiHideProperty()
   @TreeChildren()
   children: Dept[];
 
-  @ApiHideProperty()
   @TreeParent()
   parent: Dept;
 
-  @ApiHideProperty()
   @ManyToMany(() => Role, (role) => role.depts)
   roles: Role[];
 
-  @ApiHideProperty()
   @OneToMany(() => User, (user) => user.dept)
   users: User[];
 }

@@ -26,7 +26,7 @@ import { ResInfo } from './dto/res-login.dto';
 import { Request } from 'express';
 import { LogService } from '../monitor/log/log.service';
 import { ConfigService } from '@nestjs/config';
-import { Payload } from './mian.interface';
+import { Payload } from './login.interface';
 import * as svgCaptcha from 'svg-captcha';
 
 @Injectable()
@@ -51,8 +51,8 @@ export class LoginService {
       // background: '#cc9966', // 验证码图片背景颜色
       width: 115.5,
       height: 38,
-    });  
-    const svgBuffer=Buffer.from(data).toString('base64');
+    });
+    const svgBuffer = Buffer.from(data).toString('base64');
     const result = {
       img: svgBuffer,
       uuid: this.sharedService.generateUUID(),

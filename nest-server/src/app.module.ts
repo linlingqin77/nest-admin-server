@@ -1,6 +1,6 @@
-// import { SysConfigModule } from './modules/system/sys-config/sys-config.module';
+import { SysConfigModule } from './modules/system/sys-config/sys-config.module';
 import { CommonModule } from './modules/common/common.module';
-import { LoginModule } from './modules/main/main.module';
+import { LoginModule } from './modules/login/login.module';
 import { SharedModule } from './shared/shared.module';
 import { ExistingProvider, Module } from '@nestjs/common';
 import configuration from './config/configuration';
@@ -44,7 +44,7 @@ import { LogModule } from './modules/monitor/log/log.module';
     AuthModule,
     UserModule,
     DictModule,
-    // SysConfigModule,
+    SysConfigModule,
     // NoticeModule,
     PostModule,
     DeptModule,

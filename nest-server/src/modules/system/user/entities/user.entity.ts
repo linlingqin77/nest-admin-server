@@ -123,7 +123,6 @@ export class User extends BaseEntity {
   @IsString()
   password: string;
 
-  @ApiHideProperty()
   @Column({
     comment: '盐加密',
     length: 100,
@@ -147,7 +146,6 @@ export class User extends BaseEntity {
   })
   status: string;
 
-  @ApiHideProperty()
   @Column({
     name: 'del_flag',
     comment: '删除标志（0代表存在 2代表删除）',
@@ -178,16 +176,13 @@ export class User extends BaseEntity {
   @IsString()
   loginDate?: Date;
 
-  @ApiHideProperty()
   @ManyToOne(() => Dept, (dept) => dept.users)
   dept: Dept;
 
-  @ApiHideProperty()
   @ManyToMany(() => Post, (post) => post.users)
   @JoinTable()
   posts: Post[];
 
-  @ApiHideProperty()
   @ManyToMany(() => Role, (role) => role.users)
   @JoinTable()
   roles: Role[];

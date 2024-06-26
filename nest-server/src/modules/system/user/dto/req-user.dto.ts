@@ -124,7 +124,6 @@ export class ReqUpdataSelfDto {
   @IsString()
   sex?: string;
 
-  @ApiHideProperty()
   avatar: string;
 }
 

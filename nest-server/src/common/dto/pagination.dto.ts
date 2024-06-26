@@ -31,9 +31,9 @@ export class PaginationDto {
   public isAsc?: string;
 
   /* mysql忽略条数 */
-  @ApiHideProperty()
+
   public skip: number;
   /* mysql返回条数 */
-  @ApiHideProperty()
+
   public take: number;
 }

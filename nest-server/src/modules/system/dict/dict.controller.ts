@@ -14,12 +14,6 @@ import {
   StreamableFile,
 } from '@nestjs/common';
 import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
-import { DataObj } from 'src/common/class/data-obj.class';
-import {
-  ApiDataResponse,
-  typeEnum,
-} from 'src/common/decorators/api-data-response.decorator';
-import { ApiPaginatedResponse } from 'src/common/decorators/api-paginated-response.decorator';
 import { Keep } from 'src/common/decorators/keep.decorator';
 import { RepeatSubmit } from 'src/common/decorators/repeat-submit.decorator';
 import { RequiresPermissions } from 'src/common/decorators/requires-permissions.decorator';
@@ -64,7 +58,6 @@ export class DictController {
   /* 分页查询字典类型列表 */
   @Get('dict/type/list')
   @RequiresPermissions('system:dict:query')
-  @ApiPaginatedResponse(DictType)
   async typeList(
     @Query(PaginationPipe) reqDictTypeListDto: ReqDictTypeListDto,
   ): Promise<PaginatedDto<DictType>> {
@@ -87,12 +80,8 @@ export class DictController {
   /* 通过 id 查询字典类型 */
   @Get('/dict/type/:typeId')
   @RequiresPermissions('system:dict:query')
-  @ApiDataResponse(typeEnum.object, DictType)
-  async oneDictType(
-    @Param('typeId') typeId: number,
-  ): Promise<DataObj<DictType>> {
-    const dictType = await this.dictService.findDictTypeById(typeId);
-    return DataObj.create(dictType);
+  async oneDictType(@Param('typeId') typeId: number): Promise<DictType> {
+    return await this.dictService.findDictTypeById(typeId);
   }
 
   /* 编辑字典类型 */
@@ -117,7 +106,6 @@ export class DictController {
 
   /* 分页查询字典数据列表 */
   @Get('dict/data/list')
-  @ApiPaginatedResponse(DictData)
   async dictDataList(
     @Query(PaginationPipe) reqDictDataListDto: ReqDictDataListDto,
   ) {
@@ -142,7 +130,6 @@ export class DictController {
 
   /* 通过dictCode获取字典数据 */
   @Get('dict/data/:dictCode')
-  @ApiDataResponse(typeEnum.object, ReqUpdateDictDataDto)
   async oneDictData(@Param('dictCode') dictCode: number) {
     return await this.dictService.findDictDataById(dictCode);
   }
@@ -169,7 +156,6 @@ export class DictController {
   @Post('dict/type/export')
   @RequiresPermissions('system:dict:export')
   @Keep()
-  @ApiPaginatedResponse(DictType)
   async export(@Body(PaginationPipe) reqDictTypeListDto: ReqDictTypeListDto) {
     const { rows } = await this.dictService.typeList(reqDictTypeListDto);
     const file = await this.excelService.export(DictType, rows);
@@ -180,7 +166,6 @@ export class DictController {
   @RepeatSubmit()
   @Post('dict/data/export')
   @Keep()
-  @ApiPaginatedResponse(DictType)
   async exportData(
     @Body(PaginationPipe) reqDictDataListDto: ReqDictDataListDto,
   ) {

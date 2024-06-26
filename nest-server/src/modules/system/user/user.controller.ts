@@ -18,7 +18,6 @@ import {
   UseInterceptors,
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { ApiPaginatedResponse } from 'src/common/decorators/api-paginated-response.decorator';
 import { UserEnum } from 'src/common/decorators/user.decorator';
 import { UserInfoPipe } from 'src/common/pipes/user-info.pipe';
 import { ReqPostListDto } from '../post/dto/req-post.dto';
@@ -64,10 +63,9 @@ export class UserController {
   /* 分页查询用户列表 */
   @Get('list')
   @DataScope({
-    userAlias: 'user2',
+    userAlias: 'user',
   })
   @RequiresPermissions('system:user:query')
-  @ApiPaginatedResponse(User)
   async list(
     @Query(PaginationPipe) reqUserListDto: ReqUserListDto,
     @DataScopeSql() sataScopeSql: string,

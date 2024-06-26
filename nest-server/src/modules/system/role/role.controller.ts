@@ -14,12 +14,6 @@ import {
   StreamableFile,
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { DataObj } from 'src/common/class/data-obj.class';
-import {
-  ApiDataResponse,
-  typeEnum,
-} from 'src/common/decorators/api-data-response.decorator';
-import { ApiPaginatedResponse } from 'src/common/decorators/api-paginated-response.decorator';
 import { Keep } from 'src/common/decorators/keep.decorator';
 import { BusinessTypeEnum, Log } from 'src/common/decorators/log.decorator';
 import { RepeatSubmit } from 'src/common/decorators/repeat-submit.decorator';
@@ -69,7 +63,7 @@ export class RoleController {
   /* 分页查询角色列表 */
   @Get('list')
   @RequiresPermissions('system:role:query')
-  @ApiPaginatedResponse(Role)
+  // @ApiPaginatedResponse(Role)
   async list(@Query(PaginationPipe) reqRoleListDto: ReqRoleListDto) {
     return this.roleService.list(reqRoleListDto);
   }
@@ -77,7 +71,6 @@ export class RoleController {
   /* 通过Id 查询角色 */
   @Get(':roleId')
   @RequiresPermissions('system:role:query')
-  @ApiDataResponse(typeEnum.object, Role)
   async one(@Param('roleId') roleId: number) {
     return await this.roleService.findById(roleId);
   }
@@ -154,7 +147,6 @@ export class RoleController {
 
   /* 分页获取角色下的用户列表 */
   @Get('authUser/allocatedList')
-  @ApiPaginatedResponse(UserEntity)
   async allocatedList(@Query() reqAllocatedListDto: ReqAllocatedListDto) {
     return this.roleService.allocatedListByRoleId(reqAllocatedListDto);
   }

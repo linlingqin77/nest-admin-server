@@ -64,6 +64,5 @@ export class DictType extends BaseEntity {
   status: string;
 
   @OneToMany(() => DictData, (dictData) => dictData.dictType)
-  @ApiHideProperty()
   dictDatas: DictData[];
 }

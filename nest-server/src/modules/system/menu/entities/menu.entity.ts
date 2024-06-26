@@ -157,15 +157,12 @@ export class Menu extends BaseEntity {
   @IsString()
   icon?: string;
 
-  @ApiHideProperty()
   @TreeChildren()
   children: Menu[];
 
-  @ApiHideProperty()
   @TreeParent()
   parent: Menu;
 
-  @ApiHideProperty()
   @ManyToMany(() => Role, (role) => role.menus)
   roles: Role[];
 }

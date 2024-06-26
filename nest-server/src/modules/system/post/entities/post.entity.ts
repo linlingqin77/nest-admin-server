@@ -70,7 +70,6 @@ export class Post extends BaseEntity {
   })
   status: string;
 
-  @ApiHideProperty()
   @ManyToMany(() => User, (user) => user.posts)
   users: User[];
 }

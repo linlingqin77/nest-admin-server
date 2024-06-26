@@ -13,7 +13,6 @@ import {
   StreamableFile,
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { ApiPaginatedResponse } from 'src/common/decorators/api-paginated-response.decorator';
 import { Keep } from 'src/common/decorators/keep.decorator';
 import { BusinessTypeEnum, Log } from 'src/common/decorators/log.decorator';
 import { RequiresPermissions } from 'src/common/decorators/requires-permissions.decorator';
@@ -33,7 +32,6 @@ export class LogController {
   /* 分页查询操作记录 */
   @Get('operlog/list')
   @RequiresPermissions('monitor:operlog:query')
-  @ApiPaginatedResponse(OperLog)
   async operLogList(@Query(PaginationPipe) reqOperLogDto: ReqOperLogDto) {
     return await this.logService.operLogList(reqOperLogDto);
   }
@@ -78,7 +76,6 @@ export class LogController {
 
   /* 分页查询登录日志 */
   @Get('logininfor/list')
-  @ApiPaginatedResponse(Logininfor)
   @RequiresPermissions('monitor:logininfor:query')
   async logininforList(
     @Query(PaginationPipe) reqLogininforDto: ReqLogininforDto,
