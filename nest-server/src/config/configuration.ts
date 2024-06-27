@@ -34,6 +34,7 @@ export interface IConfig {
    * 文件上传路径， 绝对路径  例如： E:/upload/test
    */
   uploadPath?: string;
+  staticPrefix?: string;
 
   /**
    * 数据库配置
@@ -57,7 +58,7 @@ export interface IConfig {
     host: string;
     port: string;
     password: string;
-    db: string
+    db: string;
   };
 
   /* 队列配置 */

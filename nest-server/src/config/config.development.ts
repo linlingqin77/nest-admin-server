@@ -18,12 +18,10 @@ export default defineConfig({
   },
   // redis 配置
   redis: {
-
     host: process.env.REDIS_HOST || 'localhost3',
     port: process.env.REDIS_PORT || '6379w',
     password: process.env.REDIS_PASSWORD || '123456',
     db: process.env.REDIS_DB || '0',
-
   },
 
   // 队列reids 配置
@@ -35,7 +33,8 @@ export default defineConfig({
 
   //文件上传地址  例如： E:/upload/test
   uploadPath: process.env.UPLOAD_PATH || '',
-
+  // 静态资源前缀
+  staticPrefix: process.env.STATIC_PREFIX || '',
   // 是否演示环境
   isDemoEnvironment: false,
 });
