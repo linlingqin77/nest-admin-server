@@ -8,18 +8,18 @@ import {
   UpdateDateColumn,
   VersionColumn,
 } from 'typeorm';
-// import { Excel } from 'src/modules/common/excel/excel.decorator';
-// import { ExcelTypeEnum } from 'src/modules/common/excel/excel.enum';
+import { Excel } from 'src/modules/common/excel/excel.decorator';
+import { ExcelTypeEnum } from 'src/modules/common/excel/excel.enum';
 
 export class BaseEntity {
   /* 创建时间 */
   @CreateDateColumn({ name: 'create_time', comment: '创建时间' })
-  //   @Excel({
-  //     name: '创建时间',
-  //     type: ExcelTypeEnum.EXPORT,
-  //     dateFormat: 'YYYY-MM-DD HH:mm:ss',
-  //     sort: 100,
-  //   })
+  @Excel({
+    name: '创建时间',
+    type: ExcelTypeEnum.EXPORT,
+    dateFormat: 'YYYY-MM-DD HH:mm:ss',
+    sort: 100,
+  })
   createTime: Date | string;
 
   /* 更新时间 */
@@ -28,11 +28,11 @@ export class BaseEntity {
 
   /* 创建人 */
   @Column({ name: 'create_by', comment: '创建人', length: 30, default: '' })
-  //   @Excel({
-  //     name: '创建人',
-  //     type: ExcelTypeEnum.EXPORT,
-  //     sort: 101,
-  //   })
+  @Excel({
+    name: '创建人',
+    type: ExcelTypeEnum.EXPORT,
+    sort: 101,
+  })
   createBy: string;
 
   /* 更新人 */
@@ -43,10 +43,10 @@ export class BaseEntity {
   @Column({ name: 'remark', comment: '备注', default: '' })
   @IsOptional()
   @IsString()
-  //   @Excel({
-  //     name: '备注',
-  //     sort: 102,
-  //   })
+  @Excel({
+    name: '备注',
+    sort: 102,
+  })
   remark?: string;
 
   /* 版本号（首次插入或更新时会自增） */

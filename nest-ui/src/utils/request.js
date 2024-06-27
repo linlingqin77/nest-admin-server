@@ -105,6 +105,12 @@ service.interceptors.response.use(
     ) {
       return res.data;
     }
+    console.log(msg, "mesg");
+    if (msg == "演示环境不允许操作") {
+      Message({ message: msg, type: "error" });
+      return Promise.reject(new Error(msg));
+    }
+
     if (code === 401) {
       if (!isRelogin.show) {
         isRelogin.show = true;
@@ -144,6 +150,7 @@ service.interceptors.response.use(
   (error) => {
     console.log("err" + error);
     let { message } = error;
+    console.log(error.data, "message");
     if (message == "Network Error") {
       message = "后端接口连接异常";
     } else if (message.includes("timeout")) {

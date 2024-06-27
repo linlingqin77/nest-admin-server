@@ -32,6 +32,7 @@ function createAliasProviders(): ExistingProvider[] {
 const aliasProviders = createAliasProviders();
 
 @Module({
+  providers: [...aliasProviders],
   imports: [
     /* 公共模块 */
     SharedModule,
@@ -53,6 +54,5 @@ const aliasProviders = createAliasProviders();
     JobModule,
     ServerModule,
   ],
-  providers: [...aliasProviders],
 })
 export class AppModule {}
