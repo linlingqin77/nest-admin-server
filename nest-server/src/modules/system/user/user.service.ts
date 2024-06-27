@@ -91,9 +91,8 @@ export class UserService {
       );
     }
     const deptId = reqUserListDto.deptId ?? '';
-    const queryBuilde = this.userRepository
-      .createQueryBuilder('user')
-      .innerJoin(User, 'user2', 'user.createBy = user2.userName');
+    const queryBuilde = this.userRepository.createQueryBuilder('user');
+    // .innerJoin(User, 'user2', 'user.createBy = user2.userName');
     if (deptId) {
       queryBuilde.innerJoinAndSelect(
         'user.dept',

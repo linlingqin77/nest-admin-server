@@ -119,13 +119,16 @@ export class DeptService {
       .createQueryBuilder('dept')
       .select('dept.deptId', 'id')
       .addSelect('dept.deptName', 'label')
-      .addSelect('dept.parentDeptId', 'parentId')
+      // .addSelect('dept.parentDeptId', 'parentId')
+      .addSelect('ifnull(dept.parentDeptId,0)', 'parentId')
       .innerJoin(User, 'user', 'dept.createBy = user.userName')
       .where('dept.delFlag = 0');
     if (dataScopeSql) {
       queryBuilde.andWhere(dataScopeSql);
     }
     const deptArr = await queryBuilde.getRawMany();
+    console.log(deptArr, 'deptArr222222222');
+
     return this.sharedService.handleTree(deptArr);
   }
 
