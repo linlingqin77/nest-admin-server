@@ -1,11 +1,5 @@
 /*
- * @Author: Sheng.Jiang
- * @Date: 2022-01-05 19:43:12
- * @LastEditTime: 2022-10-17 15:37:29
- * @LastEditors: Please set LastEditors
  * @Description: 数据权限拦截器
- * @FilePath: \meimei-admin\src\common\interceptors\data-scope.interceptor.ts
- * You can you up，no can no bb！！
  */
 
 import { InjectRedis, Redis } from '@nestjs-modules/ioredis';
