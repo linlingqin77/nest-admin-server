@@ -1,4 +1,4 @@
-Language : 🇺🇸 | [🇨🇳](./README.zh-CN.md)
+Language : [🇺🇸](./README.md) | 🇨🇳
 
 <p align="center">
   <a href="https://nestjs.com">
@@ -12,78 +12,71 @@ Language : 🇺🇸 | [🇨🇳](./README.zh-CN.md)
 
 <div align="center">
 
-A out of the box backend management system based on the latest version of Nestjs
+一款基于 Nestjs 最新版本的开箱即用的中后台管理系统.
 
 ![](./image.png)
 
 </div>
 
-- Preview: http://linlingqin.top:3000/admin
-- Domestic Mirror: https://gitee.com/linlingqin/Nest-Ruoyi-Admin
+- 预览: http://linlingqin.top:3000/admin
+- 国内镜像: https://gitee.com/linlingqin/Nest-Ruoyi-Admin
 - github:https://github.com/linlingqin77/Nest-Ruoyi-Admin.git
 
-## 1.0 is out! 🎉🎉🎉
+## 1.0 版本! 🎉🎉🎉
 
 Nest-Ruoyi-Admin 1.0.0
 
-## Built in features
+## 内置功能
 
-1. User management: Users are system operators, and this function mainly completes system user configuration.
-2. Department management: Configure the system's organizational structure (company, department, group), and display a tree structure that supports data permissions.
-3. Job management: Configure the positions that system users belong to.
-4. Menu management: Configure system menus, operation permissions, button permission identification, etc.
-5. Role management: Assign role menu permissions and set roles to divide data scope permissions by organization.
-6. Dictionary management: Maintaining fixed data that is frequently used in the system.
-7. Parameter management: Dynamically configure commonly used parameters for the system.
-8. Notification announcement: System notification announcement information release and maintenance.
-9. Operation log: Record and query normal system operation logs; Logging and querying of system exception information.
-10. Login log: The system login log records and queries contain login exceptions.
-11. Online users: monitoring the status of active users in the current system.
-12. Timed tasks: Online (add, modify, delete) task scheduling includes execution result logs.
-13. Code generation: The generation of front-end and back-end code (node, HTML, SQL) supports CRUD downloading.
-14. System Interface: Automatically generate relevant API interface documents based on business code.
-15. Service monitoring: Monitor current system CPU, memory, disk, stack, and other related information.
-16. Cache monitoring: Queries, deletes, clears, and other operations on the system's cache.
-17. Online Builder: Drag form elements to generate corresponding HTML code.
-18. Connection Pool Monitoring: Monitor the current status of the system database connection pool and analyze SQL to identify system performance bottlenecks.
+1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
+2.  部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。
+3.  岗位管理：配置系统用户所属担任职务。
+4.  菜单管理：配置系统菜单，操作权限，按钮权限标识等。
+5.  角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。
+6.  字典管理：对系统中经常使用的一些较为固定的数据进行维护。
+7.  参数管理：对系统动态配置常用参数。
+8.  通知公告：系统通知公告信息发布维护。
+9.  操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。
+10. 登录日志：系统登录日志记录查询包含登录异常。
+11. 在线用户：当前系统中活跃用户状态监控。
+12. 定时任务：在线（添加、修改、删除)任务调度包含执行结果日志。
+13. 代码生成：前后端代码的生成（node、html、sql）支持 CRUD 下载 。
+14. 系统接口：根据业务代码自动生成相关的 api 接口文档。
+15. 服务监控：监视当前系统 CPU、内存、磁盘、堆栈等相关信息。
+16. 缓存监控：对系统的缓存查询，删除、清空等操作。
+17. 在线构建器：拖动表单元素生成相应的 HTML 代码。
+18. 连接池监视：监视当前系统数据库连接池状态，可进行分析 SQL 找出系统性能瓶颈。
 
-## Usage
+## 使用
 
-### Install
+### 安装
 
 ```shell
 $ git clone https://github.com/linlingqin77/Nest-Ruoyi-Admin.git
 ```
 
-Install dependencies:
+安装依赖:
 
 ```shell
-$ cd Nest-Ruoyi-Admin && yarn insatll
+$ cd Nest-Ruoyi-Admin && yarn install
 ```
 
-run：
+## 浏览器支持
 
-```shell
-$ npm run start:dev
-```
-
-## Browsers support
-
-Modern browsers.
+现代浏览器.
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Edge                                                                                                                                                                                                  | last 2 versions                                                                                                                                                                                                   | last 2 versions                                                                                                                                                                                               | last 2 versions                                                                                                                                                                                               | last 2 versions                                                                                                                                                                                           |
 
-## Contributing
+## 贡献
 
-Any type of contribution is welcome, here are some examples of how you may contribute to this project:
+欢迎对 nestjs 感兴趣的朋友一起共建:
 
-- Use Ant Design Pro in your daily work.
-- Submit [issues](https://github.com/linlingqin77/Nest-Ruoyi-Admin/issues) to report bugs or ask questions.
-- Propose [pull requests](https://github.com/linlingqin77/Nest-Ruoyi-Admin/pulls) to improve our code.
+- 提交 [issues](https://github.com/linlingqin77/Nest-Ruoyi-Admin/issues) 来报告问题和优化建议.
+- 主动 [pull requests](https://github.com/linlingqin77/Nest-Ruoyi-Admin/pulls) 来优化代码.
 
-## Concat
+## 联系
 
-wechat: `llq1359533212`
-qq：`1359533212`
+微信: `llq1359533212`
+QQ：`1359533212`
