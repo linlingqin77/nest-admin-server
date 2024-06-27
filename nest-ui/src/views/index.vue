@@ -15,8 +15,9 @@
         </p>
         <p>
           <el-button type="primary" size="mini" icon="el-icon-cloudy" plain
-            @click="goTarget('https://gitee.com/y_project/RuoYi-Vue')">访问码云</el-button>
-          <el-button size="mini" icon="el-icon-s-home" plain @click="goTarget('http://ruoyi.vip')">访问主页</el-button>
+            @click="goTarget('https://github.com/linlingqin77/Nest-Ruoyi-Admin.git')">访问github</el-button>
+          <el-button size="mini" icon="el-icon-s-home" plain
+            @click="goTarget('http://linlingqin77.top:3000/admin')">访问主页</el-button>
         </p>
       </el-col>
 

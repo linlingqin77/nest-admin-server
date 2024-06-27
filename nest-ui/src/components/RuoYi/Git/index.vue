@@ -9,7 +9,7 @@ export default {
   name: 'RuoYiGit',
   data() {
     return {
-      url: 'https://gitee.com/y_project/RuoYi-Vue'
+      url: 'https://github.com/linlingqin77/Nest-Ruoyi-Admin.git'
     }
   },
   methods: {

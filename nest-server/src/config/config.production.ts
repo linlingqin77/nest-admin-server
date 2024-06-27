@@ -9,7 +9,7 @@ export default defineConfig({
     type: 'mysql', //数据库类型
     host: 'localhost', //数据库地址
     port: 3306, //数据库端口
-    username: 'root', //数据库账号
+    username: 'www', //数据库账号
     password: '123456', //数据库密码
     database: 'nest-server', //数据库名称
     autoLoadModels: true, //模型自动加载，无需在在配置处重复写实体。
@@ -36,5 +36,5 @@ export default defineConfig({
   // 静态资源前缀
   staticPrefix: '/admin',
   // 是否演示环境
-  isDemoEnvironment: false,
+  isDemoEnvironment: true,
 });
