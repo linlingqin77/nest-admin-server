@@ -22,10 +22,6 @@ A out of the box backend management system based on the latest version of Nestjs
 - Domestic Mirror: https://gitee.com/linlingqin/Nest-Ruoyi-Admin
 - github:https://github.com/linlingqin77/Nest-Ruoyi-Admin.git
 
-## 1.0 is out! 🎉🎉🎉
-
-Nest-Ruoyi-Admin 1.0.0
-
 ## Built in features
 
 1. User management: Users are system operators, and this function mainly completes system user configuration.

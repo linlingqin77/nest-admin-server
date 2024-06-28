@@ -22,10 +22,6 @@ Language : [🇺🇸](./README.md) | 🇨🇳
 - 国内镜像: https://gitee.com/linlingqin/Nest-Ruoyi-Admin
 - github:https://github.com/linlingqin77/Nest-Ruoyi-Admin.git
 
-## 1.0 版本! 🎉🎉🎉
-
-Nest-Ruoyi-Admin 1.0.0
-
 ## 内置功能
 
 1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
