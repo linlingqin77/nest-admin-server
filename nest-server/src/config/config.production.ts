@@ -34,7 +34,7 @@ export default defineConfig({
   //文件上传地址  例如： E:/upload/test
   uploadPath: '',
   // 静态资源前缀
-  staticPrefix: '/admin',
+  staticPrefix: process.env.staticPrefix,
   // 是否演示环境
-  isDemoEnvironment: true,
+  isDemoEnvironment: process.env.isDemoEnvironment == 'DemoEnvironment',
 });
