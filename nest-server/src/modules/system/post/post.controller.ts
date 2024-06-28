@@ -21,6 +21,8 @@ import { UserInfoPipe } from 'src/common/pipes/user-info.pipe';
 import { ReqAddPostDto, ReqPostListDto } from './dto/req-post.dto';
 import { PostService } from './post.service';
 import { Post as SysPost } from './entities/post.entity';
+
+import { DataObj } from 'src/common/class/data_obj.class';
 import { Keep } from 'src/common/decorators/keep.decorator';
 import { ExcelService } from 'src/modules/common/excel/excel.service';
 import { BusinessTypeEnum, Log } from 'src/common/decorators/log.decorator';
@@ -64,7 +66,8 @@ export class PostController {
   @Get(':postId')
   @RequiresPermissions('system:post:query')
   async one(@Param('postId') postId: number) {
-    return await this.postService.findById(postId);
+    const post = await this.postService.findById(postId);
+    return DataObj.create(post);
   }
 
   /* 修改岗位 */

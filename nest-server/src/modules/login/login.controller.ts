@@ -12,10 +12,10 @@ import {
   Headers,
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
+import { DataObj } from 'src/common/class/data_obj.class';
 import { Public } from 'src/common/decorators/public.decorator';
 import { User, UserEnum } from 'src/common/decorators/user.decorator';
 import { LocalAuthGuard } from 'src/common/guards/local-auth.guard';
-import { Router } from '../system/menu/dto/res-menu.dto';
 import { ReqLoginDto } from './dto/req-login.dto';
 import { ResImageCaptchaDto, ResLoginDto } from './dto/res-login.dto';
 import { LoginService } from './login.service';
@@ -53,8 +53,7 @@ export class LoginController {
   @Get('getRouters')
   async getRouters(@User(UserEnum.userId) userId: number) {
     const router = await this.loginService.getRouterByUser(userId);
-    // return DataObj.create(router);
-    return router;
+    return DataObj.create(router);
   }
 
   /* 退出登录 */

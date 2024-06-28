@@ -16,8 +16,10 @@
         <p>
           <el-button type="primary" size="mini" icon="el-icon-cloudy" plain
             @click="goTarget('https://github.com/linlingqin77/Nest-Ruoyi-Admin.git')">访问github</el-button>
+          <el-button type="primary" size="mini" icon="el-icon-cloudy" plain
+            @click="goTarget('https://gitee.com/linlingqin/Nest-Ruoyi-Admin.git')">访问gitee</el-button>
           <el-button size="mini" icon="el-icon-s-home" plain
-            @click="goTarget('http://linlingqin77.top:3000/admin')">访问主页</el-button>
+            @click="goTarget('http://linlingqin.top:3000/admin')">访问主页</el-button>
         </p>
       </el-col>
 
@@ -60,6 +62,27 @@
       <el-col :xs="24" :sm="24" :md="12" :lg="8">
         <el-card class="update-log">
           <div slot="header" class="clearfix">
+            <span>更新日志</span>
+          </div>
+          <el-collapse accordion>
+            <el-collapse-item title="v0.0.1 - 2024-06-27">
+              <ol>
+                <li>测试版发布</li>
+              </ol>
+            </el-collapse-item>
+            <el-collapse-item title="v0.0.2 - 2024-06-28">
+              <ol>
+                <li>修复部门数权限bug</li>
+              </ol>
+            </el-collapse-item>
+          </el-collapse>
+        </el-card>
+      </el-col>
+    </el-row>
+    <el-row :gutter="20">
+      <el-col :xs="24" :sm="24" :md="12" :lg="8">
+        <el-card class="update-log">
+          <div slot="header" class="clearfix">
             <span>联系信息</span>
           </div>
           <div class="body">
@@ -87,29 +110,13 @@
             <span>捐赠支持</span>
           </div>
           <div class="body">
-            <img src="@/assets/images/wx-pay.jpg" alt="donate" width="50%" />
-            <img src="@/assets/images/zfb-pay.jpg" alt="donate" width="50%" />
-            <span style="display: inline-block; height: 30px; line-height: 30px">你可以请作者喝杯咖啡表示鼓励</span>
+            <img src="@/assets/images/wx-pay.jpg" alt="donate" width="200px" />
+            <img src="@/assets/images/zfb-pay.jpg" alt="donate" width="200px" />
           </div>
         </el-card>
       </el-col>
     </el-row>
-    <el-row>
-      <el-col :xs="24" :sm="24" :md="12" :lg="8">
-        <el-card class="update-log">
-          <div slot="header" class="clearfix">
-            <span>更新日志</span>
-          </div>
-          <el-collapse accordion>
-            <el-collapse-item title="v0.0.1 - 2024-06-27">
-              <ol>
-                <li>Nest-Ruoyi-Admin</li>
-              </ol>
-            </el-collapse-item>
-          </el-collapse>
-        </el-card>
-      </el-col>
-    </el-row>
+
   </div>
 </template>
 

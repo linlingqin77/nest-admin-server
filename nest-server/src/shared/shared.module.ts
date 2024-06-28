@@ -13,14 +13,14 @@ import { ThrottlerModule } from '@nestjs/throttler';
 import { RoleAuthGuard } from 'src/common/guards/role.guard';
 import { PermissionAuthGuard } from 'src/common/guards/permission.guard';
 import { RepeatSubmitGuard } from 'src/common/guards/repeat-submit.guard';
-import { DataScopeInterceptor } from 'src/common/interceptor/data-scope.interceptor';
+import { DataScopeInterceptor } from 'src/common/interceptor/data_scope.interceptor';
 import { PreviewGuard } from 'src/common/guards/preview.guard';
 // 日志收集
-import { TransformInterceptor } from 'src/common/interceptor/log.interceptor';
+import { TransformInterceptor } from 'src/common/interceptor/print_log.interceptor';
 // 统一返回体
 import { ReponseTransformInterceptor } from 'src/common/interceptor/res-transform.interceptor';
 // 操作日志拦截器
-import { OperationLogInterceptor } from 'src/common/interceptor/operation-log.interceptor';
+import { OperationLogInterceptor } from 'src/common/interceptor/operation_log.interceptor';
 @Global()
 @Module({
   imports: [

@@ -10,7 +10,7 @@ import {
   HttpStatus,
 } from '@nestjs/common';
 import { Logger } from 'src/shared/log4js';
-import { AjaxResult } from '../class/ajax-result.class';
+import { AjaxResult } from '../class/ajax_result.class';
 import { ApiException } from '../exceptions/api.exception';
 
 @Catch()

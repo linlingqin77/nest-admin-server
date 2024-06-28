@@ -486,7 +486,7 @@
             </el-tree>
           </template>
 
-          <template v-if="activeData.layout === 'colFormItem' && activeData.tag !== 'el-button'">
+          <template v-if="activeData.layout === 'colFormItem'">
             <el-divider>正则校验</el-divider>
             <div
               v-for="(item, index) in activeData.regList"

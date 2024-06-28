@@ -4,12 +4,12 @@
 export class AjaxResult {
   readonly code: number;
   readonly msg: string;
-  readonly data: any;
+  [key: string]: any;
 
   constructor(code, msg, data) {
     this.code = code;
     this.msg = msg;
-    this.data = data;
+    Object.assign(this, data);
   }
 
   static success(data?: any, msg = '操作成功') {

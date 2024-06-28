@@ -8,7 +8,7 @@
           </div>
           <div>
             <div class="text-center">
-              <userAvatar />
+              <userAvatar :user="user" />
             </div>
             <ul class="list-group list-group-striped">
               <li class="list-group-item">
@@ -33,7 +33,7 @@
               </li>
               <li class="list-group-item">
                 <svg-icon icon-class="date" />创建日期
-                <div class="pull-right">{{ user.createTime }}</div>
+                <div class="pull-right">{{ parseTime(user.createTime) }}</div>
               </li>
             </ul>
           </div>
@@ -49,7 +49,7 @@
               <userInfo :user="user" />
             </el-tab-pane>
             <el-tab-pane label="修改密码" name="resetPwd">
-              <resetPwd />
+              <resetPwd :user="user" />
             </el-tab-pane>
           </el-tabs>
         </el-card>

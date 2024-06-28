@@ -2,15 +2,29 @@
   <div class="app-container">
     <el-form :model="queryParams" ref="queryForm" size="small" :inline="true" v-show="showSearch" label-width="68px">
       <el-form-item label="岗位编码" prop="postCode">
-        <el-input v-model="queryParams.postCode" placeholder="请输入岗位编码" clearable @keyup.enter.native="handleQuery" />
+        <el-input
+          v-model="queryParams.postCode"
+          placeholder="请输入岗位编码"
+          clearable
+          @keyup.enter.native="handleQuery"
+        />
       </el-form-item>
       <el-form-item label="岗位名称" prop="postName">
-        <el-input v-model="queryParams.postName" placeholder="请输入岗位名称" clearable @keyup.enter.native="handleQuery" />
+        <el-input
+          v-model="queryParams.postName"
+          placeholder="请输入岗位名称"
+          clearable
+          @keyup.enter.native="handleQuery"
+        />
       </el-form-item>
       <el-form-item label="状态" prop="status">
         <el-select v-model="queryParams.status" placeholder="岗位状态" clearable>
-          <el-option v-for="dict in dict.type.sys_normal_disable" :key="dict.value" :label="dict.label"
-            :value="dict.value" />
+          <el-option
+            v-for="dict in dict.type.sys_normal_disable"
+            :key="dict.value"
+            :label="dict.label"
+            :value="dict.value"
+          />
         </el-select>
       </el-form-item>
       <el-form-item>
@@ -21,20 +35,46 @@
 
     <el-row :gutter="10" class="mb8">
       <el-col :span="1.5">
-        <el-button type="primary" plain icon="el-icon-plus" size="mini" @click="handleAdd"
-          v-hasPermi="['system:post:add']">新增</el-button>
+        <el-button
+          type="primary"
+          plain
+          icon="el-icon-plus"
+          size="mini"
+          @click="handleAdd"
+          v-hasPermi="['system:post:add']"
+        >新增</el-button>
       </el-col>
       <el-col :span="1.5">
-        <el-button type="success" plain icon="el-icon-edit" size="mini" :disabled="single" @click="handleUpdate"
-          v-hasPermi="['system:post:edit']">修改</el-button>
+        <el-button
+          type="success"
+          plain
+          icon="el-icon-edit"
+          size="mini"
+          :disabled="single"
+          @click="handleUpdate"
+          v-hasPermi="['system:post:edit']"
+        >修改</el-button>
       </el-col>
       <el-col :span="1.5">
-        <el-button type="danger" plain icon="el-icon-delete" size="mini" :disabled="multiple" @click="handleDelete"
-          v-hasPermi="['system:post:remove']">删除</el-button>
+        <el-button
+          type="danger"
+          plain
+          icon="el-icon-delete"
+          size="mini"
+          :disabled="multiple"
+          @click="handleDelete"
+          v-hasPermi="['system:post:remove']"
+        >删除</el-button>
       </el-col>
       <el-col :span="1.5">
-        <el-button type="warning" plain icon="el-icon-download" size="mini" @click="handleExport"
-          v-hasPermi="['system:post:export']">导出</el-button>
+        <el-button
+          type="warning"
+          plain
+          icon="el-icon-download"
+          size="mini"
+          @click="handleExport"
+          v-hasPermi="['system:post:export']"
+        >导出</el-button>
       </el-col>
       <right-toolbar :showSearch.sync="showSearch" @queryTable="getList"></right-toolbar>
     </el-row>
@@ -47,7 +87,7 @@
       <el-table-column label="岗位排序" align="center" prop="postSort" />
       <el-table-column label="状态" align="center" prop="status">
         <template slot-scope="scope">
-          <dict-tag :options="dict.type.sys_normal_disable" :value="scope.row.status" />
+          <dict-tag :options="dict.type.sys_normal_disable" :value="scope.row.status"/>
         </template>
       </el-table-column>
       <el-table-column label="创建时间" align="center" prop="createTime" width="180">
@@ -57,16 +97,31 @@
       </el-table-column>
       <el-table-column label="操作" align="center" class-name="small-padding fixed-width">
         <template slot-scope="scope">
-          <el-button size="mini" type="text" icon="el-icon-edit" @click="handleUpdate(scope.row)"
-            v-hasPermi="['system:post:edit']">修改</el-button>
-          <el-button size="mini" type="text" icon="el-icon-delete" @click="handleDelete(scope.row)"
-            v-hasPermi="['system:post:remove']">删除</el-button>
+          <el-button
+            size="mini"
+            type="text"
+            icon="el-icon-edit"
+            @click="handleUpdate(scope.row)"
+            v-hasPermi="['system:post:edit']"
+          >修改</el-button>
+          <el-button
+            size="mini"
+            type="text"
+            icon="el-icon-delete"
+            @click="handleDelete(scope.row)"
+            v-hasPermi="['system:post:remove']"
+          >删除</el-button>
         </template>
       </el-table-column>
     </el-table>
 
-    <pagination v-show="total > 0" :total="total" :page.sync="queryParams.pageNum" :limit.sync="queryParams.pageSize"
-      @pagination="getList" />
+    <pagination
+      v-show="total>0"
+      :total="total"
+      :page.sync="queryParams.pageNum"
+      :limit.sync="queryParams.pageSize"
+      @pagination="getList"
+    />
 
     <!-- 添加或修改岗位对话框 -->
     <el-dialog :title="title" :visible.sync="open" width="500px" append-to-body>
@@ -82,8 +137,11 @@
         </el-form-item>
         <el-form-item label="岗位状态" prop="status">
           <el-radio-group v-model="form.status">
-            <el-radio v-for="dict in dict.type.sys_normal_disable" :key="dict.value"
-              :label="dict.value">{{ dict.label }}</el-radio>
+            <el-radio
+              v-for="dict in dict.type.sys_normal_disable"
+              :key="dict.value"
+              :label="dict.value"
+            >{{dict.label}}</el-radio>
           </el-radio-group>
         </el-form-item>
         <el-form-item label="备注" prop="remark">
@@ -156,8 +214,8 @@ export default {
     getList() {
       this.loading = true;
       listPost(this.queryParams).then(response => {
-        this.postList = response.data.rows;
-        this.total = response.data.total;
+        this.postList = response.rows;
+        this.total = response.total;
         this.loading = false;
       });
     },
@@ -191,7 +249,7 @@ export default {
     // 多选框选中数据
     handleSelectionChange(selection) {
       this.ids = selection.map(item => item.postId)
-      this.single = selection.length != 1
+      this.single = selection.length!=1
       this.multiple = !selection.length
     },
     /** 新增按钮操作 */
@@ -211,7 +269,7 @@ export default {
       });
     },
     /** 提交按钮 */
-    submitForm: function () {
+    submitForm: function() {
       this.$refs["form"].validate(valid => {
         if (valid) {
           if (this.form.postId != undefined) {
@@ -233,12 +291,12 @@ export default {
     /** 删除按钮操作 */
     handleDelete(row) {
       const postIds = row.postId || this.ids;
-      this.$modal.confirm('是否确认删除岗位编号为"' + postIds + '"的数据项？').then(function () {
+      this.$modal.confirm('是否确认删除岗位编号为"' + postIds + '"的数据项？').then(function() {
         return delPost(postIds);
       }).then(() => {
         this.getList();
         this.$modal.msgSuccess("删除成功");
-      }).catch(() => { });
+      }).catch(() => {});
     },
     /** 导出按钮操作 */
     handleExport() {

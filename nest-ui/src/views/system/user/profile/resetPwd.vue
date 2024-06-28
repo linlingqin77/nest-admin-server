@@ -7,7 +7,7 @@
       <el-input v-model="user.newPassword" placeholder="请输入新密码" type="password" show-password/>
     </el-form-item>
     <el-form-item label="确认密码" prop="confirmPassword">
-      <el-input v-model="user.confirmPassword" placeholder="请确认新密码" type="password" show-password/>
+      <el-input v-model="user.confirmPassword" placeholder="请确认密码" type="password" show-password/>
     </el-form-item>
     <el-form-item>
       <el-button type="primary" size="mini" @click="submit">保存</el-button>
@@ -41,8 +41,7 @@ export default {
         ],
         newPassword: [
           { required: true, message: "新密码不能为空", trigger: "blur" },
-          { min: 6, max: 20, message: "长度在 6 到 20 个字符", trigger: "blur" },
-          { pattern: /^[^<>"'|\\]+$/, message: "不能包含非法字符：< > \" ' \\\ |", trigger: "blur" }
+          { min: 6, max: 20, message: "长度在 6 到 20 个字符", trigger: "blur" }
         ],
         confirmPassword: [
           { required: true, message: "确认密码不能为空", trigger: "blur" },

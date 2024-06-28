@@ -4,7 +4,6 @@ import { getToken, setToken, removeToken } from "@/utils/auth";
 const user = {
   state: {
     token: getToken(),
-    id: "",
     name: "",
     avatar: "",
     roles: [],
@@ -14,9 +13,6 @@ const user = {
   mutations: {
     SET_TOKEN: (state, token) => {
       state.token = token;
-    },
-    SET_ID: (state, id) => {
-      state.id = id;
     },
     SET_NAME: (state, name) => {
       state.name = name;
@@ -42,8 +38,8 @@ const user = {
       return new Promise((resolve, reject) => {
         login(username, password, code, uuid)
           .then((res) => {
-            setToken(res.data.token);
-            commit("SET_TOKEN", res.data.token);
+            setToken(res.token);
+            commit("SET_TOKEN", res.token);
             resolve();
           })
           .catch((error) => {
@@ -57,19 +53,18 @@ const user = {
       return new Promise((resolve, reject) => {
         getInfo()
           .then((res) => {
-            const { user, roles, permissions } = res.data;
+            const user = res.user;
             const avatar =
               user.avatar == "" || user.avatar == null
                 ? require("@/assets/images/profile.jpg")
                 : process.env.VUE_APP_BASE_API + user.avatar;
-            if (roles && roles.length > 0) {
+            if (res.roles && res.roles.length > 0) {
               // 验证返回的roles是否是一个非空数组
-              commit("SET_ROLES", roles);
-              commit("SET_PERMISSIONS", permissions);
+              commit("SET_ROLES", res.roles);
+              commit("SET_PERMISSIONS", res.permissions);
             } else {
               commit("SET_ROLES", ["ROLE_DEFAULT"]);
             }
-            commit("SET_ID", user.userId);
             commit("SET_NAME", user.userName);
             commit("SET_AVATAR", avatar);
             resolve(res);

@@ -11,7 +11,7 @@ import {
 import { Reflector } from '@nestjs/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { AjaxResult } from '../class/ajax-result.class';
+import { AjaxResult } from '../class/ajax_result.class';
 import { KEEP_KEY } from '../contants/decorator.contant';
 
 @Injectable()

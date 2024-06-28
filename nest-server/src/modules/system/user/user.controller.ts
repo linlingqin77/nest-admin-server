@@ -62,9 +62,7 @@ export class UserController {
 
   /* 分页查询用户列表 */
   @Get('list')
-  @DataScope({
-    userAlias: 'user',
-  })
+  @DataScope()
   @RequiresPermissions('system:user:query')
   async list(
     @Query(PaginationPipe) reqUserListDto: ReqUserListDto,

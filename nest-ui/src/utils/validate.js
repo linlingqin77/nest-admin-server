@@ -65,7 +65,10 @@ export function validEmail(email) {
  * @returns {Boolean}
  */
 export function isString(str) {
-  return typeof str === 'string' || str instanceof String;
+  if (typeof str === 'string' || str instanceof String) {
+    return true
+  }
+  return false
 }
 
 /**

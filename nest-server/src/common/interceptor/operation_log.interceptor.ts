@@ -17,7 +17,7 @@ import { tap } from 'rxjs/operators';
 import { OperLog } from 'src/modules/monitor/log/entities/oper_log.entity';
 import { LogService } from 'src/modules/monitor/log/log.service';
 import { SharedService } from 'src/shared/shared.service';
-import { AjaxResult } from '../class/ajax-result.class';
+import { AjaxResult } from '../class/ajax_result.class';
 import { LOG_KEY_METADATA } from '../contants/decorator.contant';
 import {
   USER_DEPTNAME_KEY,

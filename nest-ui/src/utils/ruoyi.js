@@ -68,7 +68,7 @@ export function addDateRange(params, dateRange, propName) {
   return search;
 }
 
-// 回显数据字典
+// 回显数据字典 
 export function selectDictLabel(datas, value) {
   if (value === undefined) {
     return "";
@@ -86,13 +86,10 @@ export function selectDictLabel(datas, value) {
   return actions.join('');
 }
 
-// 回显数据字典（字符串、数组）
+// 回显数据字典（字符串数组）
 export function selectDictLabels(datas, value, separator) {
-  if (value === undefined || value.length ===0) {
+  if (value === undefined) {
     return "";
-  }
-  if (Array.isArray(value)) {
-    value = value.join(",");
   }
   var actions = [];
   var currentSeparator = undefined === separator ? "," : separator;
@@ -210,10 +207,10 @@ export function tansParams(params) {
   for (const propName of Object.keys(params)) {
     const value = params[propName];
     var part = encodeURIComponent(propName) + "=";
-    if (value !== null && value !== "" && typeof (value) !== "undefined") {
+    if (value !== null && typeof (value) !== "undefined") {
       if (typeof value === 'object') {
         for (const key of Object.keys(value)) {
-          if (value[key] !== null && value[key] !== "" && typeof (value[key]) !== 'undefined') {
+          if (value[key] !== null && typeof (value[key]) !== 'undefined') {
             let params = propName + '[' + key + ']';
             var subPart = encodeURIComponent(params) + "=";
             result += subPart + encodeURIComponent(value[key]) + "&";
@@ -228,6 +225,12 @@ export function tansParams(params) {
 }
 
 // 验证是否为blob格式
-export function blobValidate(data) {
-  return data.type !== 'application/json'
+export async function blobValidate(data) {
+  try {
+    const text = await data.text();
+    JSON.parse(text);
+    return false;
+  } catch (error) {
+    return true;
+  }
 }

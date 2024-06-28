@@ -3,7 +3,7 @@
     <el-row>
       <el-col :span="24" class="card-box">
         <el-card>
-          <div slot="header"><span><i class="el-icon-monitor"></i> 基本信息</span></div>
+          <div slot="header"><span>基本信息</span></div>
           <div class="el-table el-table--enable-row-hover el-table--medium">
             <table cellspacing="0" style="width: 100%">
               <tbody>
@@ -45,7 +45,7 @@
 
       <el-col :span="12" class="card-box">
         <el-card>
-          <div slot="header"><span><i class="el-icon-pie-chart"></i> 命令统计</span></div>
+          <div slot="header"><span>命令统计</span></div>
           <div class="el-table el-table--enable-row-hover el-table--medium">
             <div ref="commandstats" style="height: 420px" />
           </div>
@@ -54,7 +54,9 @@
 
       <el-col :span="12" class="card-box">
         <el-card>
-          <div slot="header"><span><i class="el-icon-odometer"></i> 内存信息</span></div>
+          <div slot="header">
+            <span>内存信息</span>
+          </div>
           <div class="el-table el-table--enable-row-hover el-table--medium">
             <div ref="usedmemory" style="height: 420px" />
           </div>
@@ -66,10 +68,10 @@
 
 <script>
 import { getCache } from "@/api/monitor/cache";
-import * as echarts from "echarts";
+import echarts from "echarts";
 
 export default {
-  name: "Cache",
+  name: "Server",
   data() {
     return {
       // 统计命令信息
@@ -77,8 +79,8 @@ export default {
       // 使用内存
       usedmemory: null,
       // cache信息
-      cache: []
-    }
+      cache: [],
+    };
   },
   created() {
     this.getList();
@@ -107,8 +109,8 @@ export default {
               data: response.data.commandStats,
               animationEasing: "cubicInOut",
               animationDuration: 1000,
-            }
-          ]
+            },
+          ],
         });
         this.usedmemory = echarts.init(this.$refs.usedmemory, "macarons");
         this.usedmemory.setOption({
@@ -128,21 +130,17 @@ export default {
                 {
                   value: parseFloat(this.cache.info.used_memory_human),
                   name: "内存消耗",
-                }
-              ]
-            }
-          ]
-        });
-        window.addEventListener("resize", () => {
-          this.commandstats.resize();
-          this.usedmemory.resize();
+                },
+              ],
+            },
+          ],
         });
       });
     },
     // 打开加载层
     openLoading() {
       this.$modal.loading("正在加载缓存监控数据，请稍候！");
-    }
-  }
+    },
+  },
 };
 </script>
