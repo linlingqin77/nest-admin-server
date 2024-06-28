@@ -1,22 +1,8 @@
 Language : 🇺🇸 | [🇨🇳](./README.zh-CN.md)
 
-<p align="center">
-  <a href="https://nestjs.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://nestjs.com/logo-small-gradient.76616405.svg">
-      <img src="https://nestjs.com/logo-small-gradient.76616405.svg" height="128">
-    </picture>
-    <h1 align="center">Nest-Admin</h1>
-  </a>
-</p>
+# Nest-Ruoyi-Admin
 
-<div align="center">
-
-A out of the box backend management system based on the latest version of Nestjs
-
-![](./image.png)
-
-</div>
+> A out of the box backend management system based on the latest version of Nestjs
 
 - Preview: http://linlingqin.top:3000/admin
 - Domestic Mirror: https://gitee.com/linlingqin/Nest-Ruoyi-Admin

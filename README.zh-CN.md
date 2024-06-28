@@ -1,22 +1,12 @@
 Language : [🇺🇸](./README.md) | 🇨🇳
 
-<p align="center">
-  <a href="https://nestjs.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://nestjs.com/logo-small-gradient.76616405.svg">
-      <img src="https://nestjs.com/logo-small-gradient.76616405.svg" height="128">
-    </picture>
-    <h1 align="center">Nest-Admin</h1>
-  </a>
-</p>
+# Nest-Ruoyi-Admin
 
-<div align="center">
+> 一款基于 Nestjs 最新版本的开箱即用的中后台管理系统.
 
-一款基于 Nestjs 最新版本的开箱即用的中后台管理系统.
-
-![](./image.png)
-
-</div>
+- 预览: http://linlingqin.top:3000/admin
+- 国内镜像: https://gitee.com/linlingqin/Nest-Ruoyi-Admin
+- github:https://github.com/linlingqin77/Nest-Ruoyi-Admin.git
 
 - 预览: http://linlingqin.top:3000/admin
 - 国内镜像: https://gitee.com/linlingqin/Nest-Ruoyi-Admin
