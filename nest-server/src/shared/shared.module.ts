@@ -18,7 +18,7 @@ import { PreviewGuard } from 'src/common/guards/preview.guard';
 // 日志收集
 import { TransformInterceptor } from 'src/common/interceptor/print_log.interceptor';
 // 统一返回体
-import { ReponseTransformInterceptor } from 'src/common/interceptor/res-transform.interceptor';
+import { ReponseTransformInterceptor } from 'src/common/interceptor/res_transform.interceptor';
 // 操作日志拦截器
 import { OperationLogInterceptor } from 'src/common/interceptor/operation_log.interceptor';
 @Global()

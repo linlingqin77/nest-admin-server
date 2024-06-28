@@ -1,5 +1,10 @@
+/*
+https://docs.nestjs.com/controllers#controllers
+*/
+
 import { Controller, Get } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
+import { DataObj } from 'src/common/class/data_obj.class';
 import { ServerService } from './server.service';
 
 @ApiTags('服务监控')
@@ -21,6 +26,6 @@ export class ServerController {
       sys: promiseArr[2],
       sysFiles: promiseArr[3],
     };
-    return data;
+    return DataObj.create(data);
   }
 }

@@ -20,6 +20,10 @@
             @click="goTarget('https://gitee.com/linlingqin/Nest-Ruoyi-Admin.git')">访问gitee</el-button>
           <el-button size="mini" icon="el-icon-s-home" plain
             @click="goTarget('http://linlingqin.top:3000/admin')">访问主页</el-button>
+
+          <el-button size="mini" icon="el-icon-notebook-2" plain
+            @click="goTarget('https://juejin.cn/column/7385132403026149413')">从零到一搭建教程</el-button>
+
         </p>
       </el-col>
 

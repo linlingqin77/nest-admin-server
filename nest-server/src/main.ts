@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule, {
     cors: true,
   });
-  app.useStaticAssets('public', {
+  app.useStaticAssets('static', {
     prefix: configuration().staticPrefix,
   });
   await app.listen(3000);

@@ -29,23 +29,38 @@ Nest-Ruoyi-Admin 1.0.0
 ## Built in features
 
 1. User management: Users are system operators, and this function mainly completes system user configuration.
+   ![](./introduce/用户管理.png)
 2. Department management: Configure the system's organizational structure (company, department, group), and display a tree structure that supports data permissions.
+   ![](./introduce/部门管理.png)
 3. Job management: Configure the positions that system users belong to.
+   ![](./introduce/岗位管理.png)
 4. Menu management: Configure system menus, operation permissions, button permission identification, etc.
+   ![](./introduce/菜单管理.png)
 5. Role management: Assign role menu permissions and set roles to divide data scope permissions by organization.
+   ![](./introduce/角色管理.png)
 6. Dictionary management: Maintaining fixed data that is frequently used in the system.
+   ![](./introduce/字典管理.png)
 7. Parameter management: Dynamically configure commonly used parameters for the system.
+   ![](./introduce/参数设置.png)
 8. Notification announcement: System notification announcement information release and maintenance.
+   ![](./introduce/登录日志.png)
 9. Operation log: Record and query normal system operation logs; Logging and querying of system exception information.
+   ![](./introduce/操作日志.png)
 10. Login log: The system login log records and queries contain login exceptions.
+    ![](./introduce/登录日志.png)
 11. Online users: monitoring the status of active users in the current system.
+    ![](./introduce/在线用户.png)
 12. Timed tasks: Online (add, modify, delete) task scheduling includes execution result logs.
+    ![](./introduce/定时任务.png)
 13. Code generation: The generation of front-end and back-end code (node, HTML, SQL) supports CRUD downloading.
 14. System Interface: Automatically generate relevant API interface documents based on business code.
 15. Service monitoring: Monitor current system CPU, memory, disk, stack, and other related information.
+    ![](./introduce/服务监控.png)
 16. Cache monitoring: Queries, deletes, clears, and other operations on the system's cache.
 17. Online Builder: Drag form elements to generate corresponding HTML code.
-18. Connection Pool Monitoring: Monitor the current status of the system database connection pool and analyze SQL to identify system performance bottlenecks.
+    ![](./introduce/表单构建.png)
+18. Connection Pool Monitoring: Monitor the current status of the system database connection pool and analyze
+    SQL to identify system performance bottlenecks.
 
 ## Usage
 

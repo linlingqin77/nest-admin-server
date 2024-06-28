@@ -14,6 +14,7 @@ import {
   StreamableFile,
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
+import { DataObj } from 'src/common/class/data_obj.class';
 import { Keep } from 'src/common/decorators/keep.decorator';
 import { RepeatSubmit } from 'src/common/decorators/repeat-submit.decorator';
 import { RequiresPermissions } from 'src/common/decorators/requires-permissions.decorator';
@@ -63,7 +64,8 @@ export class JobController {
   @Get('job/:jobId')
   @RequiresPermissions('monitor:job:query')
   async oneJob(@Param('jobId') jobId: number) {
-    return await this.jobService.oneJob(jobId);
+    const job = await this.jobService.oneJob(jobId);
+    return DataObj.create(job);
   }
 
   /* 编辑任务 */
