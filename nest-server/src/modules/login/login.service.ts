@@ -52,8 +52,9 @@ export class LoginService {
       width: 115.5,
       height: 38,
     });
+    const svgBuffer = Buffer.from(data).toString('base64');
     const result = {
-      img: data.toString(),
+      img: svgBuffer,
       uuid: this.sharedService.generateUUID(),
     };
     await this.redis.set(
